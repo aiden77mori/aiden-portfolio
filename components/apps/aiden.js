@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutVivek extends Component {
+export class AboutAiden extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -200,10 +200,10 @@ export class AboutVivek extends Component {
   }
 }
 
-export default AboutVivek;
+export default AboutAiden;
 
-export const displayAboutVivek = () => {
-  return <AboutVivek />;
+export const displayAboutAiden = () => {
+  return <AboutAiden />;
 };
 
 function About() {
