@@ -42,8 +42,8 @@ export class Desktop extends Component {
     this.setContextListeners();
     this.setEventListeners();
     this.checkForNewFolders();
-    console.log('open app');
-    this.openApp('about-aiden');
+    console.log("open app");
+    this.openApp("about-aiden");
   }
 
   componentWillUnmount() {
@@ -388,7 +388,7 @@ export class Desktop extends Component {
       var r = document.querySelector("#" + objId);
       r.style.transform = `translate(${r.style.getPropertyValue(
         "--window-transform-x"
-      )},${r.style.getPropertyValue("--window-transform-y")}) scale(1)`;
+      )},${r.style.getPropertyValue("--window-transform-y")}) scale(2)`;
 
       // tell childs that his app has been not minimised
       let minimized_windows = this.state.minimized_windows;

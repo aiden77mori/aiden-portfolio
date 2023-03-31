@@ -1,4 +1,4 @@
-import displaySpotify from "./components/apps/spotify";
+import displayDifines from "./components/apps/difines";
 import displayVsCode from "./components/apps/vscode";
 import { displayTerminal } from "./components/apps/terminal";
 import { displaySettings } from "./components/apps/settings";
@@ -9,6 +9,15 @@ import { displayAboutVivek } from "./components/apps/vivek";
 import { displayTerminalCalc } from "./components/apps/calc";
 
 const apps = [
+  {
+    id: "about-aiden",
+    title: "About Aiden",
+    icon: "./themes/Yaru/system/user-home.png",
+    disabled: false,
+    favourite: true,
+    desktop_shortcut: true,
+    screen: displayAboutVivek,
+  },
   {
     id: "chrome",
     title: "Google Chrome",
@@ -28,22 +37,22 @@ const apps = [
     screen: displayTerminalCalc,
   },
   {
-    id: "about-aiden",
-    title: "About Aiden",
-    icon: "./themes/Yaru/system/user-home.png",
-    disabled: false,
-    favourite: true,
-    desktop_shortcut: true,
-    screen: displayAboutVivek,
-  },
-  {
     id: "vscode",
     title: "Visual Studio Code",
     icon: "./themes/Yaru/apps/vscode.png",
     disabled: false,
     favourite: true,
-    desktop_shortcut: false,
+    desktop_shortcut: true,
     screen: displayVsCode,
+  },
+  {
+    id: "difines",
+    title: "SHIBUYA Ecosystem",
+    icon: "./themes/Yaru/apps/shibuya.png",
+    disabled: false,
+    favourite: true,
+    desktop_shortcut: true,
+    screen: displayDifines,
   },
   {
     id: "terminal",
@@ -54,15 +63,7 @@ const apps = [
     desktop_shortcut: false,
     screen: displayTerminal,
   },
-  {
-    id: "spotify",
-    title: "Spotify",
-    icon: "./themes/Yaru/apps/spotify.png",
-    disabled: false,
-    favourite: true,
-    desktop_shortcut: false,
-    screen: displaySpotify, // India Top 50 Playlist 😅
-  },
+
   {
     id: "settings",
     title: "Settings",
@@ -73,15 +74,6 @@ const apps = [
     screen: displaySettings,
   },
   {
-    id: "trash",
-    title: "Trash",
-    icon: "./themes/Yaru/system/user-trash-full.png",
-    disabled: false,
-    favourite: false,
-    desktop_shortcut: true,
-    screen: displayTrash,
-  },
-  {
     id: "gedit",
     title: "Contact Me",
     icon: "./themes/Yaru/apps/gedit.png",
@@ -89,6 +81,15 @@ const apps = [
     favourite: false,
     desktop_shortcut: true,
     screen: displayGedit,
+  },
+  {
+    id: "trash",
+    title: "Trash",
+    icon: "./themes/Yaru/system/user-trash-full.png",
+    disabled: false,
+    favourite: false,
+    desktop_shortcut: true,
+    screen: displayTrash,
   },
 ];
 
