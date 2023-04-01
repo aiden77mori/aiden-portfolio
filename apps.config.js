@@ -12,7 +12,7 @@ const apps = [
   {
     id: "about-aiden",
     title: "About Aiden",
-    icon: "./themes/Yaru/system/user-home.png",
+    icon: "./images/logos/aidenmori.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
