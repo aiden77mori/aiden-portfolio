@@ -263,7 +263,19 @@ function About() {
 function History() {
   const project_list = [
     {
-      name: "Development Team Lead On The Blockchain Projects, KURONURI",
+      name: (
+        <p>
+          Development Team Lead On The Blockchain Projects,{" "}
+          <a
+            className="border-b-2"
+            href="https://kuronuri.com/pro"
+            target="_blank"
+            rel="noreferrer"
+          >
+            KURONURI
+          </a>
+        </p>
+      ),
       date: "Dec 2021 - Present, Remote",
       link: "https://kuronuri.com/pro",
       description: [
@@ -295,7 +307,19 @@ function History() {
       ],
     },
     {
-      name: "Full Stack Developer, Loadsys Solution",
+      name: (
+        <p>
+          Full Stack Developer,{" "}
+          <a
+            className="border-b-2"
+            href="https://www.loadsys.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Loadsys Solution
+          </a>
+        </p>
+      ),
       date: "Jul 2019 - Oct 2021, Remote",
       link: "https://www.loadsys.com",
       description: [
@@ -327,7 +351,19 @@ function History() {
       ],
     },
     {
-      name: "Front End Developer, FRONTLINE",
+      name: (
+        <p>
+          Front End Developer,{" "}
+          <a
+            className="border-b-2"
+            href="https://frontline.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FRONTLINE
+          </a>
+        </p>
+      ),
       date: "Nov 2017 - Apr 2019, Japan",
       link: "https://frontline.com/",
       description: [
@@ -357,7 +393,19 @@ function History() {
       ],
     },
     {
-      name: "Software Engineer Intern, LTD",
+      name: (
+        <p>
+          Software Engineer Intern,{" "}
+          <a
+            className="border-b-2"
+            href="https://frontline.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LTD
+          </a>
+        </p>
+      ),
       date: "Apr 2016 - Apr 2017, Japan",
       link: "https://frontline.com/",
       description: [
@@ -393,17 +441,16 @@ function History() {
       </div>
 
       {project_list.map((project, index) => (
-        <a
-          key={index}
-          href={project.link}
-          target="_blank"
-          rel="noreferrer"
-          className="flex w-full flex-col px-4"
-        >
+        <div className="flex w-full flex-col px-4" key={index}>
           <div className="w-full py-4 px-4 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
             <div className="flex flex-wrap justify-between items-center">
               <div className="flex justify-center items-center">
-                <div className=" text-base font-semibold md:text-lg mr-2">
+                <div
+                  className=" text-base font-semibold md:text-lg mr-2"
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {project.name}
                 </div>
               </div>
@@ -419,7 +466,7 @@ function History() {
               ))}
             </ul>
           </div>
-        </a>
+        </div>
       ))}
     </>
   );
