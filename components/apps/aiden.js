@@ -300,19 +300,25 @@ function History() {
       link: "https://www.loadsys.com",
       description: [
         <p>
-          Designed and developed 4+ full-stack web applications according to
-          business objectives and needs of various clients with react, vue.js,
-          django and express.js
+          Designed and developed{" "}
+          <span className="font-medium">5+ full-stack</span> web applications
+          according to business objectives and needs of various clients with
+          react, vue.js, django and express.js
         </p>,
         <p>
-          Increased the page speed by 15% for the ecommerce site that generates
-          $25M annually in revenue by implementing Code-Splitting and optimizing
-          performance with react, graphQL and apollo
+          Increased the <span className="font-medium">page speed by 15%</span>{" "}
+          for the ecommerce site that generates{" "}
+          <span className="font-medium">$25M annually</span> in revenue by
+          implementing <span className="font-medium">code-splitting</span> and{" "}
+          <span className="font-medium">optimizing performance</span> with
+          react, graphQL and apollo
         </p>,
         <p>
-          Implemented SEO in react application for e-commerce site with a
-          catalog of 20000+ products leading to an increase in page views per
-          session of 23% with SSR in next.js
+          Implemented <span className="font-medium">SEO</span> in react
+          application for e-commerce site with a catalog of{" "}
+          <span className="font-medium">10 000+ products</span>
+          leading to an increase in page views per session of{" "}
+          <span className="font-medium">23% with SSR</span> in next.js
         </p>,
         <p>
           Worked on building customer-facing web application with express.js,
@@ -321,17 +327,57 @@ function History() {
       ],
     },
     {
-      name: "CodeConnect",
-      date: "Nov 2021",
+      name: "Front End Developer, FRONTLINE",
+      date: "Nov 2017 - Apr 2019, Japan",
+      link: "https://frontline.com/",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          Worked on the payments team to save over{" "}
+          <span className="font-medium">50,000 customers time</span> and improve
+          cash flow through the development of modern, responsive customer
+          experiences using Angular and Ant Design Library
+        </p>,
+        <p>
+          Contributed to the in-house UI library to create reusable react
+          components that saved over{" "}
+          <span className="font-medium">50 hours of development time</span> per
+          month
+        </p>,
+        <p>
+          Created a web and mobile app <span className="font-medium">MVP</span>{" "}
+          for a store delivery management platform with{" "}
+          <span className="font-medium">30+ business</span> customers to create,
+          manage, and monitor deliveries using React and Redux
+        </p>,
+        <p>
+          Communicated with Senior developer to manage large, complex design
+          projects for over{" "}
+          <span className="font-medium">10 corporate clients</span>
+        </p>,
       ],
     },
     {
-      name: "Ad Free Spotify",
-      date: "Jun 2021",
+      name: "Software Engineer Intern, LTD",
+      date: "Apr 2016 - Apr 2017, Japan",
+      link: "https://frontline.com/",
       description: [
-        "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+        <p>
+          Contributed to the in-house UI library to create reusable react
+          components that saved over{" "}
+          <span className="font-medium">50 hours of development time</span> per
+          month
+        </p>,
+        <p>
+          Created a web and mobile app <span className="font-medium">MVP</span>{" "}
+          for a store delivery management platform with{" "}
+          <span className="font-medium">30+ business</span> customers to create,
+          manage, and monitor deliveries using React and Redux
+        </p>,
+        <p>
+          Communicated with Senior developer to manage large, complex design
+          projects for over{" "}
+          <span className="font-medium">10 corporate clients</span>
+        </p>,
       ],
     },
   ];
