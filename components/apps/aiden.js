@@ -61,7 +61,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "about"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -79,7 +79,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "history"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -97,7 +97,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "education"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -115,7 +115,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "skills"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -133,7 +133,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "projects"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -151,7 +151,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "resume"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
+            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -442,15 +442,10 @@ function History() {
 
       {project_list.map((project, index) => (
         <div className="flex w-full flex-col px-4" key={index}>
-          <div className="w-full py-4 px-4 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+          <div className="w-full py-4 px-4 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5">
             <div className="flex flex-wrap justify-between items-center">
               <div className="flex justify-center items-center">
-                <div
-                  className=" text-base font-semibold md:text-lg mr-2"
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <div className=" text-base font-semibold md:text-lg mr-2">
                   {project.name}
                 </div>
               </div>
@@ -766,13 +761,16 @@ function Projects() {
         <div className="flex w-full flex-col px-4" key={index}>
           <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
             <a
-              className="w-full cursor-pointer"
+              className="w-full cursor-pointer "
               target="_blank"
               href={project.link}
-              alt={project.name}
               rel="noreferrer"
             >
-              <img src={project.imgUrl} />
+              <img
+                src={project.imgUrl}
+                className="rounded"
+                alt={project.name}
+              />
             </a>
             <div className="w-full">
               <div className="flex flex-wrap justify-between items-center">

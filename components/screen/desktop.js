@@ -387,7 +387,7 @@ export class Desktop extends Component {
       var r = document.querySelector("#" + objId);
       r.style.transform = `translate(${r.style.getPropertyValue(
         "--window-transform-x"
-      )},${r.style.getPropertyValue("--window-transform-y")}) scale(2)`;
+      )},${r.style.getPropertyValue("--window-transform-y")}) scale(1)`;
 
       // tell childs that his app has been not minimised
       let minimized_windows = this.state.minimized_windows;
