@@ -85,7 +85,7 @@ export class AboutAiden extends Component {
           <img
             className=" w-3 md:w-4"
             alt="aiden' history"
-            src="./themes/Yaru/status/education.svg"
+            src="./themes/Yaru/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">History</span>
         </div>
