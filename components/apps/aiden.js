@@ -804,8 +804,8 @@ function Resume() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/Vivek-Patel-Resume.pdf"
-      title="vivek patel resume"
+      src="./files/PResume.pdf"
+      title="aiden mori resume"
       frameBorder="0"
     ></iframe>
   );
