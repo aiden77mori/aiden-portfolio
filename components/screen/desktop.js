@@ -42,7 +42,6 @@ export class Desktop extends Component {
     this.setContextListeners();
     this.setEventListeners();
     this.checkForNewFolders();
-    console.log("open app");
     this.openApp("about-aiden");
   }
 

@@ -618,92 +618,63 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "UbuntuOS Portfolio",
-      date: "Apr 2021",
-      link: "https://github.com/vivek9patel/vivek9patel.github.io",
+      name: "SHIBUYA Ecosystem",
+      date: "Dec 2021 - Apr 2022",
+      link: "https://difines.io",
+      imgUrl: "./images/projects/shibuya.webp",
       description: [
-        "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
       ],
-      domains: ["javascript", "next.js", "tailwindcss"],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
     },
     {
-      name: "Chrome Extension React Bolierplate",
-      date: "Dec 2021",
-      link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+      name: "NFT Marketplace",
+      date: "July 2022 - Aug 2022",
+      imgUrl: "./images/projects/nftmarket.webp",
+      link: "https://nftmarket.difines.io",
       description: [
         "A boilerplate code to build a chrome extension with react and webpack",
       ],
-      domains: ["javascript", "chrome-extension"],
+      domains: [
+        "react",
+        "typescript",
+        "scss",
+        "firebase",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
     },
     {
-      name: "CodeConnect",
-      date: "Nov 2021",
-      link: "https://github.com/vivek9patel/CodeConnect-frontend",
+      name: "Crypto Snaker",
+      date: "Aug 2022",
+      imgUrl: "./images/projects/cryptosnake.webp",
+      link: "https://snake.difines.io",
       description: [
         "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
       ],
-      domains: ["javascript", "tailwindcss"],
-    },
-    {
-      name: "Ad Free Spotify",
-      date: "Jun 2021",
-      link: "https://github.com/vivek9patel/ad-free-spotify",
-      description: [
-        "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
-      ],
-      domains: ["javascript", "chrome-extension"],
-    },
-    {
-      name: "economist.com Unlocked",
-      date: "Mar 2021",
-      link: "https://github.com/vivek9patel/economist.com-unlocked",
-      description: [
-        "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-      ],
-      domains: ["javascript", "chrome-extension"],
-    },
-    {
-      name: "Flutter banking app",
-      date: "Jan 2021",
-      link: "https://github.com/vivek9patel/flutter-banking-app",
-      description: [
-        "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-      ],
-      domains: ["flutter", "firestore", "dart", "firebase auth"],
-    },
-    {
-      name: "CPU scheduling application",
-      date: "Dec 2020",
-      link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-      description: [
-        "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-      ],
-      domains: ["react-native", "javascript"],
-    },
-    {
-      name: "Meditech Healthcare WebApp",
-      date: "Nov 2020",
-      link: "https://github.com/vivek9patel/Meditech-Healthcare",
-      description: [
-        "Developed Web Application to predict and diagnose diseases from x-ray images.",
-      ],
-      domains: ["javascript", "html5", "sass", "firebase", "tensorflow"],
-    },
-    {
-      name: "Problem Recommendation System",
-      date: "Sep 2020",
-      link: "https://github.com/vivek9patel/Improve-Codeforces",
-      description: [
-        "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-      ],
-      domains: ["django", "python", "codeforces-api", "javascript"],
-    },
-    {
-      name: "Cleanliness Automation",
-      date: "Dec 2019",
-      link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-      description: [
-        "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "binance smart chain",
       ],
     },
   ];
@@ -737,51 +708,48 @@ function Projects() {
         </div>
       </div>
 
-      {project_list.map((project, index) => {
-        const projectNameFromLink = project.link.split("/");
-        const projectName = projectNameFromLink[projectNameFromLink.length - 1];
-        return (
-          <a
-            key={index}
-            href={project.link}
-            target="_blank"
-            rel="noreferrer"
-            className="flex w-full flex-col px-4"
-          >
-            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+      {project_list.map((project, index) => (
+        // <a
+        //   key={index}
+        //   href={project.link}
+        //   target="_blank"
+        //   rel="noreferrer"
+        //   className="flex w-full flex-col px-4"
+        // >
+        <div className="flex w-full flex-col px-4" key={index}>
+          <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
+            <a
+              className="w-full cursor-pointer"
+              target="_blank"
+              href={project.link}
+              alt={project.name}
+              rel="noreferrer"
+            >
+              <img src={project.imgUrl} />
+            </a>
+            <div className="w-full">
               <div className="flex flex-wrap justify-between items-center">
                 <div className="flex justify-center items-center">
-                  <div className=" text-base md:text-lg mr-2">
-                    {project.name.toLowerCase()}
+                  <div className=" text-base font-semibold md:text-lg mr-2">
+                    {project.name}
                   </div>
-                  <iframe
-                    src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`}
-                    frameBorder="0"
-                    scrolling="0"
-                    width="150"
-                    height="20"
-                    title={project.name.toLowerCase() + "-star"}
-                  ></iframe>
                 </div>
                 <div className="text-gray-300 font-light text-sm">
                   {project.date}
                 </div>
               </div>
-              <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
-                {project.description.map((desc, index) => {
-                  return (
-                    <li key={index} className="list-disc mt-1 text-gray-100">
-                      {desc}
-                    </li>
-                  );
-                })}
+              <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
+                {project.description.map((desc, index) => (
+                  <li key={index} className="list-disc mt-2 text-gray-100">
+                    {desc}
+                  </li>
+                ))}
               </ul>
-              <div className="flex flex-wrap items-start justify-start text-xs py-2">
+              <div className="flex flex-wrap items-start justify-start text-xs py-4">
                 {project.domains
                   ? project.domains.map((domain, index) => {
                       const borderColorClass = `border-${tag_colors[domain]}`;
                       const textColorClass = `text-${tag_colors[domain]}`;
-
                       return (
                         <span
                           key={index}
@@ -794,9 +762,10 @@ function Projects() {
                   : null}
               </div>
             </div>
-          </a>
-        );
-      })}
+          </div>
+        </div>
+        // </a>
+      ))}
     </>
   );
 }
