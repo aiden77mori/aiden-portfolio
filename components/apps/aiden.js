@@ -439,7 +439,7 @@ function Education() {
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
             Osaka University- Handai
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2013 - 2017</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2013 - 2016</div>
           <div className=" text-sm md:text-base">Computer Engineering</div>
         </li>
       </ul>

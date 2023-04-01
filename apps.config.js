@@ -1,4 +1,6 @@
 import displayDifines from "./components/apps/difines";
+import displayPartner from "./components/apps/partner";
+import displayChat from './components/apps/chat';
 import displayVsCode from "./components/apps/vscode";
 import { displayTerminal } from "./components/apps/terminal";
 import { displaySettings } from "./components/apps/settings";
@@ -55,6 +57,24 @@ const apps = [
     screen: displayDifines,
   },
   {
+    id: "chatfi",
+    title: "Chat Fi",
+    icon: "./themes/Yaru/apps/chat.jpeg",
+    disabled: false,
+    favourite: true,
+    desktop_shortcut: true,
+    screen: displayChat,
+  },
+  {
+    id: "partner",
+    title: "Partner",
+    icon: "./themes/Yaru/apps/partner.png",
+    disabled: false,
+    favourite: true,
+    desktop_shortcut: true,
+    screen: displayPartner,
+  },
+  {
     id: "terminal",
     title: "Terminal",
     icon: "./themes/Yaru/apps/bash.png",
@@ -88,7 +108,7 @@ const apps = [
     icon: "./themes/Yaru/system/user-trash-full.png",
     disabled: false,
     favourite: false,
-    desktop_shortcut: true,
+    desktop_shortcut: false,
     screen: displayTrash,
   },
 ];
