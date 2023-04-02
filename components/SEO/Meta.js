@@ -18,7 +18,7 @@ export default function Meta() {
       <meta name="author" content="Aiden Mori (aiden77mori)" />
       <meta
         name="keywords"
-        content="aiden77mori, aiden77mori's portfolio, aiden77mori linux, ubuntu portfolio, aiden mori protfolio, aiden mori computer, aiden mori, aiden ubuntu, aiden mori ubuntu portfolio"
+        content="aiden77mori, aiden77mori's portfolio, blockchain, engineer, web, smart contract engineer, smart contract, solidity, react, web3.js, aiden77mori linux, ubuntu portfolio, aiden mori protfolio, aiden mori computer, aiden mori, aiden ubuntu, aiden mori ubuntu portfolio"
       />
       <meta name="robots" content="index, follow" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -36,7 +36,7 @@ export default function Meta() {
         itemProp="description"
         content="Aiden Mori's (aiden77mori) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta itemProp="image" content="images/logos/fevicon.png" />
+      <meta itemProp="image" content="images/logos/aidenmori.png" />
       /* Twitter */
       <meta name="twitter:card" content="summary" />
       <meta
@@ -49,7 +49,7 @@ export default function Meta() {
       />
       <meta name="twitter:site" content="aiden77mori" />
       <meta name="twitter:creator" content="aiden77mori" />
-      <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+      <meta name="twitter:image:src" content="images/logos/aidenmori.png" />
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
         name="og:title"
@@ -59,13 +59,13 @@ export default function Meta() {
         name="og:description"
         content="Aiden Mori's (aiden77mori) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta name="og:image" content="images/logos/logo_1200.png" />
+      <meta name="og:image" content="images/logos/aidenmori.png" />
       <meta name="og:url" content="http://aiden77mori.github.io/" />
       <meta name="og:site_name" content="Aiden Mori Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />
-      <link rel="icon" href="images/logos/fevicon.svg" />
-      <link rel="apple-touch-icon" href="images/logos/logo.png" />
+      <link rel="icon" href="images/logos/aidenmori.png" />
+      <link rel="apple-touch-icon" href="images/logos/aidenmori.png" />
       <link
         rel="preload"
         href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
@@ -74,7 +74,7 @@ export default function Meta() {
       <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
         rel="stylesheet"
-      ></link>
+      />
     </Head>
   );
 }

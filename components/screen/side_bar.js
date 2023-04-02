@@ -49,7 +49,7 @@ export default function SideBar(props) {
       <div
         onMouseEnter={showSideBar}
         onMouseLeave={hideSideBar}
-        className={"w-1 h-full absolute top-0 left-0 bg-transparent z-50"}
+        className={"w-1 h-full absolute top-0 right-0 bg-transparent z-50"}
       ></div>
     </>
   );

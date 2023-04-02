@@ -191,19 +191,15 @@ input[type="range"].ubuntu-slider::-webkit-slider-thumb {
 .list-pc {
   list-style: "✅";
 }
-
 .list-building {
   list-style: "👨🏻‍💻";
 }
-
 .list-time {
   list-style: "🎲";
 }
-
 .list-star {
   list-style: "🌟";
 }
-
 .list-arrow {
   list-style: "⇀";
 }
@@ -212,4 +208,7 @@ input[type="range"].ubuntu-slider::-webkit-slider-thumb {
 }
 .list-pin {
   list-style: "📌";
+}
+.list-view {
+  list-style: "↗️";
 }

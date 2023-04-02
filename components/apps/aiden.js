@@ -704,6 +704,90 @@ function Projects() {
       ],
     },
     {
+      name: "White Creator Token Minting Platform",
+      date: "Jun 2022",
+      link: "https://whitecreator.difines.io",
+      imgUrl: "./images/projects/whitecreator.webp",
+      description: [
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "NFT Minting Platform",
+      date: "Jun 2022",
+      link: "https://nft.difines.io",
+      imgUrl: "./images/projects/nft.webp",
+      description: [
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
+        <p>
+          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
+          tailwind CSS
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Kingdom Battle",
+      date: "July 2022",
+      imgUrl: "./images/projects/kingdom.webp",
+      link: "https://kingdom.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "play to earn",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "World Speed",
+      date: "Sep 2022",
+      imgUrl: "./images/projects/worldspeed.webp",
+      link: "https://worldspeed.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "play to earn",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Crypto Snaker",
       date: "Aug 2022",
       imgUrl: "./images/projects/cryptosnake.webp",
@@ -716,8 +800,101 @@ function Projects() {
         "solidity",
         "web3.js",
         "webgl",
+        "play to earn",
         "binance smart chain",
       ],
+    },
+    {
+      name: "Puzzle",
+      date: "Oct 2022",
+      imgUrl: "./images/projects/puzzle.webp",
+      link: "https://puzzle.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "play to earn",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "BlockDown",
+      date: "Nov 2022",
+      imgUrl: "./images/projects/blockdown.webp",
+      link: "https://blockdown.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "play to earn",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Crypto Works Metaverse",
+      date: "Jan 2023",
+      imgUrl: "./images/projects/metaverse.webp",
+      link: "https://cryptoworks.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: [
+        "unity3D",
+        "solidity",
+        "web3.js",
+        "webgl",
+        "metaverse",
+        "binance smart chain",
+        "play to earn",
+      ],
+    },
+    {
+      name: "Chat Fi",
+      date: "Feb 2023",
+      imgUrl: "./images/projects/chatfi.webp",
+      link: "https://chatfi.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: ["solidity", "web3.js", "binance smart chain"],
+    },
+    {
+      name: "The Messages",
+      date: "Mar 2023",
+      imgUrl: "./images/projects/message.webp",
+      link: "https://themessages.xyz",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: ["solidity", "web3.js", "binance smart chain"],
+    },
+    {
+      name: "Mining P2E Game",
+      date: "Apr 2023",
+      imgUrl: "./images/projects/mining.webp",
+      link: "https://intro.mining.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: ["solidity", "web3.js", "binance smart chain"],
+    },
+    {
+      name: "Partner",
+      date: "Mar 2023",
+      imgUrl: "./images/projects/partner.webp",
+      link: "https://partner.difines.io",
+      description: [
+        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+      ],
+      domains: ["solidity", "web3.js", "binance smart chain"],
     },
   ];
 
@@ -738,6 +915,8 @@ function Projects() {
     "codeforces-api": "gray-300",
     tailwindcss: "blue-300",
     "next.js": "purple-600",
+    metaverse: "blue-300",
+    "play to earn": "blue-300",
   };
 
   return (
@@ -751,17 +930,10 @@ function Projects() {
       </div>
 
       {project_list.map((project, index) => (
-        // <a
-        //   key={index}
-        //   href={project.link}
-        //   target="_blank"
-        //   rel="noreferrer"
-        //   className="flex w-full flex-col px-4"
-        // >
         <div className="flex w-full flex-col px-4" key={index}>
           <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
             <a
-              className="w-full cursor-pointer "
+              className="w-full cursor-pointer"
               target="_blank"
               href={project.link}
               rel="noreferrer"
@@ -809,7 +981,6 @@ function Projects() {
             </div>
           </div>
         </div>
-        // </a>
       ))}
     </>
   );
