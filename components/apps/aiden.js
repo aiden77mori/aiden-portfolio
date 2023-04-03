@@ -666,13 +666,20 @@ function Projects() {
       imgUrl: "./images/projects/shibuya.webp",
       description: [
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Has <span className="font-medium">special mechanism</span> called{" "}
+          <span className="font-medium">Golden Tree</span> that can make the
+          token price <span className="font-medium">never go down</span>, and{" "}
+          <span className="font-medium">rise day by day</span>
         </p>,
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Designed that <span className="font-medium">SMTC token</span> that is
+          the main token of Golden Tree that has the special mechanism will be
+          <span className="font-medium">over 100K BUSD</span> finally
         </p>,
+        <p>Has 7 ladder system</p>,
+        <p>has many rewards system</p>,
+        <p>has referral function</p>,
+        <p>has team manage feature as being a boss of the team</p>,
       ],
       domains: [
         "react.js",
@@ -681,6 +688,7 @@ function Projects() {
         "web3.js",
         "solidity",
         "hardhat",
+        "defi",
         "binance smart chain",
       ],
     },
@@ -690,10 +698,26 @@ function Projects() {
       imgUrl: "./images/projects/nftmarket.webp",
       link: "https://nftmarket.difines.io",
       description: [
-        "A boilerplate code to build a chrome extension with react and webpack",
+        <p>Minting, Selling, Buying and Listing NFTs</p>,
+        <p>
+          Has the <span className="font-medium">royalty</span> for the{" "}
+          <span className="font-medium">NFT creators</span>
+        </p>,
+        <p>
+          <span className="font-medium">Swap place</span> where user can swap
+          <span className="font-medium">two NFT properties</span>
+        </p>,
+        <p>
+          Planning to develop <span className="font-medium">combine place</span>{" "}
+          where makes NFT more <span className="font-medium">stronger</span>
+        </p>,
+        <p>
+          NFTs will be used as the{" "}
+          <span className="font-medium">game assets</span>
+        </p>,
       ],
       domains: [
-        "react",
+        "react.js",
         "typescript",
         "scss",
         "firebase",
@@ -710,12 +734,16 @@ function Projects() {
       imgUrl: "./images/projects/whitecreator.webp",
       description: [
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Support <span className="font-medium">binance</span> and{" "}
+          <span className="font-medium">ethereum</span> chains for now.
         </p>,
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Create token easily within{" "}
+          <span className="font-medium">10 seconds by one click</span>
+        </p>,
+        <p>
+          Plan to add <span className="font-medium">more evm chains</span> such
+          like polygon, avax and etc.
         </p>,
       ],
       domains: [
@@ -735,12 +763,16 @@ function Projects() {
       imgUrl: "./images/projects/nft.webp",
       description: [
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Support <span className="font-medium">binance</span> and{" "}
+          <span className="font-medium">ethereum</span> chains for now.
         </p>,
         <p>
-          Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js &
-          tailwind CSS
+          Create NFT easily within{" "}
+          <span className="font-medium">10 seconds by one click</span>
+        </p>,
+        <p>
+          Plan to add <span className="font-medium">more evm chains</span> such
+          like polygon, avax and etc.
         </p>,
       ],
       domains: [
@@ -759,7 +791,15 @@ function Projects() {
       imgUrl: "./images/projects/kingdom.webp",
       link: "https://kingdom.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          <span className="font-medium">Play to Earn</span> web3 battle type of
+          game
+        </p>,
+        <p>
+          Support <span className="font-medium">multiplayer</span> mode in which
+          up to <span className="font-medium">8 players</span> playing together
+        </p>,
+        <p>Defeat goblins and enemy boss to get the more token</p>,
       ],
       domains: [
         "unity3D",
@@ -776,7 +816,17 @@ function Projects() {
       imgUrl: "./images/projects/worldspeed.webp",
       link: "https://worldspeed.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          <span className="font-medium">Play to Earn</span> web3 car racing game
+        </p>,
+        <p>
+          Play with 4 computer players on the{" "}
+          <span className="font-medium">easy, middle and hard</span> game mode
+        </p>,
+        <p>Be top winner to get the more token</p>,
+        <p>
+          Plan to add <span className="font-medium">multiplayer</span> mode
+        </p>,
       ],
       domains: [
         "unity3D",
@@ -793,7 +843,19 @@ function Projects() {
       imgUrl: "./images/projects/cryptosnake.webp",
       link: "https://snake.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          <span className="font-medium">Play to Earn</span> web3 snake game
+        </p>,
+        <p>
+          Play with many <span className="font-medium">snake bots</span>
+        </p>,
+        <p>
+          Survive <span className="font-medium">as long as possible</span> to
+          get the more token
+        </p>,
+        <p>
+          Plan to add <span className="font-medium">multiplayer</span> mode
+        </p>,
       ],
       domains: [
         "unity3D",
@@ -810,7 +872,19 @@ function Projects() {
       imgUrl: "./images/projects/puzzle.webp",
       link: "https://puzzle.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          <span className="font-medium">Play to Earn</span> web3 puzzle game
+          (2048)
+        </p>,
+        <p>
+          Play on the <span className="font-medium">easy, middle and hard</span>{" "}
+          mode with the limited time
+        </p>,
+        <p>
+          Solve the puzzle{" "}
+          <span className="font-medium">as soon as possible</span> before time
+          is up to get the more token
+        </p>,
       ],
       domains: [
         "unity3D",
@@ -827,7 +901,20 @@ function Projects() {
       imgUrl: "./images/projects/blockdown.webp",
       link: "https://blockdown.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          <span className="font-medium">Play to Earn</span> web3 block down game
+          (tetris)
+        </p>,
+        <p>
+          Play on the <span className="font-medium">easy, middle and hard</span>{" "}
+          mode
+        </p>,
+        <p>
+          Match the block to the{" "}
+          <span className="font-medium">right place</span> and break{" "}
+          <span className="font-medium">as much as possible</span> get the more
+          token
+        </p>,
       ],
       domains: [
         "unity3D",
@@ -844,7 +931,9 @@ function Projects() {
       imgUrl: "./images/projects/metaverse.webp",
       link: "https://cryptoworks.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>Meet the friends and chat each other</p>,
+        <p>Buy and sell your NFT assets</p>,
+        <p>Plan to add many features</p>,
       ],
       domains: [
         "unity3D",
@@ -852,8 +941,8 @@ function Projects() {
         "web3.js",
         "webgl",
         "metaverse",
-        "binance smart chain",
         "play to earn",
+        "binance smart chain",
       ],
     },
     {
@@ -862,9 +951,20 @@ function Projects() {
       imgUrl: "./images/projects/chatfi.webp",
       link: "https://chatfi.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>Chat each other using wallet address</p>,
+        <p>Create the group and invite people</p>,
+        <p>Transfer token easily</p>,
+        <p>Create the token airdrop and voting event</p>,
+        <p>Plan to add many feature</p>,
       ],
-      domains: ["solidity", "web3.js", "binance smart chain"],
+      domains: [
+        "react.js",
+        "typescript",
+        "chatscope",
+        "web3.js",
+        "firebase",
+        "binance smart chain",
+      ],
     },
     {
       name: "The Messages",
@@ -872,9 +972,21 @@ function Projects() {
       imgUrl: "./images/projects/message.webp",
       link: "https://themessages.xyz",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>
+          Create the gold, silver and bronze types of congratulation messages to
+          the blockchain
+        </p>,
+        <p>Use the WBC token</p>,
+        <p>Share more SNS information by choosing the gold message</p>,
+        <p>Plan to add more feature</p>,
       ],
-      domains: ["solidity", "web3.js", "binance smart chain"],
+      domains: [
+        "react.js",
+        "typescript",
+        "web3.js",
+        "solidity",
+        "binance smart chain",
+      ],
     },
     {
       name: "Mining P2E Game",
@@ -882,9 +994,17 @@ function Projects() {
       imgUrl: "./images/projects/mining.webp",
       link: "https://intro.mining.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>Play to Earn web3 mining game</p>,
+        <p>Integrate NFT assets with the game</p>,
+        <p>Buy the NFTs to earn much more token</p>,
       ],
-      domains: ["solidity", "web3.js", "binance smart chain"],
+      domains: [
+        "vue.js",
+        "web3.js",
+        "play to earn",
+        "solidity",
+        "binance smart chain",
+      ],
     },
     {
       name: "Partner",
@@ -892,13 +1012,17 @@ function Projects() {
       imgUrl: "./images/projects/partner.webp",
       link: "https://partner.difines.io",
       description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+        <p>Create the backend using openAI api with node.js and express.js</p>,
+        <p>Made the backend as serverless to run on the netlify</p>,
+        <p>Integrated react.js frontend with the backend</p>,
       ],
-      domains: ["solidity", "web3.js", "binance smart chain"],
+      domains: ["chatGPT", "react.js", "node.js", "express.js"],
     },
   ];
 
   const tag_colors = {
+    "react.js": "blue-300",
+    typescript: "yellow-300",
     javascript: "yellow-300",
     firebase: "red-600",
     firestore: "red-500",
@@ -907,16 +1031,23 @@ function Projects() {
     flutter: "blue-400",
     dart: "blue-500",
     "react-native": "purple-500",
+    firebase: "red-300",
     html5: "pink-600",
     sass: "pink-400",
+    scss: "pink-300",
     tensorflow: "yellow-600",
     django: "green-600",
+    unity3D: "green-400",
+    hardhat: "green-300",
     python: "green-200",
     "codeforces-api": "gray-300",
     tailwindcss: "blue-300",
     "next.js": "purple-600",
-    metaverse: "blue-300",
-    "play to earn": "blue-300",
+    "web3.js": "purple-300",
+    metaverse: "blue-400",
+    "play to earn": "blue-500",
+    webgl: "blue-600",
+    "binance smart chain": "yellow-300",
   };
 
   return (
@@ -964,18 +1095,14 @@ function Projects() {
               </ul>
               <div className="flex flex-wrap items-start justify-start text-xs py-4">
                 {project.domains
-                  ? project.domains.map((domain, index) => {
-                      const borderColorClass = `border-${tag_colors[domain]}`;
-                      const textColorClass = `text-${tag_colors[domain]}`;
-                      return (
-                        <span
-                          key={index}
-                          className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}
-                        >
-                          {domain}
-                        </span>
-                      );
-                    })
+                  ? project.domains.map((domain, index) => (
+                      <span
+                        key={index}
+                        className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                      >
+                        {domain}
+                      </span>
+                    ))
                   : null}
               </div>
             </div>
