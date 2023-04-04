@@ -230,16 +230,16 @@ function About() {
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
       </div>
       <ul className=" my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-        <li className=" list-pc my-2">
+        <li className=" list-pc my-2 md:text-base">
           Detail oriented professional with great experience in{" "}
           <span className="font-medium">Web</span> and{" "}
           <span className="font-medium">Smart Contract</span> development.
         </li>
-        <li className=" list-pc my-2">
+        <li className=" list-pc my-2 md:text-base">
           Experience in <span className="font-medium">Leading a Team</span> of
           front-end, back-end and smart contract developers.
         </li>
-        <li className=" list-pc my-2">
+        <li className=" list-pc my-2 md:text-base">
           Developed <span className="font-medium">DeFi</span>,{" "}
           <span className="font-medium">NFT marketplace</span>,{" "}
           <span className="font-medium">Tokens</span> and many{" "}
@@ -247,11 +247,11 @@ function About() {
           <span className="font-medium">games</span> on Ethereum, Polygon,
           Binance Smart Chain and so on.
         </li>
-        <li className=" list-pc my-2">
+        <li className=" list-pc my-2 md:text-base">
           Advanced knowledge of multiple programming languages, frameworks and
           several database structures.
         </li>
-        <li className=" list-pc my-2">
+        <li className=" list-pc my-2 md:text-base">
           Reliable team player offering exceptional analytical and time
           management skills and the important ability to think critically and
           solve complex problems.
@@ -280,24 +280,23 @@ function History() {
       link: "https://kuronuri.com/pro",
       description: [
         <p>
-          As a{" "}
-          <span className="font-semibold">blockchain and web developer</span>, I
-          have been fortunate to work on a wide range of exciting and innovative
-          projects. One of my proudest achievements has been
-          <span className="font-semibold">leading a development team</span> in
+          As a <span className="font-medium">blockchain and web developer</span>
+          , I have been fortunate to work on a wide range of exciting and
+          innovative projects. One of my proudest achievements has been
+          <span className="font-medium">leading a development team</span> in
           creating new products that have brought value and benefits to users. I
           have also been responsible for{" "}
-          <span className="font-semibold">overseeing the development team</span>{" "}
+          <span className="font-medium">overseeing the development team</span>{" "}
           in fixing bugs and developing new features to improve the user
           experience.
         </p>,
         <p>
           I prioritize open{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             communication, transparency, and mutual respect
           </span>{" "}
           in all of my interactions with colleagues and clients. I have{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             collaborated closely with over 5 developers
           </span>{" "}
           to create clean interfaces and simple, intuitive interactions that
@@ -305,17 +304,17 @@ function History() {
         </p>,
         <p>
           I am particularly proud of my work in building one{" "}
-          <span className="font-semibold">DeFi Ecosystem</span>,{" "}
-          <span className="font-semibold">
+          <span className="font-medium">DeFi Ecosystem</span>,{" "}
+          <span className="font-medium">
             Token Generation and Token IDO platforms{" "}
           </span>
-          , <span className="font-semibold">2 NFT marketplaces</span>, and over
-          <span className="font-semibold">20+ various Web3 projects</span>. I
-          have also developed{" "}
-          <span className="font-semibold">
+          , <span className="font-medium">2 NFT marketplaces</span>, and over
+          <span className="font-medium">20+ various Web3 projects</span>. I have
+          also developed{" "}
+          <span className="font-medium">
             5+ blockchain-based Play-to-Earn games
           </span>{" "}
-          and created <span className="font-semibold">Metaverse platform</span>{" "}
+          and created <span className="font-medium">Metaverse platform</span>{" "}
           that have captured the imagination of users.
         </p>,
         <p>
@@ -351,9 +350,9 @@ function History() {
         </p>,
         <p>
           Improved the{" "}
-          <span className="font-semibold">patient monitoring and care</span> so
+          <span className="font-medium">patient monitoring and care</span> so
           that the heathcare providers can access{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             real-time data on patients' physiological parameters
           </span>{" "}
           and make informed decisions on the treatment option
@@ -362,7 +361,7 @@ function History() {
           One of the products I have worked on is their leading clinical records
           platform,{" "}
           <a
-            className="font-semibold border-b-2 cursor-pointer"
+            className="font-medium border-b-2 cursor-pointer"
             href="https://incarta.com.au/alarta/"
             target="_blank"
             rel="noreferrer"
@@ -370,21 +369,21 @@ function History() {
             Alarta
           </a>
           , which is among the most{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             advanced cloud-based critical care medical record systems
           </span>{" "}
           available
         </p>,
         <p>
           As part of my work with Incarta, I have focused on{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             improving the connectivity and integration
           </span>{" "}
           of Alarta with other healthcare technologies. (This includes the
           recent integration of BioBeat wearables, which are some of the most
           advanced physiological monitoring wearables available on the market)
           By{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             integrating BioBeat with Incarta's HL7 platform
           </span>
           , we have been able to provide unprecedented connectivity between
@@ -418,13 +417,13 @@ function History() {
       description: [
         <p>
           As a developer on the team that built{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             Australia's #1 real estate agent comparison site
           </span>
           , I played a key role in driving a culture of transparency and
           continuous improvement, which resulted in significant value-addition
           to our users in their home selling journey. Through our platform, we
-          <span className="font-semibold">
+          <span className="font-medium">
             aimed to simplify the home selling process
           </span>
           , which can be quite stressful for many people, and I am proud to say
@@ -432,38 +431,38 @@ function History() {
         </p>,
         <p>
           One of my primary focuses was on{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             improving the website's user interface, optimizing its speed, and
             ensuring
           </span>{" "}
           that the site was accessible to all users. Through my efforts, we were
           able to improve the website's{" "}
-          <span className="font-semibold">speed by 35%</span>,{" "}
-          <span className="font-semibold">resulting in a 20%</span> increase in
+          <span className="font-medium">speed by 35%</span>,{" "}
+          <span className="font-medium">resulting in a 20%</span> increase in
           user engagement.
         </p>,
         <p>
           Working closely with the{" "}
-          <span className="font-semibold">data science team</span>, I developed
+          <span className="font-medium">data science team</span>, I developed
           algorithms that could{" "}
-          <span className="font-semibold">
+          <span className="font-medium">
             analyze user data and recommend the best possible matches
           </span>{" "}
           between users and agents. As a result, our platform was able to match
-          over <span className="font-semibold">80%</span> of our users with
+          over <span className="font-medium">80%</span> of our users with
           top-performing agents in their local area, resulting in a{" "}
-          <span className="font-semibold">25%</span> increase in customer
+          <span className="font-medium">25%</span> increase in customer
           satisfaction.
         </p>,
         <p>
           Additionally, I worked on the payments team, where I was able to save
-          over <span className="font-semibold">20,000 customers time</span> and
-          <span className="font-semibold">improve cash flow</span> through the
+          over <span className="font-medium">20,000 customers time</span> and
+          <span className="font-medium">improve cash flow</span> through the
           development of modern, responsive customer experiences using React and
           Ant Design Library. By streamlining the payment process, we were able
-          to reduce payment errors by <span className="font-semibold">15%</span>{" "}
+          to reduce payment errors by <span className="font-medium">15%</span>{" "}
           and increase overall customer satisfaction by{" "}
-          <span className="font-semibold">30%</span>.
+          <span className="font-medium">30%</span>.
         </p>,
         <p>
           Overall, my experience working on Australia's #1 real estate agent
@@ -498,7 +497,7 @@ function History() {
           execute successful advertising campaigns across various platforms,
           including social media. By analyzing campaign data and providing
           recommendations for optimization, I was able to increase ad engagement
-          by <span className="font-semibold">30%</span>, leading to a higher
+          by <span className="font-medium">30%</span>, leading to a higher
           conversion rate.
         </p>,
         <p>
@@ -507,10 +506,10 @@ function History() {
           team to develop a comprehensive content marketing strategy that aimed
           to increase brand awareness and drive organic traffic to the company's
           website. By{" "}
-          <span className="font-semibold">utilizing SEO best practices</span>{" "}
-          and <span className="font-semibold">conducting keyword research</span>
-          , we were able to increase website traffic by{" "}
-          <span className="font-semibold">40%</span> within the first month of
+          <span className="font-medium">utilizing SEO best practices</span> and{" "}
+          <span className="font-medium">conducting keyword research</span>, we
+          were able to increase website traffic by{" "}
+          <span className="font-medium">40%</span> within the first month of
           implementation.
         </p>,
         <p>
@@ -552,7 +551,10 @@ function History() {
             </div>
             <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
               {project.description.map((desc, index) => (
-                <li key={index} className="list-disc mt-1 text-gray-100">
+                <li
+                  key={index}
+                  className="list-disc mt-1 text-gray-100 md:text-base"
+                >
                   {desc}
                 </li>
               ))}
@@ -1115,6 +1117,24 @@ function Projects() {
       ],
       domains: ["chatGPT", "react.js", "node.js", "express.js"],
     },
+    {
+      name: "Clinicial Chart (Alarta)",
+      date: "2020 - 2021",
+      imgUrl: "./images/projects/clinical.webp",
+      link: "https://incarta.com.au/",
+      description: [
+        <p>
+          With over 25 years experience in the Health and Life Sciences sector,
+          Incarta has a demonstrated history of innovation in hardware and
+          software development. Our leading clinical records platform “Alarta”
+          is amongst the most advanced cloud based critical care medical record
+          systems available anywhere. It is also one of the most cost effective.
+          Alarta can be deployed within a few hours auto-configuring itself via
+          HL7.
+        </p>,
+      ],
+      domains: ["chatGPT", "react.js", "node.js", "express.js"],
+    },
   ];
 
   const tag_colors = {
@@ -1185,7 +1205,10 @@ function Projects() {
               </div>
               <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
                 {project.description.map((desc, index) => (
-                  <li key={index} className="list-disc mt-2 text-gray-100">
+                  <li
+                    key={index}
+                    className="list-disc mt-2 text-gray-100 md:text-base"
+                  >
                     {desc}
                   </li>
                 ))}
