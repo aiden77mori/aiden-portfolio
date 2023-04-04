@@ -282,7 +282,7 @@ function History() {
         <p>
           As a <span className="font-medium">blockchain and web developer</span>
           , I have been fortunate to work on a wide range of exciting and
-          innovative projects. One of my proudest achievements has been
+          innovative projects. One of my proudest achievements has been{" "}
           <span className="font-medium">leading a development team</span> in
           creating new products that have brought value and benefits to users. I
           have also been responsible for{" "}
@@ -308,7 +308,7 @@ function History() {
           <span className="font-medium">
             Token Generation and Token IDO platforms{" "}
           </span>
-          , <span className="font-medium">2 NFT marketplaces</span>, and over
+          , <span className="font-medium">2 NFT marketplaces</span>, and over{" "}
           <span className="font-medium">20+ various Web3 projects</span>. I have
           also developed{" "}
           <span className="font-medium">
@@ -346,16 +346,16 @@ function History() {
           As a developer with experience in the Health and Life Sciences sector,
           I have had the opportunity to work with innovative companies like
           Incarta, which have a demonstrated history of innovation in hardware
-          and software development
+          and software development.
         </p>,
         <p>
           Improved the{" "}
           <span className="font-medium">patient monitoring and care</span> so
-          that the heathcare providers can access{" "}
+          that the healthcare providers can access{" "}
           <span className="font-medium">
             real-time data on patients' physiological parameters
           </span>{" "}
-          and make informed decisions on the treatment option
+          and make informed decisions on the treatment option.
         </p>,
         <p>
           One of the products I have worked on is their leading clinical records
@@ -372,7 +372,7 @@ function History() {
           <span className="font-medium">
             advanced cloud-based critical care medical record systems
           </span>{" "}
-          available
+          available.
         </p>,
         <p>
           As part of my work with Incarta, I have focused on{" "}
@@ -422,7 +422,7 @@ function History() {
           </span>
           , I played a key role in driving a culture of transparency and
           continuous improvement, which resulted in significant value-addition
-          to our users in their home selling journey. Through our platform, we
+          to our users in their home selling journey. Through our platform, we{" "}
           <span className="font-medium">
             aimed to simplify the home selling process
           </span>
@@ -456,7 +456,7 @@ function History() {
         </p>,
         <p>
           Additionally, I worked on the payments team, where I was able to save
-          over <span className="font-medium">20,000 customers time</span> and
+          over <span className="font-medium">20,000 customers time</span> and{" "}
           <span className="font-medium">improve cash flow</span> through the
           development of modern, responsive customer experiences using React and
           Ant Design Library. By streamlining the payment process, we were able
@@ -502,7 +502,7 @@ function History() {
         </p>,
         <p>
           One of the most exciting projects I worked on during my internship was
-          content marketing and SEO measures . I collaborated with the content
+          content marketing and SEO measures. I collaborated with the content
           team to develop a comprehensive content marketing strategy that aimed
           to increase brand awareness and drive organic traffic to the company's
           website. By{" "}
