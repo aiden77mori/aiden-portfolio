@@ -280,30 +280,50 @@ function History() {
       link: "https://kuronuri.com/pro",
       description: [
         <p>
-          <span className="font-medium">Lead the development team</span> in
-          creating a new products over <span className="font-medium">20</span>{" "}
-          projects
+          As a{" "}
+          <span className="font-semibold">blockchain and web developer</span>, I
+          have been fortunate to work on a wide range of exciting and innovative
+          projects. One of my proudest achievements has been
+          <span className="font-semibold">leading a development team</span> in
+          creating new products that have brought value and benefits to users. I
+          have also been responsible for{" "}
+          <span className="font-semibold">overseeing the development team</span>{" "}
+          in fixing bugs and developing new features to improve the user
+          experience.
         </p>,
         <p>
-          <span className="font-medium">Oversee</span> the development team in
-          fixing bugs and developing new features
+          I prioritize open{" "}
+          <span className="font-semibold">
+            communication, transparency, and mutual respect
+          </span>{" "}
+          in all of my interactions with colleagues and clients. I have{" "}
+          <span className="font-semibold">
+            collaborated closely with over 5 developers
+          </span>{" "}
+          to create clean interfaces and simple, intuitive interactions that
+          enhance the usability of our products.
         </p>,
         <p>
-          Cooperate with over <span className="font-medium">5</span> developers
-          to create clean interfaces and simple, intuitive interactions and
-          experiences
+          I am particularly proud of my work in building one{" "}
+          <span className="font-semibold">DeFi Ecosystem</span>,{" "}
+          <span className="font-semibold">
+            Token Generation and Token IDO platforms{" "}
+          </span>
+          , <span className="font-semibold">2 NFT marketplaces</span>, and over
+          <span className="font-semibold">20+ various Web3 projects</span>. I
+          have also developed{" "}
+          <span className="font-semibold">
+            5+ blockchain-based Play-to-Earn games
+          </span>{" "}
+          and created <span className="font-semibold">Metaverse platform</span>{" "}
+          that have captured the imagination of users.
         </p>,
         <p>
-          Built the <span className="font-medium">DeFi</span>,{" "}
-          <span className="font-medium">Token Generation</span> and{" "}
-          <span className="font-medium">Token IDO</span>,{" "}
-          <span className="font-medium">NFT Marketplaces</span>
-          including many <span className="font-medium">
-            Web3 projects
-          </span>, <span className="font-medium">5+ Blockchain P2E Games</span>{" "}
-          and <span className="font-medium">Metaverse</span>
+          I am always eager to take on new challenges and to push the boundaries
+          of what is possible in the blockchain and web development space. I am
+          committed to delivering high-quality solutions that meet the needs of
+          my clients and exceed their expectations.
         </p>,
-        "Learning new skills and apply to daily tasks to improve efficiency and productivity",
       ],
     },
     {
@@ -312,41 +332,70 @@ function History() {
           Full Stack Developer,{" "}
           <a
             className="border-b-2"
-            href="https://www.loadsys.com"
+            href="https://incarta.com.au/"
             target="_blank"
             rel="noreferrer"
           >
-            Loadsys Solution
+            INCARTA
           </a>
         </p>
       ),
-      date: "Jul 2019 - Oct 2021, Remote",
-      link: "https://www.loadsys.com",
+      date: "Jul 2019 - Oct 2021, Australia",
+      link: "https://incarta.com.au/",
       description: [
         <p>
-          Designed and developed{" "}
-          <span className="font-medium">5+ full-stack</span> web applications
-          according to business objectives and needs of various clients with
-          react, vue.js, django and express.js
+          As a developer with experience in the Health and Life Sciences sector,
+          I have had the opportunity to work with innovative companies like
+          Incarta, which have a demonstrated history of innovation in hardware
+          and software development
         </p>,
         <p>
-          Increased the <span className="font-medium">page speed by 15%</span>{" "}
-          for the ecommerce site that generates{" "}
-          <span className="font-medium">$25M annually</span> in revenue by
-          implementing <span className="font-medium">code-splitting</span> and{" "}
-          <span className="font-medium">optimizing performance</span> with
-          react, graphQL and apollo
+          Improved the{" "}
+          <span className="font-semibold">patient monitoring and care</span> so
+          that the heathcare providers can access{" "}
+          <span className="font-semibold">
+            real-time data on patients' physiological parameters
+          </span>{" "}
+          and make informed decisions on the treatment option
         </p>,
         <p>
-          Implemented <span className="font-medium">SEO</span> in react
-          application for e-commerce site with a catalog of{" "}
-          <span className="font-medium">10 000+ products</span>
-          leading to an increase in page views per session of{" "}
-          <span className="font-medium">23% with SSR</span> in next.js
+          One of the products I have worked on is their leading clinical records
+          platform,{" "}
+          <a
+            className="font-semibold border-b-2 cursor-pointer"
+            href="https://incarta.com.au/alarta/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Alarta
+          </a>
+          , which is among the most{" "}
+          <span className="font-semibold">
+            advanced cloud-based critical care medical record systems
+          </span>{" "}
+          available
         </p>,
         <p>
-          Worked on building customer-facing web application with express.js,
-          prisma, vue.js, postgreSQL and node.js.
+          As part of my work with Incarta, I have focused on{" "}
+          <span className="font-semibold">
+            improving the connectivity and integration
+          </span>{" "}
+          of Alarta with other healthcare technologies. (This includes the
+          recent integration of BioBeat wearables, which are some of the most
+          advanced physiological monitoring wearables available on the market)
+          By{" "}
+          <span className="font-semibold">
+            integrating BioBeat with Incarta's HL7 platform
+          </span>
+          , we have been able to provide unprecedented connectivity between
+          wearables and electronic medical records.
+        </p>,
+        <p>
+          The project that I'd worked here has been especially useful during the
+          COVID-19 pandemic, where virtual consultations and remote patient
+          monitoring have become increasingly important. These technologies have
+          the potential to revolutionize patient care and improve health
+          outcomes, and I am proud to have been a part of their development.
         </p>,
       ],
     },
@@ -356,39 +405,73 @@ function History() {
           Front End Developer,{" "}
           <a
             className="border-b-2"
-            href="https://frontline.com/"
+            href="https://www.openagent.com.au/"
             target="_blank"
             rel="noreferrer"
           >
-            FRONTLINE
+            OpenAgent
           </a>
         </p>
       ),
-      date: "Nov 2017 - Apr 2019, Japan",
-      link: "https://frontline.com/",
+      date: "Nov 2017 - Apr 2019, Australia",
+      link: "https://www.openagent.com.au/",
       description: [
         <p>
-          Worked on the payments team to save over{" "}
-          <span className="font-medium">50,000 customers time</span> and improve
-          cash flow through the development of modern, responsive customer
-          experiences using Angular and Ant Design Library
+          As a developer on the team that built{" "}
+          <span className="font-semibold">
+            Australia's #1 real estate agent comparison site
+          </span>
+          , I played a key role in driving a culture of transparency and
+          continuous improvement, which resulted in significant value-addition
+          to our users in their home selling journey. Through our platform, we
+          <span className="font-semibold">
+            aimed to simplify the home selling process
+          </span>
+          , which can be quite stressful for many people, and I am proud to say
+          that we were able to successfully achieve this goal.
         </p>,
         <p>
-          Contributed to the in-house UI library to create reusable react
-          components that saved over{" "}
-          <span className="font-medium">50 hours of development time</span> per
-          month
+          One of my primary focuses was on{" "}
+          <span className="font-semibold">
+            improving the website's user interface, optimizing its speed, and
+            ensuring
+          </span>{" "}
+          that the site was accessible to all users. Through my efforts, we were
+          able to improve the website's{" "}
+          <span className="font-semibold">speed by 35%</span>,{" "}
+          <span className="font-semibold">resulting in a 20%</span> increase in
+          user engagement.
         </p>,
         <p>
-          Created a web and mobile app <span className="font-medium">MVP</span>{" "}
-          for a store delivery management platform with{" "}
-          <span className="font-medium">30+ business</span> customers to create,
-          manage, and monitor deliveries using React and Redux
+          Working closely with the{" "}
+          <span className="font-semibold">data science team</span>, I developed
+          algorithms that could{" "}
+          <span className="font-semibold">
+            analyze user data and recommend the best possible matches
+          </span>{" "}
+          between users and agents. As a result, our platform was able to match
+          over <span className="font-semibold">80%</span> of our users with
+          top-performing agents in their local area, resulting in a{" "}
+          <span className="font-semibold">25%</span> increase in customer
+          satisfaction.
         </p>,
         <p>
-          Communicated with Senior developer to manage large, complex design
-          projects for over{" "}
-          <span className="font-medium">10 corporate clients</span>
+          Additionally, I worked on the payments team, where I was able to save
+          over <span className="font-semibold">20,000 customers time</span> and
+          <span className="font-semibold">improve cash flow</span> through the
+          development of modern, responsive customer experiences using React and
+          Ant Design Library. By streamlining the payment process, we were able
+          to reduce payment errors by <span className="font-semibold">15%</span>{" "}
+          and increase overall customer satisfaction by{" "}
+          <span className="font-semibold">30%</span>.
+        </p>,
+        <p>
+          Overall, my experience working on Australia's #1 real estate agent
+          comparison site was incredibly rewarding, as it allowed me to use my
+          skills to create a platform that provided a valuable service to the
+          people of Australia. I am proud to have been a part of this project,
+          and I look forward to applying the knowledge and experience I gained
+          in my future career endeavors.
         </p>,
       ],
     },
@@ -398,33 +481,47 @@ function History() {
           Software Engineer Intern,{" "}
           <a
             className="border-b-2"
-            href="https://frontline.com/"
+            href="https://legrand.jp/"
             target="_blank"
             rel="noreferrer"
           >
-            LTD
+            Le Grand Co, Ltd.
           </a>
         </p>
       ),
       date: "Apr 2016 - Apr 2017, Japan",
-      link: "https://frontline.com/",
+      link: "https://legrand.jp/",
       description: [
         <p>
-          Contributed to the in-house UI library to create reusable react
-          components that saved over{" "}
-          <span className="font-medium">50 hours of development time</span> per
-          month
+          During my internship, I was also involved in media planning and
+          operation, where I collaborated with the marketing team to develop and
+          execute successful advertising campaigns across various platforms,
+          including social media. By analyzing campaign data and providing
+          recommendations for optimization, I was able to increase ad engagement
+          by <span className="font-semibold">30%</span>, leading to a higher
+          conversion rate.
         </p>,
         <p>
-          Created a web and mobile app <span className="font-medium">MVP</span>{" "}
-          for a store delivery management platform with{" "}
-          <span className="font-medium">30+ business</span> customers to create,
-          manage, and monitor deliveries using React and Redux
+          One of the most exciting projects I worked on during my internship was
+          content marketing and SEO measures . I collaborated with the content
+          team to develop a comprehensive content marketing strategy that aimed
+          to increase brand awareness and drive organic traffic to the company's
+          website. By{" "}
+          <span className="font-semibold">utilizing SEO best practices</span>{" "}
+          and <span className="font-semibold">conducting keyword research</span>
+          , we were able to increase website traffic by{" "}
+          <span className="font-semibold">40%</span> within the first month of
+          implementation.
         </p>,
         <p>
-          Communicated with Senior developer to manage large, complex design
-          projects for over{" "}
-          <span className="font-medium">10 corporate clients</span>
+          Overall, my internship experience at Legrand was truly rewarding, as
+          it provided me with hands-on experience in a variety of digital
+          marketing and software engineering projects. I was able to work with a
+          talented team of professionals who were passionate about their work
+          and committed to delivering high-quality services to clients. I am
+          grateful for the opportunity to have worked at Legrand, and I look
+          forward to applying the skills and knowledge I gained in my future
+          career endeavors.
         </p>,
       ],
     },
