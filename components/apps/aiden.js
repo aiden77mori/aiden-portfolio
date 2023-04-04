@@ -772,7 +772,7 @@ function Projects() {
         </p>,
         <p>
           Designed that <span className="font-medium">SMTC token</span> that is
-          the main token of Golden Tree that has the special mechanism will be
+          the main token of Golden Tree that has the special mechanism will be{" "}
           <span className="font-medium">over 100K BUSD</span> finally
         </p>,
         <p>Has 7 ladder system</p>,
