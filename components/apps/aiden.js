@@ -884,6 +884,132 @@ function Projects() {
         "binance smart chain",
       ],
     },
+
+    {
+      name: "Chat Fi",
+      date: "Feb 2023",
+      imgUrl: "./images/projects/chatfi.webp",
+      link: "https://chatfi.difines.io",
+      description: [
+        <p>Chat each other using wallet address</p>,
+        <p>Create the group and invite people</p>,
+        <p>Transfer token easily</p>,
+        <p>Create the token airdrop and voting event</p>,
+        <p>Plan to add many feature</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "chatscope",
+        "web3.js",
+        "firebase",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "The Messages",
+      date: "Mar 2023",
+      imgUrl: "./images/projects/message.webp",
+      link: "https://themessages.xyz",
+      description: [
+        <p>
+          Create the gold, silver and bronze types of congratulation messages to
+          the blockchain
+        </p>,
+        <p>Use the WBC token</p>,
+        <p>Share more SNS information by choosing the gold message</p>,
+        <p>Plan to add more feature</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "web3.js",
+        "solidity",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Mining P2E Game",
+      date: "Apr 2023",
+      imgUrl: "./images/projects/mining.webp",
+      link: "https://intro.mining.difines.io",
+      description: [
+        <p>Play to Earn web3 mining game</p>,
+        <p>Integrate NFT assets with the game</p>,
+        <p>Buy the NFTs to earn much more token</p>,
+      ],
+      domains: [
+        "vue.js",
+        "web3.js",
+        "play to earn",
+        "solidity",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Partner",
+      date: "Mar 2023",
+      imgUrl: "./images/projects/partner.webp",
+      link: "https://partner.difines.io",
+      description: [
+        <p>Create the backend using openAI api with node.js and express.js</p>,
+        <p>Made the backend as serverless to run on the netlify</p>,
+        <p>Integrated react.js frontend with the backend</p>,
+      ],
+      domains: ["chatGPT", "react.js", "node.js", "express.js"],
+    },
+    {
+      name: "Clinicial Chart (Alarta)",
+      date: "2020 - 2021",
+      imgUrl: "./images/projects/clinical.webp",
+      link: "https://incarta.com.au/",
+      description: [
+        <p>
+          With over 25 years experience in the Health and Life Sciences sector,
+          Incarta has a demonstrated history of innovation in hardware and
+          software development. Our leading clinical records platform “Alarta”
+          is amongst the most advanced cloud based critical care medical record
+          systems available anywhere. It is also one of the most cost effective.
+          Alarta can be deployed within a few hours auto-configuring itself via
+          HL7.
+        </p>,
+      ],
+      domains: ["chatGPT", "react.js", "node.js", "express.js"],
+    },
+    {
+      name: "DIOR Virtual Shop",
+      date: "Oct 2020",
+      imgUrl: "./images/projects/dior.webp",
+      link: "https://virtualstore.studio/dior/",
+      description: [
+        <p>Admin can upload the images and 3D assets</p>,
+        <p>Add or edit map with hubspot</p>,
+        <p>Purchase the product in VR environment</p>,
+      ],
+      domains: ["html", "javascript", "php", "panolens", "css", "three.js"],
+    },
+    {
+      name: "Album App",
+      date: "Feb 2021",
+      imgUrl: "./images/projects/app.webp",
+      link: "#",
+      description: [
+        <p>Sign up by OTP</p>,
+        <p>User can post images</p>,
+        <p>Make friend</p>,
+        <p>Social platform integration</p>,
+        <p>Upload and edit image using uploadcare widget</p>,
+        <p>Display address book of the mobile</p>,
+      ],
+      domains: [
+        "ionic",
+        "angular",
+        "node.js",
+        "express.js",
+        "postgreSql",
+        "scss",
+      ],
+    },
     {
       name: "Kingdom Battle",
       date: "July 2022",
@@ -1043,97 +1169,6 @@ function Projects() {
         "play to earn",
         "binance smart chain",
       ],
-    },
-    {
-      name: "Chat Fi",
-      date: "Feb 2023",
-      imgUrl: "./images/projects/chatfi.webp",
-      link: "https://chatfi.difines.io",
-      description: [
-        <p>Chat each other using wallet address</p>,
-        <p>Create the group and invite people</p>,
-        <p>Transfer token easily</p>,
-        <p>Create the token airdrop and voting event</p>,
-        <p>Plan to add many feature</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "chatscope",
-        "web3.js",
-        "firebase",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "The Messages",
-      date: "Mar 2023",
-      imgUrl: "./images/projects/message.webp",
-      link: "https://themessages.xyz",
-      description: [
-        <p>
-          Create the gold, silver and bronze types of congratulation messages to
-          the blockchain
-        </p>,
-        <p>Use the WBC token</p>,
-        <p>Share more SNS information by choosing the gold message</p>,
-        <p>Plan to add more feature</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "web3.js",
-        "solidity",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Mining P2E Game",
-      date: "Apr 2023",
-      imgUrl: "./images/projects/mining.webp",
-      link: "https://intro.mining.difines.io",
-      description: [
-        <p>Play to Earn web3 mining game</p>,
-        <p>Integrate NFT assets with the game</p>,
-        <p>Buy the NFTs to earn much more token</p>,
-      ],
-      domains: [
-        "vue.js",
-        "web3.js",
-        "play to earn",
-        "solidity",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Partner",
-      date: "Mar 2023",
-      imgUrl: "./images/projects/partner.webp",
-      link: "https://partner.difines.io",
-      description: [
-        <p>Create the backend using openAI api with node.js and express.js</p>,
-        <p>Made the backend as serverless to run on the netlify</p>,
-        <p>Integrated react.js frontend with the backend</p>,
-      ],
-      domains: ["chatGPT", "react.js", "node.js", "express.js"],
-    },
-    {
-      name: "Clinicial Chart (Alarta)",
-      date: "2020 - 2021",
-      imgUrl: "./images/projects/clinical.webp",
-      link: "https://incarta.com.au/",
-      description: [
-        <p>
-          With over 25 years experience in the Health and Life Sciences sector,
-          Incarta has a demonstrated history of innovation in hardware and
-          software development. Our leading clinical records platform “Alarta”
-          is amongst the most advanced cloud based critical care medical record
-          systems available anywhere. It is also one of the most cost effective.
-          Alarta can be deployed within a few hours auto-configuring itself via
-          HL7.
-        </p>,
-      ],
-      domains: ["chatGPT", "react.js", "node.js", "express.js"],
     },
   ];
 
