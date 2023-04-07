@@ -884,7 +884,6 @@ function Projects() {
         "binance smart chain",
       ],
     },
-
     {
       name: "Chat Fi",
       date: "Feb 2023",
