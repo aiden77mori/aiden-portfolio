@@ -222,7 +222,9 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
-          <span className="text-pink-600 font-bold">Software Engineer!</span>
+          <span className="text-pink-600 font-bold">
+            Full Stack, Blockchain Developer!
+          </span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-4 pt-px bg-white w-32 md:w-48">
@@ -265,7 +267,7 @@ function History() {
     {
       name: (
         <p>
-          Development Team Lead On The Blockchain Projects,{" "}
+          Blockchain, Full Stack Developer,{" "}
           <a
             className="border-b-2"
             href="https://kuronuri.com/pro"
@@ -276,52 +278,39 @@ function History() {
           </a>
         </p>
       ),
-      date: "Dec 2021 - Present, Remote",
+      date: "Apr 2021 - Present, Remote",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
-          As a <span className="font-medium">blockchain and web developer</span>
-          , I have been fortunate to work on a wide range of exciting and
-          innovative projects. One of my proudest achievements has been{" "}
-          <span className="font-medium">leading a development team</span> in
-          creating new products that have brought value and benefits to users. I
-          have also been responsible for{" "}
-          <span className="font-medium">overseeing the development team</span>{" "}
-          in fixing bugs and developing new features to improve the user
-          experience.
+          Created over 4 advanced products that integrate blockchain technology
+          with real-world industries, providing users with significant value and
+          benefits. (skills: react.js, solidity, web3.js, firebase)
         </p>,
         <p>
-          I prioritize open{" "}
-          <span className="font-medium">
-            communication, transparency, and mutual respect
-          </span>{" "}
-          in all of my interactions with colleagues and clients. I have{" "}
-          <span className="font-medium">
-            collaborated closely with over 5 developers
-          </span>{" "}
-          to create clean interfaces and simple, intuitive interactions that
-          enhance the usability of our products.
+          Lead a team of 5 developers in designing intuitive interfaces and
+          implemented MLM system that resulted in a 30% increase in user
+          retention and a 20% increase in referrals. (skills: react.js,
+          typescript, solidity, web3.js, python, git)
         </p>,
         <p>
-          I am particularly proud of my work in building one{" "}
-          <span className="font-medium">DeFi Ecosystem</span>,{" "}
-          <span className="font-medium">
-            Token Generation and Token IDO platforms{" "}
-          </span>
-          , <span className="font-medium">2 NFT marketplaces</span>, and over{" "}
-          <span className="font-medium">20+ various Web3 projects</span>. I have
-          also developed{" "}
-          <span className="font-medium">
-            5+ blockchain-based Play-to-Earn games
-          </span>{" "}
-          and created <span className="font-medium">Metaverse platform</span>{" "}
-          that have captured the imagination of users.
+          Developed intelligent algorithms and predictive models that seamlessly
+          integrate with blockchain systems using AI technology; increased 30%
+          efficiency and accuracy in delivering results. (skills: next.js,
+          node.js, solidity, ethers.js, python, chatGPT)
         </p>,
         <p>
-          I am always eager to take on new challenges and to push the boundaries
-          of what is possible in the blockchain and web development space. I am
-          committed to delivering high-quality solutions that meet the needs of
-          my clients and exceed their expectations.
+          Accomplished in building one comprehensive DeFi ecosystem, token
+          generation and token ICO platforms, as well as developing 2 NFT
+          marketplaces including over 15 Web3 projects. (skills: typescript,
+          react.js, solidity, web3.js, material-ui, firebase, node.js,
+          express.js, serverless)
+        </p>,
+        <p>
+          Experienced in developing and integrating more than 5 Play-to-Earn
+          games based on blockchain technology, and successfully created a
+          Metaverse platform that has gained widespread user appeal. (skills:
+          unity3D, web3.js, solidity, webgl, thirdweb SDK, Moralis, socket.io,
+          node.js)
         </p>,
       ],
     },
@@ -339,26 +328,12 @@ function History() {
           </a>
         </p>
       ),
-      date: "Jul 2019 - Oct 2021, Australia",
+      date: "Jul 2019 - Feb 2021, Australia",
       link: "https://incarta.com.au/",
       description: [
         <p>
-          As a developer with experience in the Health and Life Sciences sector,
-          I have had the opportunity to work with innovative companies like
-          Incarta, which have a demonstrated history of innovation in hardware
-          and software development.
-        </p>,
-        <p>
-          Improved the{" "}
-          <span className="font-medium">patient monitoring and care</span> so
-          that the healthcare providers can access{" "}
-          <span className="font-medium">
-            real-time data on patients' physiological parameters
-          </span>{" "}
-          and make informed decisions on the treatment option.
-        </p>,
-        <p>
-          One of the products I have worked on is their leading clinical records
+          Achieved significant advancements in healthcare connectivity and
+          integration by enhancing the industry-leading clinical records
           platform,{" "}
           <a
             className="font-medium border-b-2 cursor-pointer"
@@ -368,33 +343,27 @@ function History() {
           >
             Alarta
           </a>
-          , which is among the most{" "}
-          <span className="font-medium">
-            advanced cloud-based critical care medical record systems
-          </span>{" "}
-          available.
+          , and successfully integrating BioBeat with HL7 platform.
         </p>,
         <p>
-          As part of my work with Incarta, I have focused on{" "}
-          <span className="font-medium">
-            improving the connectivity and integration
-          </span>{" "}
-          of Alarta with other healthcare technologies. (This includes the
-          recent integration of BioBeat wearables, which are some of the most
-          advanced physiological monitoring wearables available on the market)
-          By{" "}
-          <span className="font-medium">
-            integrating BioBeat with Incarta's HL7 platform
-          </span>
-          , we have been able to provide unprecedented connectivity between
-          wearables and electronic medical records.
+          Reduced readmission rates by 20% by analyzing patient data with
+          machine learning algorithms and using the insights to make more
+          informed treatment decisions.
         </p>,
         <p>
-          The project that I'd worked here has been especially useful during the
-          COVID-19 pandemic, where virtual consultations and remote patient
-          monitoring have become increasingly important. These technologies have
-          the potential to revolutionize patient care and improve health
-          outcomes, and I am proud to have been a part of their development.
+          In response to the COVID-19 pandemic, designed and developed the
+          clinical chart using react.js and d3.js, which was integrated into the
+          clinical records platform to contribute to the patients treatment.
+        </p>,
+        <p>
+          Developed and delivered 3+ healthcare relation platforms using
+          react.js, next.js, vue.js and svelte with sapper framework while
+          maintaining clear communication with clients.
+        </p>,
+        <p>
+          By using react.js, next.js and node.js, created reusable components
+          and made functions modular to connect with the backend, which has led
+          to a 15% improvement in site speed and performance.
         </p>,
       ],
     },
@@ -412,72 +381,34 @@ function History() {
           </a>
         </p>
       ),
-      date: "Nov 2017 - Apr 2019, Australia",
+      date: "Aug 2017 - Apr 2019, Australia",
       link: "https://www.openagent.com.au/",
       description: [
         <p>
-          As a developer on the team that built{" "}
-          <span className="font-medium">
-            Australia's #1 real estate agent comparison site
-          </span>
-          , I played a key role in driving a culture of transparency and
-          continuous improvement, which resulted in significant value-addition
-          to our users in their home selling journey. Through our platform, we{" "}
-          <span className="font-medium">
-            aimed to simplify the home selling process
-          </span>
-          , which can be quite stressful for many people, and I am proud to say
-          that we were able to successfully achieve this goal.
+          Contributed to the simplification of the home selling process, which
+          can be a source of stress for many people, resulting in significant
+          value-addition to users in their home selling journey.
         </p>,
         <p>
-          One of my primary focuses was on{" "}
-          <span className="font-medium">
-            improving the website's user interface, optimizing its speed, and
-            ensuring
-          </span>{" "}
-          that the site was accessible to all users. Through my efforts, we were
-          able to improve the website's{" "}
-          <span className="font-medium">speed by 35%</span>,{" "}
-          <span className="font-medium">resulting in a 20%</span> increase in
-          user engagement.
+          Improved the website's user interface and optimized its speed,
+          resulting in a 35% speed improvement and a 20% increase in user
+          engagement.
         </p>,
         <p>
-          Working closely with the{" "}
-          <span className="font-medium">data science team</span>, I developed
-          algorithms that could{" "}
-          <span className="font-medium">
-            analyze user data and recommend the best possible matches
-          </span>{" "}
-          between users and agents. As a result, our platform was able to match
-          over <span className="font-medium">80%</span> of our users with
-          top-performing agents in their local area, resulting in a{" "}
-          <span className="font-medium">25%</span> increase in customer
-          satisfaction.
+          Collaborated with the data science team to develop algorithms that
+          matched over 80% of our platform's users with top-performing agents,
+          as a result, 25% increase in customer satisfaction.
         </p>,
         <p>
-          Additionally, I worked on the payments team, where I was able to save
-          over <span className="font-medium">20,000 customers time</span> and{" "}
-          <span className="font-medium">improve cash flow</span> through the
-          development of modern, responsive customer experiences using React and
-          Ant Design Library. By streamlining the payment process, we were able
-          to reduce payment errors by <span className="font-medium">15%</span>{" "}
-          and increase overall customer satisfaction by{" "}
-          <span className="font-medium">30%</span>.
-        </p>,
-        <p>
-          Overall, my experience working on Australia's #1 real estate agent
-          comparison site was incredibly rewarding, as it allowed me to use my
-          skills to create a platform that provided a valuable service to the
-          people of Australia. I am proud to have been a part of this project,
-          and I look forward to applying the knowledge and experience I gained
-          in my future career endeavors.
+          Be proud of contributing to this project and look forward to applying
+          my knowledge and experience in my future career endeavors.
         </p>,
       ],
     },
     {
       name: (
         <p>
-          Software Engineer Intern,{" "}
+          Junior Front End Developer,{" "}
           <a
             className="border-b-2"
             href="https://legrand.jp/"
@@ -488,39 +419,27 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2016 - Apr 2017, Japan",
+      date: "Apr 2015 - Nov 2016, Japan",
       link: "https://legrand.jp/",
       description: [
         <p>
-          During my internship, I was also involved in media planning and
-          operation, where I collaborated with the marketing team to develop and
-          execute successful advertising campaigns across various platforms,
-          including social media. By analyzing campaign data and providing
-          recommendations for optimization, I was able to increase ad engagement
-          by <span className="font-medium">30%</span>, leading to a higher
-          conversion rate.
+          Worked in an Agile, collaborative environment to receive design
+          requirements, peer program, and test applications
         </p>,
         <p>
-          One of the most exciting projects I worked on during my internship was
-          content marketing and SEO measures. I collaborated with the content
-          team to develop a comprehensive content marketing strategy that aimed
-          to increase brand awareness and drive organic traffic to the company's
-          website. By{" "}
-          <span className="font-medium">utilizing SEO best practices</span> and{" "}
-          <span className="font-medium">conducting keyword research</span>, we
-          were able to increase website traffic by{" "}
-          <span className="font-medium">40%</span> within the first month of
-          implementation.
+          Maintained and updated 20+ web pages, graphics, and online marketing
+          materials in collaboration with the UX manager and development team.
         </p>,
         <p>
-          Overall, my internship experience at Legrand was truly rewarding, as
-          it provided me with hands-on experience in a variety of digital
-          marketing and software engineering projects. I was able to work with a
-          talented team of professionals who were passionate about their work
-          and committed to delivering high-quality services to clients. I am
-          grateful for the opportunity to have worked at Legrand, and I look
-          forward to applying the skills and knowledge I gained in my future
-          career endeavors.
+          Leading troubleshooting efforts, fixing more than 1,000 bugs and other
+          issues, and updated sites throughout the production lifecycle.
+        </p>,
+        <p>
+          Created the complex UI components using react/typescript and scss.
+        </p>,
+        <p>
+          Improved the process of storing app state info by implementing the
+          redux store, and successfully integrated the front-end with Rest APIs.
         </p>,
       ],
     },
@@ -578,10 +497,10 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Osaka University- Handai
+            Computer Science, Osaka University
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2013 - 2016</div>
-          <div className=" text-sm md:text-base">Computer Engineering</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2012 - 2015</div>
+          <div className=" text-sm md:text-base">Bachelor of Engineering</div>
         </li>
       </ul>
     </>
