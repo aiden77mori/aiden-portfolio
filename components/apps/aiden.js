@@ -957,7 +957,7 @@ function Projects() {
       name: "World Speed",
       date: "Sep 2022",
       imgUrl: "./images/projects/worldspeed.webp",
-      link: "https://worldspeed.difines.io",
+      link: "https://hamadeco.jp/cargame/",
       description: [
         <p>
           <span className="font-medium">Play to Earn</span> web3 car racing game
