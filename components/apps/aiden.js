@@ -711,6 +711,17 @@ function Projects() {
       ],
     },
     {
+      name: "Home Of 12V",
+      date: "2020",
+      imgUrl: "./images/projects/12v.webp",
+      link: "#",
+      description: [
+        <p>Front end working</p>,
+        <p>Mobile responsive using tailwindCSS and Next.js</p>,
+      ],
+      domains: ["next.js", "typescript", "tailwindCSS", "react.js", "netlify"],
+    },
+    {
       name: "NFT Marketplace",
       date: "July 2022 - Aug 2022",
       imgUrl: "./images/projects/nftmarket.webp",
@@ -804,6 +815,14 @@ function Projects() {
       ],
     },
     {
+      name: "Electon JS Project",
+      date: "Feb 2023",
+      imgUrl: "./images/projects/movie-electron.webp",
+      link: "#",
+      description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
+      domains: ["electronJS", "react.js", "tailwind"],
+    },
+    {
       name: "Chat Fi",
       date: "Feb 2023",
       imgUrl: "./images/projects/chatfi.webp",
@@ -825,7 +844,7 @@ function Projects() {
       ],
     },
     {
-      name: "The Messages",
+      name: "The Messages (record)",
       date: "Mar 2023",
       imgUrl: "./images/projects/message.webp",
       link: "https://themessages.xyz",
@@ -837,6 +856,25 @@ function Projects() {
         <p>Use the WBC token</p>,
         <p>Share more SNS information by choosing the gold message</p>,
         <p>Plan to add more feature</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "web3.js",
+        "solidity",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "The Messages (booker)",
+      date: "Mar 2023",
+      imgUrl: "./images/projects/booker.webp",
+      link: "https://booker.themessages.xyz",
+      description: [
+        <p>Post to earn web3 project</p>,
+        <p>Integrated wallet connect, coinbase, metamask</p>,
+        <p>Use the nft.storage SDK to save metadata</p>,
+        <p>Post, Edit, Delete, Buy article</p>,
       ],
       domains: [
         "react.js",
