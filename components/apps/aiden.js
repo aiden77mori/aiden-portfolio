@@ -711,6 +711,27 @@ function Projects() {
       ],
     },
     {
+      name: "Token Faucet Platform",
+      date: "Mar 2023",
+      link: "https://faucet.themessages.xyz",
+      imgUrl: "./images/projects/faucet.webp",
+      description: [
+        <p>ERC20 Token faucet platform</p>,
+        <p>Binance smart chain tesetnet support</p>,
+        <p>Time limitation implemented</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Home Of 12V",
       date: "May 2020",
       imgUrl: "./images/projects/12v.webp",
@@ -739,6 +760,38 @@ function Projects() {
         <p>
           Planning to develop <span className="font-medium">combine place</span>{" "}
           where makes NFT more <span className="font-medium">stronger</span>
+        </p>,
+        <p>
+          NFTs will be used as the{" "}
+          <span className="font-medium">game assets</span>
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "firebase",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "KOILLECTIBLE",
+      date: "Oct 2022 - Nov 2022",
+      imgUrl: "./images/projects/koi.webp",
+      link: "https://koi.difines.io",
+      description: [
+        <p>
+          The platform that brings fundraising to the global stage by combining
+          traditional web2 and the emerging web3 industries.
+        </p>,
+        <p>Koi fishes will be growing day by day</p>,
+        <p>Change water function</p>,
+        <p>
+          Fish swimming speed will be decreased based on the weight growing day
+          by day
         </p>,
         <p>
           NFTs will be used as the{" "}
