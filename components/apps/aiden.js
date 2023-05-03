@@ -712,7 +712,7 @@ function Projects() {
     },
     {
       name: "Home Of 12V",
-      date: "2020",
+      date: "May 2020",
       imgUrl: "./images/projects/12v.webp",
       link: "#",
       description: [
@@ -754,6 +754,24 @@ function Projects() {
         "solidity",
         "hardhat",
         "binance smart chain",
+      ],
+    },
+    {
+      name: "NFT Marketplace (Bloodshed)",
+      date: "Oct 2019 - Dec 2019",
+      imgUrl: "./images/projects/nftfront.webp",
+      link: "#",
+      description: [<p>Minting, Selling, Buying, Bidding, Listing NFTs</p>],
+      domains: [
+        "react.js",
+        "scss",
+        "node.js",
+        "express.js",
+        "mongodb",
+        "ethers.js",
+        "solidity",
+        "truffle",
+        "ethereum",
       ],
     },
     {
@@ -816,7 +834,7 @@ function Projects() {
     },
     {
       name: "Electon JS Project",
-      date: "Feb 2023",
+      date: "Feb 2020",
       imgUrl: "./images/projects/movie-electron.webp",
       link: "#",
       description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
@@ -867,7 +885,7 @@ function Projects() {
     },
     {
       name: "The Messages (booker)",
-      date: "Mar 2023",
+      date: "Apr 2023",
       imgUrl: "./images/projects/booker.webp",
       link: "https://booker.themessages.xyz",
       description: [
@@ -931,6 +949,17 @@ function Projects() {
         </p>,
       ],
       domains: ["chatGPT", "react.js", "node.js", "express.js"],
+    },
+    {
+      name: "Art Worker",
+      date: "Dec 2019",
+      imgUrl: "./images/projects/art.webp",
+      link: "https://nft.difines.io/art",
+      description: [
+        <p>Photo Edition tools using fabric.js and react.js</p>,
+        <p>Filter, Adjust, Overlay, Drawing functions</p>,
+      ],
+      domains: ["fabric.js", "react.js", "typescript", "nft"],
     },
     {
       name: "DIOR Virtual Shop",
