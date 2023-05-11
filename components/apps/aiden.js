@@ -711,6 +711,27 @@ function Projects() {
       ],
     },
     {
+      name: "PEPE Brother",
+      date: "May 2023",
+      link: "https://pepe-brothers.netlify.app/",
+      imgUrl: "./images/projects/pepe.webp",
+      description: [
+        <p>Two token support, PEPEP and PEPEG</p>,
+        <p>Burn one token and get same amount of another token</p>,
+        <p>Pepe police and pepe gang story</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Token Faucet Platform",
       date: "Mar 2023",
       link: "https://faucet.themessages.xyz",
