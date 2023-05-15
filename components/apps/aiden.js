@@ -711,6 +711,35 @@ function Projects() {
       ],
     },
     {
+      name: "PEPE Sushi",
+      date: "May 2023",
+      link: "https://pepe-sushi.netlify.app/",
+      imgUrl: "./images/projects/pepe-sushi.webp",
+      description: [
+        <p>
+          PEPE SUSHI is a member of the PEPE family. The PEPE family loved sushi
+          and wanted to become a sushi chef, so they came to learn the technique
+          Japan. It also offers a service called The Messages, which will be a
+          platform where the messages you post will be permanently recorded on
+          the blockchain. Every time a message is posted, PEPES is inspired by
+          mysterious tokens that burn indefinitely!
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "PEPE Brother",
       date: "May 2023",
       link: "https://pepe-brothers.netlify.app/",
