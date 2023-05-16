@@ -539,6 +539,20 @@ function Education() {
             />
           </a>
         </div>
+        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
+          <a
+            className="w-full cursor-pointer"
+            target="_blank"
+            href="https://www.hackerrank.com/certificates/f367d0b2f01b"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/certificate/css_cert.webp"
+              className="rounded"
+              alt="CSS Certificate"
+            />
+          </a>
+        </div>
       </div>
     </>
   );
