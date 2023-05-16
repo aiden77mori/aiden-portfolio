@@ -503,6 +503,43 @@ function Education() {
           <div className=" text-sm md:text-base">Bachelor of Engineering</div>
         </li>
       </ul>
+      <div className=" font-medium relative text-2xl mt-4 md:mt-4 mb-4">
+        Certificate
+        <div className="absolute pt-px bg-white mt-px top-full w-full">
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+        </div>
+      </div>
+      <div className="flex w-full flex-col px-20">
+        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
+          <a
+            className="w-full cursor-pointer"
+            target="_blank"
+            href="https://www.hackerrank.com/certificates/573e352f3161"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/certificate/javascript_cert.webp"
+              className="rounded"
+              alt="Javascript Certificate"
+            />
+          </a>
+        </div>
+        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
+          <a
+            className="w-full cursor-pointer"
+            target="_blank"
+            href="https://www.hackerrank.com/certificates/f036b817ee52"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/certificate/react_cert.webp"
+              className="rounded"
+              alt="React Certificate"
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 }
