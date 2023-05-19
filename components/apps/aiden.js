@@ -764,7 +764,7 @@ function Projects() {
     {
       name: "PEPE Sushi",
       date: "May 2023",
-      link: "https://pepe-sushi.netlify.app/",
+      link: "https://pepesushi.vip",
       imgUrl: "./images/projects/pepe-sushi.webp",
       description: [
         <p>
@@ -1022,7 +1022,7 @@ function Projects() {
       name: "The Messages (record)",
       date: "Mar 2023",
       imgUrl: "./images/projects/message.webp",
-      link: "https://themessages.xyz",
+      link: "https://record.themessages.xyz",
       description: [
         <p>
           Create the gold, silver and bronze types of congratulation messages to
@@ -1044,7 +1044,7 @@ function Projects() {
       name: "The Messages (booker)",
       date: "Apr 2023",
       imgUrl: "./images/projects/booker.webp",
-      link: "https://booker.themessages.xyz",
+      link: "https://bettor.pepesushi.vip",
       description: [
         <p>Post to earn web3 project</p>,
         <p>Integrated wallet connect, coinbase, metamask</p>,
