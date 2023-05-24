@@ -815,6 +815,36 @@ function Projects() {
       ],
     },
     {
+      name: "PEPE MSG",
+      date: "May 2023",
+      link: "https://pepe-msg.netlify.app/",
+      imgUrl: "./images/projects/pepe-msg.webp",
+      description: [
+        <p>The Messages. Combining Meme culture with utility.</p>,
+        <p>
+          Experience the Fusion of Meme Coin and Social Media: Power Up Your
+          Blockahin Experience!
+        </p>,
+        <p>
+          $TBNB, $ARMY, and $MSG. $MSG is on Binance Smart Chain, while the
+          others are on the testnet.
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Token Faucet Platform",
       date: "Mar 2023",
       link: "https://faucet.themessages.xyz",
