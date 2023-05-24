@@ -1138,6 +1138,19 @@ function Projects() {
       domains: ["chatGPT", "react.js", "node.js", "express.js"],
     },
     {
+      name: "Facial Recognize",
+      date: "Feb 2020",
+      imgUrl: "./images/projects/facial-recognize.webp",
+      link: "https://github.com/aiden77mori/facial-recognization",
+      description: [
+        <p>Face dectection project using face-api.js</p>,
+        <p>API integration with react</p>,
+        <p>Multi faces recognize possible</p>,
+        <p>Recognize face using the camera</p>,
+      ],
+      domains: ["react.js", "face-api.js", "restful-api", "integration"],
+    },
+    {
       name: "Art Worker",
       date: "Dec 2019",
       imgUrl: "./images/projects/art.webp",
