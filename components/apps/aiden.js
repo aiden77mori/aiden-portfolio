@@ -1122,7 +1122,7 @@ function Projects() {
       name: "DIOR Virtual Shop",
       date: "Oct 2020",
       imgUrl: "./images/projects/dior.webp",
-      link: "https://virtualstore.studio/dior/",
+      link: "https://dior-vrstore.netlify.app",
       description: [
         <p>Admin can upload the images and 3D assets</p>,
         <p>Add or edit map with hubspot</p>,
