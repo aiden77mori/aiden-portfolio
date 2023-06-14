@@ -791,6 +791,32 @@ function Projects() {
       ],
     },
     {
+      name: "Burn & Drop",
+      date: "June 2023",
+      link: "https://burn-drop.netlify.app/",
+      imgUrl: "./images/projects/burn_drop.webp",
+      description: [
+        <p>
+          Burn & Drop is the service that burns and airdrop each token to make a
+          token price rising up.
+        </p>,
+        <p>Support PEPE, PEPE Sushi</p>,
+        <p>PEPE Syndicate</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "PEPE Brother",
       date: "May 2023",
       link: "https://pepe-brothers.netlify.app/",
