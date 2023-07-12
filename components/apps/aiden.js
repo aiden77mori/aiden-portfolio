@@ -791,16 +791,18 @@ function Projects() {
       ],
     },
     {
-      name: "Burn & Drop",
+      name: "PEPE Bep20 | Burn & Drop",
       date: "June 2023",
-      link: "https://burn-drop.netlify.app/",
+      link: "https://pepe.markets/",
       imgUrl: "./images/projects/burn_drop.webp",
       description: [
         <p>
           Burn & Drop is the service that burns and airdrop each token to make a
           token price rising up.
         </p>,
-        <p>Support PEPE, PEPE Sushi</p>,
+        <p>
+          Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
+        </p>,
         <p>PEPE Syndicate</p>,
       ],
       domains: [
@@ -843,7 +845,7 @@ function Projects() {
     {
       name: "PEPE MSG",
       date: "May 2023",
-      link: "https://pepe-msg.netlify.app/",
+      link: "https://intro.themessages.xyz/",
       imgUrl: "./images/projects/pepe-msg.webp",
       description: [
         <p>The Messages. Combining Meme culture with utility.</p>,
