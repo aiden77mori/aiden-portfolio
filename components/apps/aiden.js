@@ -278,39 +278,29 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2021 - Present, Remote",
+      date: "Apr 2021 - July 2023, Remote",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
-          Created over 4 advanced products that integrate blockchain technology
-          with real-world industries, providing users with significant value and
-          benefits. (skills: react.js, solidity, web3.js, firebase)
+          Accomplished in building a comprehensive DeFi ecosystem, Token
+          Generation and ICO platforms, 2 NFT marketplaces including over 20
+          Web3 projects and tools.
         </p>,
         <p>
-          Lead a team of 5 developers in designing intuitive interfaces and
-          implemented MLM system that resulted in a 30% increase in user
-          retention and a 20% increase in referrals. (skills: react.js,
-          typescript, solidity, web3.js, python, git)
+          Leveraged Web3.js and Ethers.js to establish seamless interaction
+          between the React.js, Vue.js front-end and smart contract.
         </p>,
         <p>
-          Developed intelligent algorithms and predictive models that seamlessly
-          integrate with blockchain systems using AI technology; increased 30%
-          efficiency and accuracy in delivering results. (skills: next.js,
-          node.js, solidity, ethers.js, python, chatGPT)
+          Managed the CI / CD solution for a development team using the CircleCI
+          tool, Bitbucket, Github and AWS Lambda functions.
         </p>,
         <p>
-          Accomplished in building one comprehensive DeFi ecosystem, token
-          generation and token ICO platforms, as well as developing 2 NFT
-          marketplaces including over 15 Web3 projects. (skills: typescript,
-          react.js, solidity, web3.js, material-ui, firebase, node.js,
-          express.js, serverless)
+          Utilized GraphQL API to enhance communication performance between the
+          front-end and back-end.
         </p>,
         <p>
-          Experienced in developing and integrating more than 5 Play-to-Earn
-          games based on blockchain technology, and successfully created a
-          Metaverse platform that has gained widespread user appeal. (skills:
-          unity3D, web3.js, solidity, webgl, thirdweb SDK, Moralis, socket.io,
-          node.js)
+          Constructed and integrated an internal back-end synchronized with the
+          blockchain database, utilizing Node.js and Express.js.
         </p>,
       ],
     },
@@ -332,33 +322,18 @@ function History() {
       link: "https://incarta.com.au/",
       description: [
         <p>
-          Achieved significant advancements in healthcare connectivity and
-          integration by enhancing the industry-leading clinical records
-          platform,{" "}
-          <a
-            className="font-medium border-b-2 cursor-pointer"
-            href="https://incarta.com.au/alarta/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Alarta
-          </a>
-          , and successfully integrating BioBeat with HL7 platform.
+          Improved patient treatment rates by 20% through the developing and
+          implementing of machine learning algorithms.
         </p>,
         <p>
-          Reduced readmission rates by 20% by analyzing patient data with
-          machine learning algorithms and using the insights to make more
-          informed treatment decisions.
+          Instrumental in designing and developing clinical charts using
+          React.js and D3.js, contributed to patient care during the COVID-19
+          pandemic.
         </p>,
         <p>
-          In response to the COVID-19 pandemic, designed and developed the
-          clinical chart using react.js and d3.js, which was integrated into the
-          clinical records platform to contribute to the patients treatment.
-        </p>,
-        <p>
-          Developed and delivered 3+ healthcare relation platforms using
-          react.js, next.js, vue.js and svelte with sapper framework while
-          maintaining clear communication with clients.
+          Developed and delivered multiple healthcare platforms using React.js,
+          Angular, Vue.js, with Laravel, PHP framework and Node.js focusing on
+          clear client communication.
         </p>,
         <p>
           By using react.js, next.js and node.js, created reusable components
@@ -385,9 +360,11 @@ function History() {
       link: "https://www.openagent.com.au/",
       description: [
         <p>
-          Contributed to the simplification of the home selling process, which
-          can be a source of stress for many people, resulting in significant
-          value-addition to users in their home selling journey.
+          In an Agile, collaborative environment, effectively gathered design
+          requirements, and conducted thorough application testing, resulting in
+          a notable 25% increase in working speed. • Leading troubleshooting
+          efforts, fixed more than 300+ bugs and other issues, and updated sites
+          throughout the production lifecycle.
         </p>,
         <p>
           Improved the website's user interface and optimized its speed,
@@ -819,6 +796,14 @@ function Projects() {
       ],
     },
     {
+      name: "Xocial Media App",
+      date: "Feb 2017",
+      link: "#",
+      imgUrl: "./images/projects/xocial.webp",
+      description: [<p>Mobile App Development</p>],
+      domains: ["mobile", "ios", "ipad", "android"],
+    },
+    {
       name: "PEPE Brother",
       date: "May 2023",
       link: "https://pepe-brothers.netlify.app/",
@@ -903,6 +888,22 @@ function Projects() {
         <p>Mobile responsive using tailwindCSS and Next.js</p>,
       ],
       domains: ["next.js", "typescript", "tailwindCSS", "react.js", "netlify"],
+    },
+    {
+      name: "Voice Emailer App",
+      date: "Oct 2016",
+      link: "#",
+      imgUrl: "./images/projects/voice.webp",
+      description: [<p>Mobile App Development</p>],
+      domains: ["mobile", "ios", "ipad", "android"],
+    },
+    {
+      name: "Catch Me App",
+      date: "Dec 2016",
+      link: "#",
+      imgUrl: "./images/projects/catch.webp",
+      description: [<p>Mobile App Development</p>],
+      domains: ["mobile", "ios", "ipad", "android"],
     },
     {
       name: "NFT Marketplace",
@@ -1054,6 +1055,14 @@ function Projects() {
       link: "#",
       description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
       domains: ["electronJS", "react.js", "tailwind"],
+    },
+    {
+      name: "Guessing App",
+      date: "Sep 2017",
+      link: "#",
+      imgUrl: "./images/projects/hairshop.webp",
+      description: [<p>Mobile App Development</p>],
+      domains: ["mobile", "ios", "ipad", "android"],
     },
     {
       name: "Chat Fi",
