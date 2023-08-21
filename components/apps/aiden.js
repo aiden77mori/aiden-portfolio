@@ -814,7 +814,7 @@ function Projects() {
     {
       name: "Fashion Website",
       date: "July 2023",
-      link: "#",
+      link: "https://aura-fashion-theme.netlify.app/",
       imgUrl: "./images/projects/fashion.webp",
       description: [<p>Website Theme Development</p>],
       domains: ["react", "html5", "scss", "javascript", "css3"],
@@ -822,7 +822,7 @@ function Projects() {
     {
       name: "Crypto Website",
       date: "July 2023",
-      link: "#",
+      link: "https://crypto-aura-theme.netlify.app/",
       imgUrl: "./images/projects/crypto.webp",
       description: [<p>Website Theme Development</p>],
       domains: ["react", "html5", "scss", "javascript", "css3"],
