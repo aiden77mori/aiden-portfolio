@@ -278,13 +278,22 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2021 - July 2023, Remote",
+      date: "Apr 2021 - Aug 2023, Remote",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
           Accomplished in building a comprehensive DeFi ecosystem, Token
-          Generation and ICO platforms, 2 NFT marketplaces including over 20
-          Web3 projects and tools.
+          Generation and ICO platforms, 5 play-to-earn games, 2 NFT marketplaces
+          including over 20 Web3 projects and tools.
+        </p>,
+        <p>
+          Developed an automated DEX bot for Burn&Drop and a CEX bot for trading
+          integrated with the Bitcastle CEX platform.
+        </p>,
+        <p>
+          Designed and developed robust token Bridges for frictionless asset
+          transfers between blockchain networks and implemented Cross-Chain
+          solutions.
         </p>,
         <p>
           Leveraged Web3.js and Ethers.js to establish seamless interaction
@@ -307,6 +316,35 @@ function History() {
     {
       name: (
         <p>
+          Blockchain Developer,{" "}
+          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
+            Defichain Value
+          </a>
+        </p>
+      ),
+      date: "Feb 2020 - Mar 2021, Remote",
+      link: "#",
+      description: [
+        <p>Created the BSC Swap and Farm Contract</p>,
+        <p>
+          Developed the smart contracts to interact with Value DeFi protocol
+          including liquidity pools, yield farming strategies and governance
+          mechanisms.
+        </p>,
+        <p>
+          Tested the smart contracts using Truffle and Hardhat framework and
+          deployed successfully on Binance Smart Chain.
+        </p>,
+        <p>
+          Integrated the smart contracts with front-end using Ethers.js and
+          Web3.js to enable users interact with liquidity pools, stake assets
+          and participate in yield farming opportunities.
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
           Full Stack Developer,{" "}
           <a
             className="border-b-2"
@@ -318,7 +356,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Jul 2019 - Feb 2021, Australia",
+      date: "May 2019 - Feb 2020, Australia",
       link: "https://incarta.com.au/",
       description: [
         <p>
@@ -696,6 +734,11 @@ function Skills() {
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
               alt="aiden redux"
+            />
+            <img
+              className="m-1"
+              src="https://img.shields.io/badge/Docker-02569B?style=flat&logo=docker&logoColor=white"
+              alt="aiden docker"
             />
           </div>
         </div>
@@ -1097,7 +1140,7 @@ function Projects() {
       domains: ["mobile", "ios", "ipad", "android"],
     },
     {
-      name: "Chat Fi",
+      name: "Web3.0 Messaging Platform - Chat Fi",
       date: "Feb 2023",
       imgUrl: "./images/projects/chatfi.webp",
       link: "https://chatfi.difines.io",
