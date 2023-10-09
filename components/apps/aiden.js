@@ -782,6 +782,31 @@ function Projects() {
       ],
     },
     {
+      name: "FC Marketplace",
+      date: "August 2023",
+      link: "https://fc-market.netlify.app/",
+      imgUrl: "./images/projects/fcmarket.webp",
+      description: [
+        <p>
+          Users can swap the crypto to real cash using this platform. We made
+          the secure pool that user can deposit token to make a contract.
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "firebase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "PEPE Sushi",
       date: "May 2023",
       link: "https://pepesushi.vip",
