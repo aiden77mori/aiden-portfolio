@@ -864,6 +864,17 @@ function Projects() {
       ],
     },
     {
+      name: "Genogram",
+      date: "Sep 2021",
+      link: "https://genogram-gojs.netlify.app/",
+      imgUrl: "./images/projects/genogram.webp",
+      description: [
+        <p>Genorgram using react.js and gojs</p>,
+        <p>Generate the data from the database and editable by drag.</p>,
+      ],
+      domains: ["react.js", "gojs", "gosj-react", "html", "css"],
+    },
+    {
       name: "Food Website",
       date: "Aug 2023",
       link: "#",
