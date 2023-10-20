@@ -512,7 +512,7 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Computer Science, Osaka University
+            Computer Engineering, Victoria University
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2012 - 2015</div>
           <div className=" text-sm md:text-base">Bachelor of Engineering</div>
@@ -526,34 +526,6 @@ function Education() {
         </div>
       </div>
       <div className="flex w-full flex-col px-20">
-        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
-          <a
-            className="w-full cursor-pointer"
-            target="_blank"
-            href="https://www.hackerrank.com/certificates/573e352f3161"
-            rel="noreferrer"
-          >
-            <img
-              src="./images/certificate/javascript_cert.webp"
-              className="rounded"
-              alt="Javascript Certificate"
-            />
-          </a>
-        </div>
-        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
-          <a
-            className="w-full cursor-pointer"
-            target="_blank"
-            href="https://www.hackerrank.com/certificates/f036b817ee52"
-            rel="noreferrer"
-          >
-            <img
-              src="./images/certificate/react_cert.webp"
-              className="rounded"
-              alt="React Certificate"
-            />
-          </a>
-        </div>
         <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
           <a
             className="w-full cursor-pointer"
