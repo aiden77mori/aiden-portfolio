@@ -39,7 +39,7 @@ export class AboutAiden extends Component {
     const data = {
       updatedCount: Number(curCount) + 1,
     };
-    const response = await axios.post("/api/updateVisit", data);
+    await axios.post("/api/updateVisit", data);
   };
 
   changeScreen = (e) => {

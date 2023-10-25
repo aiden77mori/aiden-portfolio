@@ -7,7 +7,9 @@ export default function updateVisit(req, res) {
       const data = {
         visit: rec.updatedCount,
       };
-      fs.writeFileSync(__dirname + "/visit.json", JSON.stringify(data));
+      console.log(data);
+      //   fs.writeFileSync(__dirname + "/visit.json", JSON.stringify(data));
+      fs.writeFileSync("/visit.json", JSON.stringify(data));
       res.status(200).json({ message: "success", data: data.visit });
     }
   } catch (err) {
