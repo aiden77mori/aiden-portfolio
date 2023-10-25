@@ -13,5 +13,8 @@ module.exports = {
 
     return config;
   },
-  target: "server",
+  output: "standalone",
+  experimental: {
+    appDir: true,
+  },
 };

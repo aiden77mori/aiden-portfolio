@@ -2,12 +2,12 @@
   "name": "aiden77mori-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://aiden77mori.github.io/aiden-portfolio",
+  "homepage": "https://aidenworks.difines.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "start": "next start"
   },
   "engines": {
     "node": ">=16.x"
@@ -21,6 +21,7 @@
     "fs": "^0.0.1-security",
     "jquery": "^3.6.3",
     "next": "^13.1.2",
+    "next-on-netlify": "^3.0.1",
     "postcss": "^8.4.21",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
