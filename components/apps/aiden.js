@@ -1,7 +1,8 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
-import visitor from "../../pages/api/visit.json";
+// import visitor from "../../visit.json";
 import axios from "axios";
+import fs from "fs";
 
 export class AboutAiden extends Component {
   constructor() {
@@ -35,11 +36,16 @@ export class AboutAiden extends Component {
   }
 
   updateVisit = async () => {
-    const curCount = visitor.visit;
-    const data = {
-      updatedCount: Number(curCount) + 1,
-    };
-    await axios.post("/api/updateVisit", data);
+    try {
+      const response = await axios.get("/api/readVisit");
+      const curCount = response.data.data.visit;
+      const data = {
+        updatedCount: Number(curCount) + 1,
+      };
+      await axios.post("/api/updateVisit", data);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   changeScreen = (e) => {

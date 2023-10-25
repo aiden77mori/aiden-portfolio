@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Clock from "../util components/clock";
 import Status from "../util components/status";
 import StatusCard from "../util components/status_card";
-import visitor from "../../pages/api/visit.json";
+import visitor from "../../visit.json";
 
 export default class Navbar extends Component {
   constructor() {
