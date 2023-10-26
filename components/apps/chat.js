@@ -1,8 +1,8 @@
 export default function Chat() {
   return (
     <iframe
-      src="https://chatfi.difines.io"
-      title="Chat Fi"
+      src="https://pepesushi.vip"
+      title="PEPE Sushi"
       className="h-full w-full bg-ub-cool-grey"
     ></iframe>
   );

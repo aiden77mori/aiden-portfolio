@@ -58,8 +58,8 @@ const apps = [
   },
   {
     id: "chatfi",
-    title: "Chat Fi",
-    icon: "./themes/Yaru/apps/chat.jpeg",
+    title: "PEPE Sushi",
+    icon: "./themes/Yaru/apps/pepesushi.webp",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
@@ -67,8 +67,8 @@ const apps = [
   },
   {
     id: "partner",
-    title: "Partner",
-    icon: "./themes/Yaru/apps/partner.png",
+    title: "Aura Fashion Theme",
+    icon: "./themes/Yaru/apps/fashionlogo.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
