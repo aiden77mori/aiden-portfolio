@@ -1,8 +1,5 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
-// import visitor from "../../visit.json";
-import axios from "axios";
-import fs from "fs";
 
 export class AboutAiden extends Component {
   constructor() {
@@ -32,21 +29,7 @@ export class AboutAiden extends Component {
 
     // focus last visited screen
     this.changeScreen(document.getElementById(lastVisitedScreen));
-    this.updateVisit();
   }
-
-  updateVisit = async () => {
-    try {
-      const response = await axios.get("/api/readVisit");
-      const curCount = response.data.data.visit;
-      const data = {
-        updatedCount: Number(curCount) + 1,
-      };
-      await axios.post("/api/updateVisit", data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
 
   changeScreen = (e) => {
     const screen = e.id || e.target.id;
