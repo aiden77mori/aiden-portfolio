@@ -1,0 +1,67 @@
+name: Production build+deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Build and deploy
+    environment:
+      name: production
+      url: ${{ steps.deploy-netlify.outputs.NETLIFY_LIVE_URL }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Cache node modules and next folder
+      - name: Caching
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+            ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18.x
+
+      - name: Install dependencies
+        run: |
+          npm install -g yarn
+          yarn install
+
+      - name: Run tests
+        run: yarn test
+
+      # Using `netlify build` to build the website.
+      # It will run the command specified on `netlify.toml` (`npm run build`)
+      # and use the necessary plugin
+      - name: Build project
+        id: build-netlify
+        run: |
+          netlify build
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      # Deploys the website to Netlify extracting the deploy metadata.
+      # Adapted from the Netlify Github Action.
+      - name: Production deployment
+        id: deploy-netlify
+        run: |
+          COMMAND="netlify deploy --prod"
+          OUTPUT=$(sh -c "$COMMAND")
+
+          NETLIFY_LOGS_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://app.netlify.com/[a-zA-Z0-9./?=_-]*') # Unique key: app.netlify.com
+          NETLIFY_LIVE_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://[a-zA-Z0-9./?=_-]*' | grep -Ev "netlify.com|(--)") # Unique key: doesn't contain -- and app.netlify.com
+
+          echo "::set-output name=netlify_logs_url::$NETLIFY_LOGS_URL"
+          echo "::set-output name=netlify_live_url::$NETLIFY_LIVE_URL"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
