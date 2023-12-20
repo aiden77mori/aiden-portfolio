@@ -810,7 +810,7 @@ function Projects() {
     {
       name: "SHIBUYA Ecosystem",
       date: "Dec 2021 - Apr 2022",
-      link: "https://difines.io",
+      link: "https://shibuya.difines.io",
       imgUrl: "./images/projects/shibuya.webp",
       description: [
         <p>
