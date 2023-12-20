@@ -267,6 +267,53 @@ function History() {
     {
       name: (
         <p>
+          Back End | Smart Contract Developer,{" "}
+          <a
+            className="border-b-2"
+            href="https://decentreviews.co"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Decent Reviews
+          </a>
+        </p>
+      ),
+      date: "May 2023 - Nov 2023, Remote",
+      link: "https://decentreviews.co",
+      description: [
+        <p>
+          Worked as a back-end and smart contract developer in an agile team
+          communicating directly with the CTO.
+        </p>,
+        <p>
+          Created the user review API, automatic review aggregation engine and
+          embeddable badge generation engine using node.js/typescript and
+          express.js.
+        </p>,
+        <p>
+          Used mongoDB aggregation pipleline for review aggregation engine, and
+          integrated with smart contract using web3.js to store the aggregation
+          results.
+        </p>,
+        <p>
+          Implemented CI/CD pipleline to automate comprehensive project testing
+          and efficient deployment processes using github workflow actions.
+        </p>,
+        <p>
+          Successfully conducted thorough API testing leveraging the Cypress and
+          Jest testing libraries, while simultaneously generating API document
+          via the Swagger API framework.
+        </p>,
+        <p>
+          Effectively leveraged Docker to efficiently package, deploy, and
+          manage applications across diverse environments, guaranteeing
+          consistency and portability.
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
           Blockchain, Full Stack Developer,{" "}
           <a
             className="border-b-2"
