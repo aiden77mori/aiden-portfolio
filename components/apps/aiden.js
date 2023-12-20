@@ -223,7 +223,7 @@ function About() {
         <div className="font-normal ml-1">
           I'm a{" "}
           <span className="text-pink-600 font-bold">
-            Full Stack, Blockchain Developer!
+            Full Stack and Blockchain Developer!
           </span>
         </div>
       </div>
@@ -233,20 +233,21 @@ function About() {
       </div>
       <ul className=" my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc my-2 md:text-base">
-          Detail oriented professional with great experience in{" "}
-          <span className="font-medium">Web</span> and{" "}
-          <span className="font-medium">Smart Contract</span> development.
+          Detail oriented professional with over 8 years of experience in{" "}
+          <span className="font-bold">Web2</span> and{" "}
+          <span className="font-bold">Web3</span> industries.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Experience in <span className="font-medium">Leading a Team</span> of
-          front-end, back-end and smart contract developers.
+          Experience in <span className="font-bold">Leading a Team</span> of
+          front end, back end and smart contract developers at{" "}
+          <span className="font-bold">KURONURI</span> project.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Developed <span className="font-medium">DeFi</span>,{" "}
-          <span className="font-medium">NFT marketplace</span>,{" "}
-          <span className="font-medium">Tokens</span> and many{" "}
-          <span className="font-medium">web3</span> projects including{" "}
-          <span className="font-medium">games</span> on Ethereum, Polygon,
+          Developed <span className="font-bold">a comprehensive DeFi</span>,{" "}
+          <span className="font-bold">NFT marketplaces</span>,{" "}
+          <span className="font-bold">Tokens</span> and 20+{" "}
+          <span className="font-bold">Web3</span> projects including{" "}
+          <span className="font-bold">P2E games</span> on Ethereum, Polygon,
           Binance Smart Chain and so on.
         </li>
         <li className=" list-pc my-2 md:text-base">
