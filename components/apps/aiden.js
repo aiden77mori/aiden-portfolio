@@ -292,12 +292,12 @@ function History() {
           express.js.
         </p>,
         <p>
-          Used mongoDB aggregation pipleline for review aggregation engine, and
+          Used mongoDB aggregation pipeline for review aggregation engine, and
           integrated with smart contract using web3.js to store the aggregation
           results.
         </p>,
         <p>
-          Implemented CI/CD pipleline to automate comprehensive project testing
+          Implemented CI/CD pipeline to automate comprehensive project testing
           and efficient deployment processes using github workflow actions.
         </p>,
         <p>
@@ -502,7 +502,7 @@ function History() {
         </p>,
         <p>
           Improved the process of storing app state info by implementing the
-          redux store, and successfully integrated the front-end with Rest APIs.
+          Redux store, and successfully integrated the front-end with Rest APIs.
         </p>,
       ],
     },
