@@ -919,6 +919,33 @@ function Projects() {
       ],
     },
     {
+      name: "DEX Orderbook",
+      date: "Oct 2023",
+      link: "https://orderbook.pepesushi.vip",
+      imgUrl: "./images/projects/dex-orderbook.webp",
+      description: [
+        <p>
+          Dex orderbook platform
+        </p>,
+        <p>
+          Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
+        </p>,
+        <p>Added TradinvView</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "PEPE Bep20 | Burn & Drop",
       date: "June 2023",
       link: "https://pepe.markets/",
