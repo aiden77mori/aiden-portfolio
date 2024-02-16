@@ -769,6 +769,75 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "Roppongi Ai",
+      date: "Feb 2024 - Feb 2024",
+      link: "https://roppongi-ai.netlify.app/",
+      imgUrl: "./images/projects/roppongi-ai.webp",
+      description: [
+        <p>AI website development</p>,
+        <p>Wordpress theme</p>,
+        <p>Elementor Pro</p>,
+      ],
+      domains: ["Wordpress", "AI", "Elementor", "HTML", "CSS", "JavaScript"],
+    },
+    {
+      name: "Plinko Lotto Dapp",
+      date: "Jan 2024 - Jan 2024",
+      link: "https://plinko-lotto.netlify.app/",
+      imgUrl: "./images/projects/plinko-lotto.webp",
+      description: [
+        <p>Lotto game development</p>,
+        <p>Blockchain game development</p>,
+        <p>Lotto token integration</p>,
+      ],
+      domains: [
+        "Dapp",
+        "Lotto",
+        "Blockchain",
+        "Solidity",
+        "React.js",
+        "Web3.js",
+      ],
+    },
+    {
+      name: "Roppongi Lotto Dapp",
+      date: "Jan 2024 - Jan 2024",
+      link: "https://lotto-droplocker.netlify.app/",
+      imgUrl: "./images/projects/roppongi-lotto.webp",
+      description: [
+        <p>Lotto game development</p>,
+        <p>Blockchain game development</p>,
+        <p>Lotto token integration</p>,
+      ],
+      domains: [
+        "Dapp",
+        "Lotto",
+        "Blockchain",
+        "Solidity",
+        "React.js",
+        "Web3.js",
+      ],
+    },
+    {
+      name: "Lucky Wheel Lotto Dapp",
+      date: "Feb 2024 - Feb 2024",
+      link: "https://lucky-wheel-lotto.netlify.app/",
+      imgUrl: "./images/projects/lucky-wheel.webp",
+      description: [
+        <p>Lotto game development</p>,
+        <p>Blockchain game development</p>,
+        <p>Lotto token integration</p>,
+      ],
+      domains: [
+        "Dapp",
+        "Lotto",
+        "Blockchain",
+        "Solidity",
+        "React.js",
+        "Web3.js",
+      ],
+    },
+    {
       name: "AI Play - Video Generator",
       date: "Dec 2023 - Dec 2023",
       link: "https://ai-play.netlify.app/",
@@ -924,9 +993,7 @@ function Projects() {
       link: "https://orderbook.pepesushi.vip",
       imgUrl: "./images/projects/dex-orderbook.webp",
       description: [
-        <p>
-          Dex orderbook platform
-        </p>,
+        <p>Dex orderbook platform</p>,
         <p>
           Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
         </p>,
