@@ -1126,7 +1126,7 @@ function Projects() {
     {
       name: "PEPE Brother",
       date: "May 2023",
-      link: "https://pepe-brothers.netlify.app/",
+      link: "https://brothers.pepesushi.vip",
       imgUrl: "./images/projects/pepe.webp",
       description: [
         <p>Two token support, PEPEP and PEPEG</p>,
