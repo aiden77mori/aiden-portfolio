@@ -838,6 +838,38 @@ function Projects() {
       ],
     },
     {
+      name: "Decent Reviews",
+      date: "Mar 2023 - Nov 2023",
+      link: "https://www.linkedin.com/company/decentreviews/about/",
+      imgUrl: "./images/projects/decent-reviews.webp",
+      description: [
+        <p>Worked on backend and smart contract develoment</p>,
+        <p>
+          Created the user review API, automatic review aggregation engine,
+          automatic review logo generation engine
+        </p>,
+        <p>
+          Integrated with smart contract using web3.js and synced with backend
+        </p>,
+        <p>
+          Implemented the backend including database using cypress and jext
+          testing library and finalize the API document using swagger API
+          framework
+        </p>,
+      ],
+      domains: [
+        "Node.js",
+        "Express.js",
+        "Blockchain",
+        "Solidity",
+        "React.js",
+        "Web3.js",
+        "MongoDB",
+        "CI/CD",
+        "Github",
+      ],
+    },
+    {
       name: "AI Play - Video Generator",
       date: "Dec 2023 - Dec 2023",
       link: "https://ai-play.netlify.app/",
