@@ -893,7 +893,7 @@ function Projects() {
     {
       name: "Speaking Girl AI",
       date: "Nov 2023 - Nov 2023",
-      link: "https://speaking-avatar.netlify.app/",
+      link: "https://speakingai.difines.io",
       imgUrl: "./images/projects/ai-speaking-girl.webp",
       description: [
         <p>Use chatGPT</p>,
