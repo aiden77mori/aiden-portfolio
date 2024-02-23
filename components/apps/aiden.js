@@ -945,7 +945,7 @@ function Projects() {
     {
       name: "Staking Platform",
       date: "Nov 2023 - Dec 2023",
-      link: "https://stake-reward.netlify.app",
+      link: "https://stakes.difines.io",
       imgUrl: "./images/projects/stake-referral-reward.webp",
       description: [
         <p>Has 5 level referral system working on CEX</p>,
@@ -968,7 +968,7 @@ function Projects() {
     {
       name: "FC Marketplace",
       date: "August 2023",
-      link: "https://fc-market.netlify.app/",
+      link: "https://fcmarket.difines.io",
       imgUrl: "./images/projects/fcmarket.webp",
       description: [
         <p>
