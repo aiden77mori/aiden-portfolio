@@ -769,6 +769,25 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "Gateway - Email Wallet",
+      date: "Feb 2024 - Mar 2024",
+      link: "https://gateway.difines.io",
+      imgUrl: "./images/projects/gateway.webp",
+      description: [
+        <p>Email wallet development</p>,
+        <p>Create shop</p>,
+        <p>Token transfer between emails, user to shop</p>,
+      ],
+      domains: [
+        "Web3.js",
+        "Wallet",
+        "React.js",
+        "TailwindCSS",
+        "Typescript",
+        "Crypto",
+      ],
+    },
+    {
       name: "Roppongi Ai",
       date: "Feb 2024 - Feb 2024",
       link: "https://roppongi-ai.netlify.app/",
