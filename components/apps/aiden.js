@@ -962,6 +962,31 @@ function Projects() {
       ],
     },
     {
+      name: "AIFX Platform",
+      date: "Dec 2023 - Dec 2023",
+      link: "https://aifx.pepesushi.vip/",
+      imgUrl: "./images/projects/aifx.webp",
+      description: [
+        <p>Forex trading real time data</p>,
+        <p>A trade with a winning rate of 99.99% is guaranteed</p>,
+        <p>No specialized knowledge or techniques are required</p>,
+        <p>Easily start from Trial plan</p>,
+        <p>Integrated with the blockchain for the crypto payment</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "AI",
+        "trading",
+        "crypto",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Staking Platform",
       date: "Nov 2023 - Dec 2023",
       link: "https://stakes.difines.io",
@@ -982,6 +1007,31 @@ function Projects() {
         "dex",
         "cex",
         "binance smart chain",
+      ],
+    },
+    {
+      name: "Token Bridge",
+      date: "Aug 2023 - Aug 2023",
+      link: "https://bridgeone.netlify.app/bridge",
+      imgUrl: "./images/projects/bridge.webp",
+      description: [
+        <p>Support the multichain token transfer</p>,
+        <p>
+          Created the bridge backend and bridge smart contract on ethereum and
+          binance
+        </p>,
+        <p>Built with web3.js, react.js, node.js and solidity</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "web3.js",
+        "solidity",
+        "hardhat",
+        "bridge",
+        "binance smart chain",
+        "ethereum",
       ],
     },
     {
