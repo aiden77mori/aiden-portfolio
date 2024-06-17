@@ -268,7 +268,51 @@ function History() {
     {
       name: (
         <p>
-          Back End | Smart Contract Developer,{" "}
+          Back End Engineer,{" "}
+          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
+            Dwayne Casino Platform
+          </a>
+        </p>
+      ),
+      date: "Feb 2024 - June 2024, Remote",
+      link: "#",
+      description: [
+        <p>
+          Engineered the backend using Node.js, TypeScript, Express.js, and
+          MongoDB, establishing a scalable and efficient infrastructure capable
+          of handling millions of transactions per day, and implemented
+          real-time chat and game functionalities using the Socket.io module.
+        </p>,
+        <p>
+          Integrated third-party payment APIs to ensure secure token deposits
+          and withdrawals, while also utilizing AI services to enhance security
+          and user experience by filtering user images.
+        </p>,
+        <p>
+          Designed and implemented robust user authentication mechanisms,
+          including CAPTCHA, JWT tokens, and session management, while
+          synchronizing sessions with Socket.io to maintain consistent and
+          accurate user information across both the game and website platforms.
+        </p>,
+        <p>
+          Developed comprehensive affiliate page functionalities and an
+          efficient ticketing system for user support, alongside creating
+          advanced admin features and analytics tools to facilitate data-driven
+          decision-making and operational efficiency.
+        </p>,
+        <p>
+          Employed Docker for containerization and Git for version control,
+          collaborating effectively with frontend developers and game developers
+          to ensure cohesive, timely project delivery, while optimizing database
+          queries and improving system performance, reducing server response
+          times by 30%.
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
+          Back End | Smart Contract Engineer,{" "}
           <a
             className="border-b-2"
             href="https://decentreviews.co"
