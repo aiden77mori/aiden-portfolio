@@ -813,6 +813,30 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "Crash Landing",
+      date: "May 2023",
+      link: "https://brothers.pepesushi.vip",
+      imgUrl: "./images/projects/crashlanding.webp",
+      description: [
+        <p>Two token support, KKR and HMK</p>,
+        <p>Burn one token and get same amount of another token</p>,
+        <p>KAKERUNRUN and HIMEKAN story</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "Gateway - Email Wallet",
       date: "Feb 2024 - Mar 2024",
       link: "https://gateway.difines.io",
