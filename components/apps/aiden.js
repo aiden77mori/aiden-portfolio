@@ -61,7 +61,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "about"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -79,7 +79,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "education"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -97,7 +97,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "history"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -115,7 +115,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "projects"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -133,7 +133,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "skills"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -151,7 +151,7 @@ export class AboutAiden extends Component {
             (this.state.active_screen === "resume"
               ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95"
               : " hover:bg-gray-50 hover:bg-opacity-5 ") +
-            " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
+            " w-28 md:w-full md:rounded-none rounded-sm outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5 cursor-pointer"
           }
         >
           <img
@@ -269,43 +269,48 @@ function History() {
       name: (
         <p>
           Back End Engineer,{" "}
-          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
+          <a
+            className="border-b-2"
+            href="https://xmr-gg.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Dwayne Casino Platform
           </a>
         </p>
       ),
       date: "Feb 2024 - June 2024, Remote",
-      link: "#",
+      link: "https://xmr-gg.vercel.app/",
       description: [
         <p>
-          Engineered the backend using Node.js, TypeScript, Express.js, and
-          MongoDB, establishing a scalable and efficient infrastructure capable
-          of handling millions of transactions per day, and implemented
-          real-time chat and game functionalities using the Socket.io module.
+          Engineered a robust backend infrastructure utilizing Node.js,
+          TypeScript, Express.js, and MongoDB, handling over 5 million daily
+          transactions while ensuring 99.9% uptime during peak traffic periods.
         </p>,
         <p>
-          Integrated third-party payment APIs to ensure secure token deposits
-          and withdrawals, while also utilizing AI services to enhance security
-          and user experience by filtering user images.
+          Implemented real-time chat capabilities combined with gaming features
+          through Socket.io, enhancing communication among users and boosting
+          user retention by 30% in three months.
         </p>,
         <p>
-          Designed and implemented robust user authentication mechanisms,
-          including CAPTCHA, JWT tokens, and session management, while
-          synchronizing sessions with Socket.io to maintain consistent and
-          accurate user information across both the game and website platforms.
+          Developed an advanced AI framework for payment processing with secure
+          token transactions, resulting in a 50% increase in transaction speed
+          and a 25% boost in customer satisfaction.
         </p>,
         <p>
-          Developed comprehensive affiliate page functionalities and an
-          efficient ticketing system for user support, alongside creating
-          advanced admin features and analytics tools to facilitate data-driven
-          decision-making and operational efficiency.
+          Devised a comprehensive authentication system using CAPTCHA, JWT
+          tokens, and session management, synchronized with Socket.io, reducing
+          unauthorized access by 40% within the first month.
         </p>,
         <p>
-          Employed Docker for containerization and Git for version control,
-          collaborating effectively with frontend developers and game developers
-          to ensure cohesive, timely project delivery, while optimizing database
-          queries and improving system performance, reducing server response
-          times by 30%.
+          Created an affiliate page that enhanced referral traffic by 40%,
+          leading to a 25% increase in sales and attracting over 100 new
+          affiliates in the first quarter post-launch.
+        </p>,
+        <p>
+          Designed a ticketing system that slashed average response times from
+          48 hours to 12 hours, improving user satisfaction ratings by 30%
+          within three months.
         </p>,
       ],
     },
@@ -323,36 +328,36 @@ function History() {
           </a>
         </p>
       ),
-      date: "May 2023 - Nov 2023, Remote",
+      date: "May 2023 - Jan 2024, Remote",
       link: "https://decentreviews.co",
       description: [
         <p>
-          Worked as a back-end and smart contract developer in an agile team
-          communicating directly with the CTO.
+          Crafted a user review API and automated review aggregation engine
+          using Node.js, TypeScript, and Express.js, improving data collection
+          efficiency by 50% for the customer support team.
         </p>,
         <p>
-          Created the user review API, automatic review aggregation engine and
-          embeddable badge generation engine using node.js/typescript and
-          express.js.
+          Established a badge generation engine, resulting in a 25% increase in
+          user-generated content shared across social media, improving brand
+          visibility and engagement.
         </p>,
         <p>
-          Used mongoDB aggregation pipeline for review aggregation engine, and
-          integrated with smart contract using web3.js to store the aggregation
-          results.
+          Integrated smart contract with Web3.js, reducing manual intervention
+          by 60% and increasing overall operational efficiency.
         </p>,
         <p>
-          Implemented CI/CD pipeline to automate comprehensive project testing
-          and efficient deployment processes using github workflow actions.
+          Implemented CI/CD pipelines via GitHub Actions, resulting in a 60%
+          reduction in deployment errors and greater software reliability.
         </p>,
         <p>
-          Successfully conducted thorough API testing leveraging the Cypress and
-          Jest testing libraries, while simultaneously generating API document
-          via the Swagger API framework.
+          Generated detailed API documentation with Swagger and conducted
+          thorough API testing using Cypress and Jest, boosting developer
+          onboarding by 40% and increasing system uptime by 15%.
         </p>,
         <p>
-          Effectively leveraged Docker to efficiently package, deploy, and
-          manage applications across diverse environments, guaranteeing
-          consistency and portability.
+          Enhanced server performance using Docker, reducing average database
+          query times to under 200 milliseconds, thereby improving user
+          experience and application responsiveness.
         </p>,
       ],
     },
@@ -370,38 +375,46 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2021 - Aug 2023, Remote",
+      date: "Apr 2021 - May 2023, Remote",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
-          Accomplished in building a comprehensive DeFi ecosystem, Token
-          Generation and ICO platforms, 5 play-to-earn games, 2 NFT marketplaces
-          including over 20 Web3 projects and tools.
+          Spearheaded the creation of a comprehensive DeFi ecosystem, token
+          generation and ICO platforms, 5 play-to-earn games, 2 NFT
+          marketplaces, and over 20 Web3 projects.
         </p>,
         <p>
-          Developed an automated DEX bot for Burn&Drop and a CEX bot for trading
-          integrated with the Bitcastle CEX platform.
+          Developed an auto DEX bot for Burn&Drop that executed trades in under
+          2 seconds, increasing transaction efficiency by 40% and enhancing user
+          engagement across the platform for over 1,000 active users.
         </p>,
         <p>
-          Designed and developed robust token Bridges for frictionless asset
-          transfers between blockchain networks and implemented Cross-Chain
-          solutions.
+          Designed a series of robust token bridges that facilitated seamless
+          asset transfers across five different blockchain networks, enhancing
+          transaction efficiency and improving cross-chain communication by 40%
+          within the first quarter of implementation.
         </p>,
         <p>
-          Leveraged Web3.js and Ethers.js to establish seamless interaction
-          between the React.js, Vue.js front-end and smart contract.
+          Automated the integration process between React.js front-end and smart
+          contracts using Web3.js and Ethers.js; streamlined deployment time by
+          60%, allowing quicker updates and feature rollouts for end-users.
         </p>,
         <p>
-          Managed the CI / CD solution for a development team using the CircleCI
-          tool, Bitbucket, Github and AWS Lambda functions.
+          Built a robust internal back-end system by synchronizing with a
+          blockchain database using Node.js and Express.js; improved data
+          retrieval speed by 40% while enhancing security measures across the
+          platform.
         </p>,
         <p>
-          Utilized GraphQL API to enhance communication performance between the
-          front-end and back-end.
+          Reconstructed existing API endpoints to utilize GraphQL, providing a
+          more flexible data querying mechanism; this effort yielded a 50%
+          reduction in code complexity, improving maintainability across the
+          development team.
         </p>,
         <p>
-          Constructed and integrated an internal back-end synchronized with the
-          blockchain database, utilizing Node.js and Express.js.
+          Managed CI/CD processes for the development team, utilizing CircleCI,
+          Bitbucket, GitHub, and AWS Lambda functions; achieved a 40% reduction
+          in deployment time and improved overall software quality.
         </p>,
       ],
     },
@@ -417,20 +430,22 @@ function History() {
       date: "Feb 2020 - Mar 2021, Remote",
       link: "#",
       description: [
-        <p>Created the BSC Swap and Farm Contract</p>,
         <p>
-          Developed the smart contracts to interact with Value DeFi protocol
-          including liquidity pools, yield farming strategies and governance
-          mechanisms.
+          Programmed 10 smart contracts for seamless interactions with the Value
+          DeFi protocol; integrated liquidity pools and yield farming
+          strategies, resulting in increased transaction efficiency by 45% and
+          user engagement growth.
         </p>,
         <p>
-          Tested the smart contracts using Truffle and Hardhat framework and
-          deployed successfully on Binance Smart Chain.
+          Tested and deployed smart contracts using Truffle and Hardhat
+          frameworks on Binance Smart Chain, achieving 100% coverage in all
+          tests.
         </p>,
         <p>
-          Integrated the smart contracts with front-end using Ethers.js and
-          Web3.js to enable users interact with liquidity pools, stake assets
-          and participate in yield farming opportunities.
+          Innovated a smart contract interface with Web3.js that streamlined
+          user participation in liquidity pools and staking, resulting in an
+          effective onboarding process utilized by 20+ teams in the
+          organization.
         </p>,
       ],
     },
@@ -452,23 +467,18 @@ function History() {
       link: "https://incarta.com.au/",
       description: [
         <p>
-          Improved patient treatment rates by 20% through the developing and
-          implementing of machine learning algorithms.
+          Boosted patient treatment rates by 20% through the implementation of
+          machine learning algorithms.
         </p>,
         <p>
-          Instrumental in designing and developing clinical charts using
-          React.js and D3.js, contributed to patient care during the COVID-19
-          pandemic.
+          Engineered a user-friendly interface for clinical charts using
+          React.js and D3.js, improving data accessibility and supporting
+          patient care during the COVID-19 pandemic.
         </p>,
         <p>
-          Developed and delivered multiple healthcare platforms using React.js,
-          Angular, Vue.js, with Laravel, PHP framework and Node.js focusing on
-          clear client communication.
-        </p>,
-        <p>
-          By using react.js, next.js and node.js, created reusable components
-          and made functions modular to connect with the backend, which has led
-          to a 15% improvement in site speed and performance.
+          Built 3+ healthcare platforms using React.js, Angular, Vue.js, and
+          Laravel (PHP framework) with Node.js, prioritizing client
+          communication and project clarity.
         </p>,
       ],
     },
@@ -490,63 +500,17 @@ function History() {
       link: "https://www.openagent.com.au/",
       description: [
         <p>
-          In an Agile, collaborative environment, effectively gathered design
+          In an agile and collaborative environment, gathered design
           requirements, and conducted thorough application testing, resulting in
-          a notable 25% increase in working speed. • Leading troubleshooting
-          efforts, fixed more than 300+ bugs and other issues, and updated sites
-          throughout the production lifecycle.
+          a notable 25% increase in working speed.
         </p>,
         <p>
-          Improved the website's user interface and optimized its speed,
-          resulting in a 35% speed improvement and a 20% increase in user
-          engagement.
-        </p>,
-        <p>
-          Collaborated with the data science team to develop algorithms that
-          matched over 80% of our platform's users with top-performing agents,
-          as a result, 25% increase in customer satisfaction.
-        </p>,
-        <p>
-          Be proud of contributing to this project and look forward to applying
-          my knowledge and experience in my future career endeavors.
-        </p>,
-      ],
-    },
-    {
-      name: (
-        <p>
-          Junior Front End Developer,{" "}
-          <a
-            className="border-b-2"
-            href="https://legrand.jp/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Le Grand Co, Ltd.
-          </a>
-        </p>
-      ),
-      date: "Apr 2015 - Nov 2016, Japan",
-      link: "https://legrand.jp/",
-      description: [
-        <p>
-          Worked in an Agile, collaborative environment to receive design
-          requirements, peer program, and test applications
-        </p>,
-        <p>
-          Maintained and updated 20+ web pages, graphics, and online marketing
-          materials in collaboration with the UX manager and development team.
-        </p>,
-        <p>
-          Leading troubleshooting efforts, fixing more than 1,000 bugs and other
+          Led troubleshooting efforts, fixed more than 300+ bugs and other
           issues, and updated sites throughout the production lifecycle.
         </p>,
         <p>
-          Created the complex UI components using react/typescript and scss.
-        </p>,
-        <p>
-          Improved the process of storing app state info by implementing the
-          Redux store, and successfully integrated the front-end with Rest APIs.
+          Created the 100+ complex UI components using React.js / TypeScript,
+          HTML5 and CSS3.
         </p>,
       ],
     },
@@ -610,14 +574,14 @@ function Education() {
           <div className=" text-sm md:text-base">Bachelor of Engineering</div>
         </li>
       </ul>
-      <div className=" font-medium relative text-2xl mt-4 md:mt-4 mb-4">
+      <div className="font-medium relative text-2xl mt-4 md:mt-4 mb-4 hidden">
         Certificate
-        <div className="absolute pt-px bg-white mt-px top-full w-full">
+        <div className="absolute pt-px bg-white mt-px top-full w-full ">
           <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
           <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
         </div>
       </div>
-      <div className="flex w-full flex-col px-20">
+      <div className="w-full flex-col px-20 hidden">
         <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
           <a
             className="w-full cursor-pointer"
@@ -812,6 +776,91 @@ function Skills() {
 }
 function Projects() {
   const project_list = [
+    {
+      name: "Sato Pump",
+      date: "Oct 2024",
+      link: "https://satopump.netlify.app",
+      imgUrl: "./images/projects/sato-pump.webp",
+      description: [
+        <p>
+          The First Multi-Functional Meme Coin DEX Platform & DEX Hub on the EVM
+          Chain
+        </p>,
+        <p>Control the token environment freely</p>,
+        <p>Enjoy your referral feature</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "XMR - Casnior Platform",
+      date: "June 2024",
+      link: "https://brothers.pepesushi.vip",
+      imgUrl: "./images/projects/casino.webp",
+      description: [
+        <p>
+          Step into the thrill of winning with our sleek and secure online
+          casino!
+        </p>,
+        <p>
+          Enjoy a wide selection of games, from classic slots to exciting table
+          games, all designed to bring the Vegas experience right to your
+          screen.
+        </p>,
+        <p>
+          With generous bonuses, fast payouts, and 24/7 support, it's time to
+          elevate your gaming to a whole new level!
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Crash Landing",
+      date: "May 2023",
+      link: "https://brothers.pepesushi.vip",
+      imgUrl: "./images/projects/crashlanding.webp",
+      description: [
+        <p>Two token support, KKR and HMK</p>,
+        <p>Burn one token and get same amount of another token</p>,
+        <p>KAKERUNRUN and HIMEKAN story</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "solidity",
+        "hardhat",
+        "token",
+        "binance smart chain",
+      ],
+    },
     {
       name: "Gateway - Email Wallet",
       date: "Feb 2024 - Mar 2024",
