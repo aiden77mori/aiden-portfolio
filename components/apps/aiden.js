@@ -806,7 +806,7 @@ function Projects() {
     {
       name: "XMR - Casnior Platform",
       date: "June 2024",
-      link: "https://brothers.pepesushi.vip",
+      link: "https://xmr-gg.vercel.app/",
       imgUrl: "./images/projects/casino.webp",
       description: [
         <p>
