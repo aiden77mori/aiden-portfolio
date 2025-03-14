@@ -52,7 +52,7 @@ export default class Navbar extends Component {
               <div role="status">
                 <svg
                   aria-hidden="true"
-                  class="inline w-4 h-4 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-orange-600"
+                  className="inline w-4 h-4 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-orange-600"
                   viewBox="0 0 100 101"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ export default class Navbar extends Component {
                     fill="currentFill"
                   />
                 </svg>
-                <span class="sr-only">Loading...</span>
+                <span className="sr-only">Loading...</span>
               </div>
             ) : (
               this.state.visit_count
