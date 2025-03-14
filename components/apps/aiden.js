@@ -271,7 +271,7 @@ function History() {
           Back End Engineer,{" "}
           <a
             className="border-b-2"
-            href="https://xmr-gg.vercel.app/"
+            href="https://xmr.gg/"
             target="_blank"
             rel="noreferrer"
           >
@@ -280,7 +280,7 @@ function History() {
         </p>
       ),
       date: "Feb 2024 - June 2024, Remote",
-      link: "https://xmr-gg.vercel.app/",
+      link: "https://xmr.gg/",
       description: [
         <p>
           Engineered a robust backend infrastructure utilizing Node.js,
@@ -806,7 +806,7 @@ function Projects() {
     {
       name: "XMR - Casnior Platform",
       date: "June 2024",
-      link: "https://xmr-gg.vercel.app/",
+      link: "https://xmr.gg/",
       imgUrl: "./images/projects/casino.webp",
       description: [
         <p>
