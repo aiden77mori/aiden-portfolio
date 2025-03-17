@@ -1,6 +1,6 @@
 import displayDifines from "./components/apps/difines";
 import displayPartner from "./components/apps/partner";
-import displayChat from './components/apps/chat';
+import displayChat from "./components/apps/chat";
 import displayVsCode from "./components/apps/vscode";
 import { displayTerminal } from "./components/apps/terminal";
 import { displaySettings } from "./components/apps/settings";
@@ -19,6 +19,15 @@ const apps = [
     favourite: true,
     desktop_shortcut: true,
     screen: displayAboutAiden,
+  },
+  {
+    id: "gedit",
+    title: "Contact Me",
+    icon: "./themes/Yaru/apps/gedit.png",
+    disabled: false,
+    favourite: false,
+    desktop_shortcut: true,
+    screen: displayGedit,
   },
   {
     id: "chrome",
@@ -83,7 +92,6 @@ const apps = [
     desktop_shortcut: false,
     screen: displayTerminal,
   },
-
   {
     id: "settings",
     title: "Settings",
@@ -92,15 +100,6 @@ const apps = [
     favourite: true,
     desktop_shortcut: false,
     screen: displaySettings,
-  },
-  {
-    id: "gedit",
-    title: "Contact Me",
-    icon: "./themes/Yaru/apps/gedit.png",
-    disabled: false,
-    favourite: false,
-    desktop_shortcut: true,
-    screen: displayGedit,
   },
   {
     id: "trash",

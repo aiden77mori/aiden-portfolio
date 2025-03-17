@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Component } from "react";
 import ReactGA from "react-ga";
 
@@ -218,10 +219,9 @@ function About() {
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Aiden Mori</span> ,
+          My name is <span className="font-bold">Aiden</span> ,
         </div>
         <div className="font-normal ml-1">
-          I'm a{" "}
           <span className="text-pink-600 font-bold">
             Full Stack and Blockchain Developer!
           </span>
@@ -230,6 +230,44 @@ function About() {
       <div className=" mt-4 relative md:my-4 pt-px bg-white w-32 md:w-48">
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
+      </div>
+      <div className="flex items-center gap-5">
+        <Image
+          src="/images/logos/skype.svg"
+          alt="Skype Logo"
+          width={25}
+          height={25}
+          className="cursor-pointer"
+          onClick={() =>
+            window.open("https://join.skype.com/invite/ASsHj806HhLp", "_blank")
+          }
+        />
+        <Image
+          src="/images/logos/discord.svg"
+          alt="Discord Logo"
+          width={25}
+          height={25}
+          className="cursor-pointer"
+          onClick={() =>
+            window.open("https://discord.com/users/aiden77mori", "_blank")
+          }
+        />
+        <Image
+          src="/images/logos/telegram.svg"
+          alt="Telegram Logo"
+          width={25}
+          height={25}
+          className="cursor-pointer"
+          onClick={() => window.open("https://t.me/evw77", "_blank")}
+        />
+        <Image
+          src="/images/logos/email.svg"
+          alt="Telegram Logo"
+          width={25}
+          height={25}
+          className="cursor-pointer"
+          onClick={() => window.open("mailto:aiden77mori@gmail.com", "_blank")}
+        />
       </div>
       <ul className=" my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc my-2 md:text-base">
@@ -549,6 +587,18 @@ function History() {
                 </li>
               ))}
             </ul>
+            <div className="flex flex-wrap items-start justify-start text-xs py-4">
+              {project.domains
+                ? project.domains.map((domain, index) => (
+                    <span
+                      key={index}
+                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                    >
+                      {domain}
+                    </span>
+                  ))
+                : null}
+            </div>
           </div>
         </div>
       ))}
@@ -776,6 +826,91 @@ function Skills() {
 }
 function Projects() {
   const project_list = [
+    {
+      name: "Micro Bitcoin Spin",
+      date: "Mar 2025",
+      link: "https://micro-spin.netlify.app/",
+      imgUrl: "./images/projects/wbtc-spin.webp",
+      description: [
+        <p>マイクロビットコインの魅力</p>,
+        <p>
+          豊富なコンテンツが続々と誕生し、「使えるビットコイン」として
+        </p>,
+        <p>少額から使えるビットコインのマイクロペイメントとして</p>,
+        <p>ビットコインの価格と常に連動している</p>,
+        <p>100万分の1の価格だから買いやすく便利</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "meme",
+        "burn",
+        "burn to earn",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Burn To Earn",
+      date: "Jan 2025",
+      link: "https://burntoearn.net",
+      imgUrl: "./images/projects/b2e.webp",
+      description: [
+        <p>
+          Burn the token with low price and get the high price of token and make
+          the profit
+        </p>,
+        <p>Burn the locked token and get the high price of token</p>,
+        <p>Supports over 10+ meme coins</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "meme",
+        "burn",
+        "burn to earn",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
+    {
+      name: "Micro Bitcoin",
+      date: "Feb 2025",
+      link: "https://wbtc-difines.netlify.app/",
+      imgUrl: "./images/projects/wbtc-lp.webp",
+      description: [
+        <p>
+          Micro Bitcoin is a user-friendly cryptocurrency, represending
+          one-millionth of of a Bitcoin
+        </p>,
+        <p>It offers the flexibility of a BEP-20 token</p>,
+        <p>1,000,000 uBTC = 1 BTC</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "scss",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "meme",
+        "burn",
+        "burn to earn",
+        "solidity",
+        "hardhat",
+        "binance smart chain",
+      ],
+    },
     {
       name: "Sato Pump",
       date: "Oct 2024",
