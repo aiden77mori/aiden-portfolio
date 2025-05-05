@@ -827,15 +827,73 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "DFS Scan",
+      date: "Apr 2025",
+      link: "https://dfs-scan.netlify.app/",
+      imgUrl: "./images/projects/dfs_scan.webp",
+      description: [
+        <p>
+          DFS Scan is a tool that allows you to scan the DFS network for
+          transactions and blocks.
+        </p>,
+        <p>
+          It provides a user-friendly web interface to explore and analyze
+          blockchain data, including transaction history, wallet balances, smart
+          contract interactions, and real-time network statistics.
+        </p>,
+        <p>
+          It is a web-based analytics tool that provides insights and
+          visualization for transaction data and block information from various
+          data sources.
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase",
+        "dfs chain",
+        "difines",
+        "web2",
+      ],
+    },
+    {
+      name: "MetaFace - DFS Wallet",
+      date: "Apr 2025",
+      link: "https://dfs-wallet.vercel.app/get-started",
+      imgUrl: "./images/projects/dfs_wallet.webp",
+      description: [
+        <p>
+          MetaFace is a secure wallet on the DFSChain platform, enabling
+          universal access to the Web2.5 ecosystem.
+        </p>,
+        <p>
+          It is a web-based wallet that allows you to send and receive tokens.
+        </p>,
+        <p>
+          It integrates with the DFS Scan project to provide real-time
+          transaction history and analytics directly within the wallet
+          interface.
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase",
+        "dfs chain",
+        "difines",
+        "web2",
+      ],
+    },
+    {
       name: "Micro Bitcoin Spin",
       date: "Mar 2025",
       link: "https://micro-spin.netlify.app/",
       imgUrl: "./images/projects/wbtc-spin.webp",
       description: [
         <p>マイクロビットコインの魅力</p>,
-        <p>
-          豊富なコンテンツが続々と誕生し、「使えるビットコイン」として
-        </p>,
+        <p>豊富なコンテンツが続々と誕生し、「使えるビットコイン」として</p>,
         <p>少額から使えるビットコインのマイクロペイメントとして</p>,
         <p>ビットコインの価格と常に連動している</p>,
         <p>100万分の1の価格だから買いやすく便利</p>,
