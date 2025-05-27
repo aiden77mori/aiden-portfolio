@@ -317,7 +317,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Feb 2024 - June 2024, Remote",
+      date: "Feb 2024 - Present, Remote",
       link: "https://xmr.gg/",
       description: [
         <p>
