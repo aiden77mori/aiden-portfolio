@@ -827,9 +827,41 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "POIPI",
+      date: "May 2025",
+      link: "https://app.poipi.com/en",
+      imgUrl: "./images/projects/poipi.webp",
+      description: [
+        <p>
+          Earn points daily by participating in the project, visiting our
+          platform and social channels, and inviting others.
+        </p>,
+        <p>
+          Redeem your points for cryptocurrency anytime or use them to join our
+          DFS Chain token airdrop.
+        </p>,
+        <p>
+          Complete surveys and Q&A sessions to earn additional points and
+          rewards.
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase/firestore",
+        "dfs chain",
+        "point",
+        "poipi",
+        "dripoi",
+        "surpoi",
+        "airdrop",
+      ],
+    },
+    {
       name: "DFS Scan",
       date: "Apr 2025",
-      link: "https://dfs-scan.netlify.app/",
+      link: "https://dfsscan.com/",
       imgUrl: "./images/projects/dfs_scan.webp",
       description: [
         <p>
@@ -860,7 +892,7 @@ function Projects() {
     {
       name: "MetaFace - DFS Wallet",
       date: "Apr 2025",
-      link: "https://dfs-wallet.vercel.app/get-started",
+      link: "http://metaface.dfsscan.com/",
       imgUrl: "./images/projects/dfs_wallet.webp",
       description: [
         <p>
