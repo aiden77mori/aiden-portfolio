@@ -1355,7 +1355,7 @@ function Projects() {
     {
       name: "FC Marketplace",
       date: "August 2023",
-      link: "https://fcmarket.difines.io",
+      link: "https://fc-market.netlify.app/",
       imgUrl: "./images/projects/fcmarket.webp",
       description: [
         <p>
