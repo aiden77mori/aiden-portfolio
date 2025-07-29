@@ -827,6 +827,79 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "Uhalisi",
+      date: "Jul 2025",
+      link: "https://uhalisi.com",
+      imgUrl: "./images/projects/uhalisi.webp",
+      description: [
+        <p>
+          ✅ AI detects unauthorized use (supports all images, videos, audio,
+          and text)
+        </p>,
+        <p>✅ Instantly record evidence with DFSChain</p>,
+        <p>✅ Instantly issue authentic certificates</p>,
+        <p>
+          ✅ Comprehensive support for royalty claims, damage compensation, and
+          monetization
+        </p>,
+        <p>
+          ✅ Automatically detects slanderous comments on social media and
+          preserves logs
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase/firestore",
+        "dfs chain",
+        "dfsscan",
+        "ai",
+        "royalty",
+        "metaface",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "WEX Swap",
+      date: "Jun 2025",
+      link: "https://wex.dfsscan.com",
+      imgUrl: "./images/projects/wex.webp",
+      description: [
+        <p>
+          WEX Swap is a decentralized exchange on the DFS Chain, enabling users
+          to add liquidity and swap tokens while earning rewards.
+        </p>,
+        <p>
+          WEX has same functionality with Web3 DEX platform, but it is on the
+          DFS Chain, so it is more secure and faster.
+        </p>,
+        <p>Please wait for more features coming...</p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase/firestore",
+        "wex",
+        "dfs chain",
+        "dfsscan",
+        "dex",
+        "swap",
+        "liquidity",
+        "reward",
+        "web2",
+        "web2.5",
+        "web3",
+        "trading",
+        "staking",
+        "farming",
+        "defi",
+      ],
+    },
+    {
       name: "POIPI",
       date: "May 2025",
       link: "https://app.poipi.com/en",
