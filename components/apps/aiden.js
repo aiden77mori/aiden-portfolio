@@ -865,7 +865,7 @@ function Projects() {
     {
       name: "WEX Swap",
       date: "Jun 2025",
-      link: "https://wex.dfsscan.com",
+      link: "https://wexswap.com",
       imgUrl: "./images/projects/wex.webp",
       description: [
         <p>
