@@ -219,11 +219,11 @@ function About() {
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Aiden</span> ,
+          Hi, I'm <span className="font-bold">Aiden</span>,
         </div>
         <div className="font-normal ml-1">
           <span className="text-pink-600 font-bold">
-            Full Stack and Blockchain Developer!
+            Full Stack & Web3 Engineer.
           </span>
         </div>
       </div>
@@ -269,33 +269,29 @@ function About() {
           onClick={() => window.open("mailto:aiden77mori@gmail.com", "_blank")}
         />
       </div>
-      <ul className=" my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-        <li className=" list-pc my-2 md:text-base">
-          Detail oriented professional with over 8 years of experience in{" "}
-          <span className="font-bold">Web2</span> and{" "}
-          <span className="font-bold">Web3</span> industries.
+      <ul className="my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
+        <li className="list-pc my-2 md:text-base">
+          8+ years of experience across <span className="font-bold">Web2</span>{" "}
+          and <span className="font-bold">Web3</span>.
         </li>
-        <li className=" list-pc my-2 md:text-base">
-          Experience in <span className="font-bold">Leading a Team</span> of
-          front end, back end and smart contract developers at{" "}
-          <span className="font-bold">KURONURI</span> project.
+        <li className="list-pc my-2 md:text-base">
+          Led cross-functional teams of frontend, backend, and smart contract
+          developers at <span className="font-bold">KURONURI</span>.
         </li>
-        <li className=" list-pc my-2 md:text-base">
-          Developed <span className="font-bold">a comprehensive DeFi</span>,{" "}
+        <li className="list-pc my-2 md:text-base">
+          Built <span className="font-bold">DeFi apps</span>,{" "}
           <span className="font-bold">NFT marketplaces</span>,{" "}
-          <span className="font-bold">Tokens</span> and 20+{" "}
-          <span className="font-bold">Web3</span> projects including{" "}
-          <span className="font-bold">P2E games</span> on Ethereum, Polygon,
-          Binance Smart Chain and so on.
+          <span className="font-bold">tokens</span>, and 20+{" "}
+          <span className="font-bold">Web3 projects</span> including{" "}
+          <span className="font-bold">P2E games</span> on Ethereum, Polygon, and
+          BSC.
         </li>
-        <li className=" list-pc my-2 md:text-base">
-          Advanced knowledge of multiple programming languages, frameworks and
-          several database structures.
+        <li className="list-pc my-2 md:text-base">
+          Strong in multiple languages, frameworks, and database systems.
         </li>
-        <li className=" list-pc my-2 md:text-base">
-          Reliable team player offering exceptional analytical and time
-          management skills and the important ability to think critically and
-          solve complex problems.
+        <li className="list-pc my-2 md:text-base">
+          Collaborative problem-solver with proven analytical and time
+          management skills.
         </li>
       </ul>
     </>
