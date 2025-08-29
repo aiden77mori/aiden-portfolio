@@ -1073,7 +1073,7 @@ function Projects() {
     {
       name: "Sato Pump",
       date: "Oct 2024",
-      link: "https://satopump.netlify.app",
+      link: "https://satopump.fun",
       imgUrl: "./images/projects/sato-pump.webp",
       description: [
         <p>
