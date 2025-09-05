@@ -845,7 +845,7 @@ function Projects() {
       name: "Tiger Bucks",
       date: "Mar 2025",
       link: "https://tiger-bucks.vercel.app",
-      imgUrl: "./images/projects/uhalisi.webp",
+      imgUrl: "./images/projects/tiger-bucks.webp",
       description: [<p>Token landing page</p>, <p>Tiger Bucks bep20 token</p>],
       domains: [
         "next.js",
