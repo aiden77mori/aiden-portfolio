@@ -823,6 +823,41 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "DIFINES Intro",
+      date: "Mar 2025",
+      link: "https://intro.difines.io",
+      imgUrl: "./images/projects/difines-intro.webp",
+      description: [<p>DIFINES introduction website</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "ai",
+        "royalty",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "Tiger Bucks",
+      date: "Mar 2025",
+      link: "https://tiger-bucks.vercel.app",
+      imgUrl: "./images/projects/uhalisi.webp",
+      description: [<p>Token landing page</p>, <p>Tiger Bucks bep20 token</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "royalty",
+        "web3",
+        "bep20",
+        "bsc",
+      ],
+    },
+    {
       name: "Uhalisi",
       date: "Jul 2025",
       link: "https://uhalisi.com",
@@ -990,7 +1025,7 @@ function Projects() {
     {
       name: "Micro Bitcoin Spin",
       date: "Mar 2025",
-      link: "https://micro-spin.netlify.app/",
+      link: "https://micro-spin.vercel.app/",
       imgUrl: "./images/projects/wbtc-spin.webp",
       description: [
         <p>マイクロビットコインの魅力</p>,
@@ -1045,7 +1080,7 @@ function Projects() {
     {
       name: "Micro Bitcoin",
       date: "Feb 2025",
-      link: "https://wbtc-difines.netlify.app/",
+      link: "https://wbtc-landing.vercel.app/",
       imgUrl: "./images/projects/wbtc-lp.webp",
       description: [
         <p>
@@ -1134,7 +1169,7 @@ function Projects() {
     {
       name: "Crash Landing",
       date: "May 2023",
-      link: "https://brothers.pepesushi.vip",
+      link: "https://crash-landing.vercel.app",
       imgUrl: "./images/projects/crashlanding.webp",
       description: [
         <p>Two token support, KKR and HMK</p>,
@@ -1449,7 +1484,7 @@ function Projects() {
     {
       name: "PEPE Sushi",
       date: "May 2023",
-      link: "https://pepesushi.vip",
+      link: "https://pepe-sushi.vercel.app/",
       imgUrl: "./images/projects/pepe-sushi.webp",
       description: [
         <p>
@@ -1580,33 +1615,9 @@ function Projects() {
       domains: ["mobile", "ios", "ipad", "android"],
     },
     {
-      name: "PEPE Brother",
-      date: "May 2023",
-      link: "https://brothers.pepesushi.vip",
-      imgUrl: "./images/projects/pepe.webp",
-      description: [
-        <p>Two token support, PEPEP and PEPEG</p>,
-        <p>Burn one token and get same amount of another token</p>,
-        <p>Pepe police and pepe gang story</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
       name: "PEPE MSG",
       date: "May 2023",
-      link: "https://intro.themessages.xyz/",
+      link: "https://pepe-msg.vercel.app",
       imgUrl: "./images/projects/pepe-msg.webp",
       description: [
         <p>The Messages. Combining Meme culture with utility.</p>,
