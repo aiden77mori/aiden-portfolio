@@ -823,6 +823,40 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "DFS BurnToEarn",
+      date: "Oct 2025",
+      link: "https://dfs-burntoearn.vercel.app/",
+      imgUrl: "./images/projects/dfs-burntoearn.webp",
+      description: [<p>BurnToEarn platform on DFS chain</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "DFS Wallet Private",
+      date: "Oct 2025",
+      link: "https://dfs-wallet-private.vercel.app/",
+      imgUrl: "./images/projects/dfs-private.webp",
+      description: [<p>MetaFace wallet private on DFS chain</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
       name: "DIFINES Intro",
       date: "Mar 2025",
       link: "https://intro.difines.io",
