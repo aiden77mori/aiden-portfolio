@@ -302,6 +302,42 @@ function History() {
     {
       name: (
         <p>
+          Full Stack Engineer (Web3, AI, Vibe),{" "}
+          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
+            Freelancer
+          </a>
+        </p>
+      ),
+      date: "Feb 2025 - Present, Remote",
+      link: "#",
+      description: [
+        <p>
+          Built AI-generated web apps using Lovable, v0, Bolt, and Replit,
+          guiding clients with precise prompts and customizing key logic like
+          Supabase integration and Stripe payments.
+        </p>,
+        <p>
+          Helped founders rapidly launch MVPs by refining AI-generated codebases
+          in Next.js and Svelte, ensuring scalability, clean UI, and smooth user
+          experience.
+        </p>,
+        <p>
+          Developed and deployed Web3 dApps, Token launchpads, and NFT
+          marketplaces using Next.js, Ethers.js, and Solidity, integrating
+          wallet connections and token-based access. Successfully supported two
+          token sales that raised over $250K and boosted user engagement by 900%
+          through the development of a Spin rewards website
+        </p>,
+        <p>
+          Delivered secure, production-ready blockchain solutions across
+          Ethereum, Polygon, and Solana, optimizing smart contract interactions
+          and real-time data handling.
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
           Back End Engineer,{" "}
           <a
             className="border-b-2"
@@ -313,7 +349,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Feb 2024 - Present, Remote",
+      date: "Feb 2024 - Feb 2025, Remote",
       link: "https://xmr.gg/",
       description: [
         <p>
