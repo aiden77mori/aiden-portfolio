@@ -1004,7 +1004,7 @@ function Projects() {
       name: "RakuEarn",
       date: "Apr 2025",
       link: "https://www.rakuearn.com/en",
-      imgUrl: "./images/projects/raukearn.webp",
+      imgUrl: "./images/projects/rakuearn.webp",
       description: [
         <p>
           RakuEarn platform is the one that you can earn points easily by
