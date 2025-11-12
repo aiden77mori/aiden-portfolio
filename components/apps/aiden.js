@@ -1001,9 +1001,36 @@ function Projects() {
       ],
     },
     {
+      name: "RakuEarn",
+      date: "Apr 2025",
+      link: "https://www.rakuearn.com/en",
+      imgUrl: "./images/projects/raukearn.webp",
+      description: [
+        <p>
+          RakuEarn platform is the one that you can earn points easily by
+          answering for surveys.
+        </p>,
+        <p>
+          You can exchange points for real money via bank transfer, as well as
+          redeem them for gift cards and rewards such as Bank Transfer, Amazon,
+          Apple Store, Google Play, PayPay, and more.
+        </p>,
+        <p>Creating an account and using the AI tool is completely free.</p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "supabase",
+        "AI",
+        "point",
+        "exchange",
+      ],
+    },
+    {
       name: "POIPI",
       date: "May 2025",
-      link: "https://app.poipi.com/en",
+      link: "https://www.poipi.com",
       imgUrl: "./images/projects/poipi.webp",
       description: [
         <p>
