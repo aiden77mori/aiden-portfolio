@@ -912,6 +912,23 @@ function Projects() {
       ],
     },
     {
+      name: "DIFINES Web Chain",
+      date: "Mar 2025",
+      link: "https://difines.org",
+      imgUrl: "./images/projects/difines.webp",
+      description: [<p>DIFINES web chain website</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "web2",
+        "web2.5",
+        "difines",
+        "DFS",
+        "DFS Web Chain",
+      ],
+    },
+    {
       name: "Tiger Bucks",
       date: "Mar 2025",
       link: "https://tiger-bucks.vercel.app",
