@@ -7,7 +7,7 @@ export class AboutAiden extends Component {
     super();
     this.screens = {};
     this.state = {
-      screen: () => {},
+      screen: () => { },
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -622,13 +622,13 @@ function History() {
             <div className="flex flex-wrap items-start justify-start text-xs py-4">
               {project.domains
                 ? project.domains.map((domain, index) => (
-                    <span
-                      key={index}
-                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                    >
-                      {domain}
-                    </span>
-                  ))
+                  <span
+                    key={index}
+                    className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                  >
+                    {domain}
+                  </span>
+                ))
                 : null}
             </div>
           </div>
@@ -858,6 +858,29 @@ function Skills() {
 }
 function Projects() {
   const project_list = [
+    {
+      name: "Memory Garden",
+      date: "Dec 2025",
+      link: "https://plant-memory.bolt.host",
+      imgUrl: "./images/projects/memory-garden.webp",
+      description: [<p>Memory Garden is an interactive web-based experience that transforms user-submitted memories, emotions, and reflections into a living digital landscape. Each contribution blooms as a unique generative plant—its shape, color, and movement reflecting the mood of the text. Visitors can explore a shared garden filled with these emotional plants, click to read anonymous entries, and plant their own.
+      </p>,
+      <p>
+        Built using modern web technologies and generative art tools, Memory Garden combines personal storytelling, emotional design, and collaborative creativity. The result is a poetic, immersive space where individual moments grow into a collective emotional archive—quiet, reflective, and always evolving.
+      </p>],
+      domains: [
+        "react.js",
+        "typescript",
+        "tailwind",
+        "generative art",
+        "web2",
+        "bolt",
+        "ai",
+        "openai",
+        "node.js",
+        "supabase"
+      ],
+    },
     {
       name: "DFS BurnToEarn",
       date: "Oct 2025",
@@ -2374,13 +2397,13 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-4">
                 {project.domains
                   ? project.domains.map((domain, index) => (
-                      <span
-                        key={index}
-                        className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                      >
-                        {domain}
-                      </span>
-                    ))
+                    <span
+                      key={index}
+                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                    >
+                      {domain}
+                    </span>
+                  ))
                   : null}
               </div>
             </div>
