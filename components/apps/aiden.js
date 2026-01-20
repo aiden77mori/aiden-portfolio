@@ -7,7 +7,7 @@ export class AboutAiden extends Component {
     super();
     this.screens = {};
     this.state = {
-      screen: () => { },
+      screen: () => {},
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -622,13 +622,13 @@ function History() {
             <div className="flex flex-wrap items-start justify-start text-xs py-4">
               {project.domains
                 ? project.domains.map((domain, index) => (
-                  <span
-                    key={index}
-                    className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                  >
-                    {domain}
-                  </span>
-                ))
+                    <span
+                      key={index}
+                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                    >
+                      {domain}
+                    </span>
+                  ))
                 : null}
             </div>
           </div>
@@ -863,11 +863,23 @@ function Projects() {
       date: "Dec 2025",
       link: "https://plant-memory.bolt.host",
       imgUrl: "./images/projects/memory-garden.webp",
-      description: [<p>Memory Garden is an interactive web-based experience that transforms user-submitted memories, emotions, and reflections into a living digital landscape. Each contribution blooms as a unique generative plant—its shape, color, and movement reflecting the mood of the text. Visitors can explore a shared garden filled with these emotional plants, click to read anonymous entries, and plant their own.
-      </p>,
-      <p>
-        Built using modern web technologies and generative art tools, Memory Garden combines personal storytelling, emotional design, and collaborative creativity. The result is a poetic, immersive space where individual moments grow into a collective emotional archive—quiet, reflective, and always evolving.
-      </p>],
+      description: [
+        <p>
+          Memory Garden is an interactive web-based experience that transforms
+          user-submitted memories, emotions, and reflections into a living
+          digital landscape. Each contribution blooms as a unique generative
+          plant—its shape, color, and movement reflecting the mood of the text.
+          Visitors can explore a shared garden filled with these emotional
+          plants, click to read anonymous entries, and plant their own.
+        </p>,
+        <p>
+          Built using modern web technologies and generative art tools, Memory
+          Garden combines personal storytelling, emotional design, and
+          collaborative creativity. The result is a poetic, immersive space
+          where individual moments grow into a collective emotional
+          archive—quiet, reflective, and always evolving.
+        </p>,
+      ],
       domains: [
         "react.js",
         "typescript",
@@ -878,7 +890,7 @@ function Projects() {
         "ai",
         "openai",
         "node.js",
-        "supabase"
+        "supabase",
       ],
     },
     {
@@ -1594,6 +1606,26 @@ function Projects() {
       ],
     },
     {
+      name: "Web3.0 Chatting Platform - Fuji Chat",
+      date: "Feb 2023",
+      imgUrl: "./images/projects/chatfi.webp",
+      link: "https://fujichat.vercel.app",
+      description: [
+        <p>Chat each other using wallet address</p>,
+        <p>Create the group and invite people</p>,
+        <p>Transfer token easily</p>,
+        <p>Create the token airdrop and voting event</p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "chatscope",
+        "web3.js",
+        "firebase",
+        "binance smart chain",
+      ],
+    },
+    {
       name: "FC Marketplace",
       date: "August 2023",
       link: "https://fc-market.netlify.app/",
@@ -1989,27 +2021,6 @@ function Projects() {
       domains: ["mobile", "ios", "ipad", "android"],
     },
     {
-      name: "Web3.0 Messaging Platform - Chat Fi",
-      date: "Feb 2023",
-      imgUrl: "./images/projects/chatfi.webp",
-      link: "https://chatfi.difines.io",
-      description: [
-        <p>Chat each other using wallet address</p>,
-        <p>Create the group and invite people</p>,
-        <p>Transfer token easily</p>,
-        <p>Create the token airdrop and voting event</p>,
-        <p>Plan to add many feature</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "chatscope",
-        "web3.js",
-        "firebase",
-        "binance smart chain",
-      ],
-    },
-    {
       name: "The Messages (record)",
       date: "Mar 2023",
       imgUrl: "./images/projects/message.webp",
@@ -2397,13 +2408,13 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-4">
                 {project.domains
                   ? project.domains.map((domain, index) => (
-                    <span
-                      key={index}
-                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                    >
-                      {domain}
-                    </span>
-                  ))
+                      <span
+                        key={index}
+                        className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                      >
+                        {domain}
+                      </span>
+                    ))
                   : null}
               </div>
             </div>
