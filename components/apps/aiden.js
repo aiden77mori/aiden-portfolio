@@ -7,7 +7,7 @@ export class AboutAiden extends Component {
     super();
     this.screens = {};
     this.state = {
-      screen: () => {},
+      screen: () => { },
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -308,7 +308,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Feb 2025 - Present, Remote",
+      date: " - Present, Remote",
       link: "#",
       description: [
         <p>
@@ -349,7 +349,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Feb 2024 - Feb 2025, Remote",
+      date: " - Feb 2025, Remote",
       link: "https://xmr.gg/",
       description: [
         <p>
@@ -398,7 +398,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "May 2023 - Jan 2024, Remote",
+      date: " - Jan 2024, Remote",
       link: "https://decentreviews.co",
       description: [
         <p>
@@ -445,7 +445,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2021 - May 2023, Remote",
+      date: " - May 2023, Remote",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
@@ -497,7 +497,7 @@ function History() {
           </a>
         </p>
       ),
-      date: "Feb 2020 - Mar 2021, Remote",
+      date: " - Mar 2021, Remote",
       link: "#",
       description: [
         <p>
@@ -622,13 +622,13 @@ function History() {
             <div className="flex flex-wrap items-start justify-start text-xs py-4">
               {project.domains
                 ? project.domains.map((domain, index) => (
-                    <span
-                      key={index}
-                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                    >
-                      {domain}
-                    </span>
-                  ))
+                  <span
+                    key={index}
+                    className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                  >
+                    {domain}
+                  </span>
+                ))
                 : null}
             </div>
           </div>
@@ -859,8 +859,69 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "Verge3D | Interactive 3D Model Viewer",
+      date: "",
+      imgUrl: "./images/projects/interfactive-model-verge3d.webp",
+      link: "https://interactive-model-verge3d.vercel.app",
+      description: [
+        <p>Built an interactive 3D model viewer using Verge3D and WebGL, enabling real-time rendering and manipulation of complex 3D assets directly in the browser. Designed a modular architecture for dynamic model loading and configurable scene management.</p>,
+        <p>Optimized asset loading and interaction logic to maintain high performance across devices, delivering a scalable and immersive 3D visualization experience.</p>,
+      ],
+      domains: ["html",
+        "react.js",
+        "css",
+        "javascript",
+        "three.js",
+        "panolens",
+        "verge3d",
+        "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",
+        "cms-integration"
+      ],
+    },
+    {
+      name: "Verge3D | Interactive 3D Space Viewer",
+      date: "",
+      imgUrl: "./images/projects/agromin-verge3d.webp",
+      link: "https://verge3d-vrapp.vercel.app",
+      description: [
+        <p>Developed a browser-based immersive VR experience using Three.js, Panolens, and Verge3D, enabling users to explore interactive 3D environments directly in the browser via WebGL. Built a modular scene architecture supporting dynamic uploads of panoramic images and 3D assets, allowing administrators to manage content without redeployment.</p>,
+        <p>Implemented optimized asset loading, texture compression, and event-driven interactions to maintain smooth performance across devices. Integrated interactive product flows within the VR environment, bridging immersive visualization with real-time commerce functionality.</p>,
+      ],
+      domains: ["html",
+        "react.js",
+        "css",
+        "javascript",
+        "three.js",
+        "panolens",
+        "verge3d",
+        "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",
+        "cms-integration"
+      ],
+    },
+    {
+      name: "DIOR Virtual Shop | Immersive 3D Commerce Experience",
+      date: "",
+      imgUrl: "./images/projects/dior.webp",
+      link: "https://dior-vrshop.vercel.app",
+      description: [
+        <p>Engineered a browser-based immersive 3D shopping experience using Three.js, Panolens, and WebGL, enabling users to explore a fully interactive virtual showroom directly in the browser. Designed a modular scene architecture supporting dynamic loading of panoramic environments and high-resolution 3D product assets.</p>,
+        <p>Developed an administrative content pipeline allowing real-time uploads of images and 3D models, with HubSpot-integrated mapping workflows for product placement and metadata management. Implemented optimized asset streaming, texture compression, and event-driven interaction handling to maintain smooth rendering performance across devices.</p>,
+        <p>Integrated interactive product selection and purchase flows within the VR environment, bridging immersive visualization with functional e-commerce capabilities.</p>,
+      ],
+      domains: ["html", "javascript", "php", "panolens", "css", "three.js", "e-commerce", "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",],
+    },
+    {
       name: "Memory Garden",
-      date: "Dec 2025",
+      date: "",
       link: "https://plant-memory.bolt.host",
       imgUrl: "./images/projects/memory-garden.webp",
       description: [
@@ -895,7 +956,7 @@ function Projects() {
     },
     {
       name: "DFS BurnToEarn",
-      date: "Oct 2025",
+      date: "",
       link: "https://dfs-burntoearn.vercel.app/",
       imgUrl: "./images/projects/dfs-burntoearn.webp",
       description: [<p>BurnToEarn platform on DFS chain</p>],
@@ -912,7 +973,7 @@ function Projects() {
     },
     {
       name: "DFS Wallet Private",
-      date: "Oct 2025",
+      date: "",
       link: "https://dfs-wallet-private.vercel.app/",
       imgUrl: "./images/projects/dfs-private.webp",
       description: [<p>MetaFace wallet private on DFS chain</p>],
@@ -929,7 +990,7 @@ function Projects() {
     },
     {
       name: "DIFINES Intro",
-      date: "Mar 2025",
+      date: "",
       link: "https://intro.difines.io",
       imgUrl: "./images/projects/difines-intro.webp",
       description: [<p>DIFINES introduction website</p>],
@@ -948,7 +1009,7 @@ function Projects() {
     },
     {
       name: "DIFINES Web Chain",
-      date: "Mar 2025",
+      date: "",
       link: "https://difines.org",
       imgUrl: "./images/projects/difines.webp",
       description: [<p>DIFINES web chain website</p>],
@@ -965,7 +1026,7 @@ function Projects() {
     },
     {
       name: "Tiger Bucks",
-      date: "Mar 2025",
+      date: "",
       link: "https://tiger-bucks.vercel.app",
       imgUrl: "./images/projects/tiger-bucks.webp",
       description: [<p>Token landing page</p>, <p>Tiger Bucks bep20 token</p>],
@@ -981,7 +1042,7 @@ function Projects() {
     },
     {
       name: "Uhalisi",
-      date: "Jul 2025",
+      date: "",
       link: "https://uhalisi.com",
       imgUrl: "./images/projects/uhalisi.webp",
       description: [
@@ -1017,7 +1078,7 @@ function Projects() {
     },
     {
       name: "WEX Swap",
-      date: "Jun 2025",
+      date: "",
       link: "https://wexswap.com",
       imgUrl: "./images/projects/wex.webp",
       description: [
@@ -1054,7 +1115,7 @@ function Projects() {
     },
     {
       name: "RakuEarn",
-      date: "Apr 2025",
+      date: "",
       link: "https://www.rakuearn.com/en",
       imgUrl: "./images/projects/rakuearn.webp",
       description: [
@@ -1081,7 +1142,7 @@ function Projects() {
     },
     {
       name: "POIPI",
-      date: "May 2025",
+      date: "",
       link: "https://www.poipi.com",
       imgUrl: "./images/projects/poipi.webp",
       description: [
@@ -1113,7 +1174,7 @@ function Projects() {
     },
     {
       name: "DFS Scan",
-      date: "Apr 2025",
+      date: "",
       link: "https://dfsscan.com/",
       imgUrl: "./images/projects/dfs_scan.webp",
       description: [
@@ -1144,7 +1205,7 @@ function Projects() {
     },
     {
       name: "MetaFace - DFS Wallet",
-      date: "Apr 2025",
+      date: "",
       link: "http://metaface.dfsscan.com/",
       imgUrl: "./images/projects/dfs_wallet.webp",
       description: [
@@ -1173,7 +1234,7 @@ function Projects() {
     },
     {
       name: "Micro Bitcoin Spin",
-      date: "Mar 2025",
+      date: "",
       link: "https://micro-spin.vercel.app/",
       imgUrl: "./images/projects/wbtc-spin.webp",
       description: [
@@ -1200,7 +1261,7 @@ function Projects() {
     },
     {
       name: "Burn To Earn",
-      date: "Jan 2025",
+      date: "",
       link: "https://burntoearn.net",
       imgUrl: "./images/projects/b2e.webp",
       description: [
@@ -1228,7 +1289,7 @@ function Projects() {
     },
     {
       name: "Micro Bitcoin",
-      date: "Feb 2025",
+      date: "",
       link: "https://wbtc-landing.vercel.app/",
       imgUrl: "./images/projects/wbtc-lp.webp",
       description: [
@@ -1256,7 +1317,7 @@ function Projects() {
     },
     {
       name: "Sato Pump",
-      date: "Oct 2024",
+      date: "",
       link: "https://satopump.fun",
       imgUrl: "./images/projects/sato-pump.webp",
       description: [
@@ -1283,7 +1344,7 @@ function Projects() {
     },
     {
       name: "XMR - Casnior Platform",
-      date: "June 2024",
+      date: "",
       link: "https://xmr.gg/",
       imgUrl: "./images/projects/casino.webp",
       description: [
@@ -1317,7 +1378,7 @@ function Projects() {
     },
     {
       name: "Crash Landing",
-      date: "May 2023",
+      date: "",
       link: "https://crash-landing.vercel.app",
       imgUrl: "./images/projects/crashlanding.webp",
       description: [
@@ -1341,7 +1402,7 @@ function Projects() {
     },
     {
       name: "Gateway - Email Wallet",
-      date: "Feb 2024 - Mar 2024",
+      date: " - Mar 2024",
       link: "https://gateway.difines.io",
       imgUrl: "./images/projects/gateway.webp",
       description: [
@@ -1360,7 +1421,7 @@ function Projects() {
     },
     {
       name: "Roppongi Ai",
-      date: "Feb 2024 - Feb 2024",
+      date: " - Feb 2024",
       link: "https://roppongi-ai.netlify.app/",
       imgUrl: "./images/projects/roppongi-ai.webp",
       description: [
@@ -1372,7 +1433,7 @@ function Projects() {
     },
     {
       name: "Plinko Lotto Dapp",
-      date: "Jan 2024 - Jan 2024",
+      date: " - Jan 2024",
       link: "https://plinko-lotto.netlify.app/",
       imgUrl: "./images/projects/plinko-lotto.webp",
       description: [
@@ -1391,7 +1452,7 @@ function Projects() {
     },
     {
       name: "Roppongi Lotto Dapp",
-      date: "Jan 2024 - Jan 2024",
+      date: " - Jan 2024",
       link: "https://lotto-droplocker.netlify.app/",
       imgUrl: "./images/projects/roppongi-lotto.webp",
       description: [
@@ -1410,7 +1471,7 @@ function Projects() {
     },
     {
       name: "Lucky Wheel Lotto Dapp",
-      date: "Feb 2024 - Feb 2024",
+      date: " - Feb 2024",
       link: "https://lucky-wheel-lotto.netlify.app/",
       imgUrl: "./images/projects/lucky-wheel.webp",
       description: [
@@ -1429,7 +1490,7 @@ function Projects() {
     },
     {
       name: "Decent Reviews",
-      date: "Mar 2023 - Nov 2023",
+      date: " - Nov 2023",
       link: "https://www.linkedin.com/company/decentreviews/about/",
       imgUrl: "./images/projects/decent-reviews.webp",
       description: [
@@ -1461,7 +1522,7 @@ function Projects() {
     },
     {
       name: "AI Play - Video Generator",
-      date: "Dec 2023 - Dec 2023",
+      date: " - Dec 2023",
       link: "https://ai-play.netlify.app/",
       imgUrl: "./images/projects/ai-video-generator.webp",
       description: [
@@ -1482,7 +1543,7 @@ function Projects() {
     },
     {
       name: "Speaking Girl AI",
-      date: "Nov 2023 - Nov 2023",
+      date: " - Nov 2023",
       link: "https://speakingai.difines.io",
       imgUrl: "./images/projects/ai-speaking-girl.webp",
       description: [
@@ -1501,7 +1562,7 @@ function Projects() {
     },
     {
       name: "SHIBUYA Ecosystem",
-      date: "Dec 2021 - Apr 2022",
+      date: " - Apr 2022",
       link: "https://shibuya.difines.io",
       imgUrl: "./images/projects/shibuya.webp",
       description: [
@@ -1534,7 +1595,7 @@ function Projects() {
     },
     {
       name: "AIFX Platform",
-      date: "Dec 2023 - Dec 2023",
+      date: " - Dec 2023",
       link: "https://aifx.pepesushi.vip/",
       imgUrl: "./images/projects/aifx.webp",
       description: [
@@ -1559,7 +1620,7 @@ function Projects() {
     },
     {
       name: "Staking Platform",
-      date: "Nov 2023 - Dec 2023",
+      date: " - Dec 2023",
       link: "https://stakes.difines.io",
       imgUrl: "./images/projects/stake-referral-reward.webp",
       description: [
@@ -1582,7 +1643,7 @@ function Projects() {
     },
     {
       name: "Token Bridge",
-      date: "Aug 2023 - Aug 2023",
+      date: " - Aug 2023",
       link: "https://bridgeone.netlify.app/bridge",
       imgUrl: "./images/projects/bridge.webp",
       description: [
@@ -1607,7 +1668,7 @@ function Projects() {
     },
     {
       name: "Web3.0 Chatting Platform - Fuji Chat",
-      date: "Feb 2023",
+      date: "",
       imgUrl: "./images/projects/chatfi.webp",
       link: "https://fujichat.vercel.app",
       description: [
@@ -1627,7 +1688,7 @@ function Projects() {
     },
     {
       name: "FC Marketplace",
-      date: "August 2023",
+      date: "",
       link: "https://fc-market.netlify.app/",
       imgUrl: "./images/projects/fcmarket.webp",
       description: [
@@ -1652,7 +1713,7 @@ function Projects() {
     },
     {
       name: "PEPE Sushi",
-      date: "May 2023",
+      date: "",
       link: "https://pepe-sushi.vercel.app/",
       imgUrl: "./images/projects/pepe-sushi.webp",
       description: [
@@ -1681,7 +1742,7 @@ function Projects() {
     },
     {
       name: "DEX Orderbook",
-      date: "Oct 2023",
+      date: "",
       link: "https://orderbook.pepesushi.vip",
       imgUrl: "./images/projects/dex-orderbook.webp",
       description: [
@@ -1706,7 +1767,7 @@ function Projects() {
     },
     {
       name: "PEPE Bep20 | Burn & Drop",
-      date: "June 2023",
+      date: "",
       link: "https://pepe.markets/",
       imgUrl: "./images/projects/burn_drop.webp",
       description: [
@@ -1734,7 +1795,7 @@ function Projects() {
     },
     {
       name: "Genogram",
-      date: "Sep 2021",
+      date: "",
       link: "https://genogram-gojs.netlify.app/",
       imgUrl: "./images/projects/genogram.webp",
       description: [
@@ -1745,7 +1806,7 @@ function Projects() {
     },
     {
       name: "Food Website",
-      date: "Aug 2023",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/food.webp",
       description: [<p>Website Theme Development</p>],
@@ -1753,7 +1814,7 @@ function Projects() {
     },
     {
       name: "Dentist Website",
-      date: "Aug 2023",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/dentist.webp",
       description: [<p>Website Theme Development</p>],
@@ -1761,7 +1822,7 @@ function Projects() {
     },
     {
       name: "Fashion Website",
-      date: "July 2023",
+      date: "",
       link: "https://aura-fashion-theme.netlify.app/",
       imgUrl: "./images/projects/fashion.webp",
       description: [<p>Website Theme Development</p>],
@@ -1769,7 +1830,7 @@ function Projects() {
     },
     {
       name: "Crypto Website",
-      date: "July 2023",
+      date: "",
       link: "https://crypto-aura-theme.netlify.app/",
       imgUrl: "./images/projects/crypto.webp",
       description: [<p>Website Theme Development</p>],
@@ -1777,7 +1838,7 @@ function Projects() {
     },
     {
       name: "Xocial Media App",
-      date: "Feb 2017",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/xocial.webp",
       description: [<p>Mobile App Development</p>],
@@ -1785,7 +1846,7 @@ function Projects() {
     },
     {
       name: "PEPE MSG",
-      date: "May 2023",
+      date: "",
       link: "https://pepe-msg.vercel.app",
       imgUrl: "./images/projects/pepe-msg.webp",
       description: [
@@ -1815,7 +1876,7 @@ function Projects() {
     },
     {
       name: "Token Faucet Platform",
-      date: "Mar 2023",
+      date: "",
       link: "https://faucet.themessages.xyz",
       imgUrl: "./images/projects/faucet.webp",
       description: [
@@ -1836,7 +1897,7 @@ function Projects() {
     },
     {
       name: "Home Of 12V",
-      date: "May 2020",
+      date: "",
       imgUrl: "./images/projects/12v.webp",
       link: "#",
       description: [
@@ -1847,7 +1908,7 @@ function Projects() {
     },
     {
       name: "Voice Emailer App",
-      date: "Oct 2016",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/voice.webp",
       description: [<p>Mobile App Development</p>],
@@ -1855,7 +1916,7 @@ function Projects() {
     },
     {
       name: "Catch Me App",
-      date: "Dec 2016",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/catch.webp",
       description: [<p>Mobile App Development</p>],
@@ -1863,7 +1924,7 @@ function Projects() {
     },
     {
       name: "NFT Marketplace",
-      date: "July 2022 - Aug 2022",
+      date: " - Aug 2022",
       imgUrl: "./images/projects/nftmarket.webp",
       link: "https://nftmarket.difines.io",
       description: [
@@ -1898,7 +1959,7 @@ function Projects() {
     },
     {
       name: "KOILLECTIBLE",
-      date: "Oct 2022 - Nov 2022",
+      date: " - Nov 2022",
       imgUrl: "./images/projects/koi.webp",
       link: "https://koi.difines.io",
       description: [
@@ -1930,7 +1991,7 @@ function Projects() {
     },
     {
       name: "NFT Marketplace (Bloodshed)",
-      date: "Oct 2019 - Dec 2019",
+      date: " - Dec 2019",
       imgUrl: "./images/projects/nftfront.webp",
       link: "#",
       description: [<p>Minting, Selling, Buying, Bidding, Listing NFTs</p>],
@@ -1948,7 +2009,7 @@ function Projects() {
     },
     {
       name: "White Creator Token Minting Platform",
-      date: "Jun 2022",
+      date: "",
       link: "https://whitecreator.difines.io",
       imgUrl: "./images/projects/whitecreator.webp",
       description: [
@@ -1977,7 +2038,7 @@ function Projects() {
     },
     {
       name: "NFT Minting Platform",
-      date: "Jun 2022",
+      date: "",
       link: "https://nft.difines.io",
       imgUrl: "./images/projects/nft.webp",
       description: [
@@ -2006,7 +2067,7 @@ function Projects() {
     },
     {
       name: "Electon JS Project",
-      date: "Feb 2020",
+      date: "",
       imgUrl: "./images/projects/movie-electron.webp",
       link: "#",
       description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
@@ -2014,7 +2075,7 @@ function Projects() {
     },
     {
       name: "Guessing App",
-      date: "Sep 2017",
+      date: "",
       link: "#",
       imgUrl: "./images/projects/hairshop.webp",
       description: [<p>Mobile App Development</p>],
@@ -2022,7 +2083,7 @@ function Projects() {
     },
     {
       name: "The Messages (record)",
-      date: "Mar 2023",
+      date: "",
       imgUrl: "./images/projects/message.webp",
       link: "https://record.themessages.xyz",
       description: [
@@ -2044,7 +2105,7 @@ function Projects() {
     },
     {
       name: "The Messages (booker)",
-      date: "Apr 2023",
+      date: "",
       imgUrl: "./images/projects/booker.webp",
       link: "https://bettor.pepesushi.vip",
       description: [
@@ -2063,7 +2124,7 @@ function Projects() {
     },
     {
       name: "Mining P2E Game",
-      date: "Apr 2023",
+      date: "",
       imgUrl: "./images/projects/mining.webp",
       link: "https://intro.mining.difines.io",
       description: [
@@ -2081,7 +2142,7 @@ function Projects() {
     },
     {
       name: "Partner",
-      date: "Mar 2023",
+      date: "",
       imgUrl: "./images/projects/partner.webp",
       link: "https://partner.difines.io",
       description: [
@@ -2093,7 +2154,7 @@ function Projects() {
     },
     {
       name: "Clinicial Chart (Alarta)",
-      date: "2020 - 2021",
+      date: " 2021",
       imgUrl: "./images/projects/clinical.webp",
       link: "https://incarta.com.au/",
       description: [
@@ -2111,7 +2172,7 @@ function Projects() {
     },
     {
       name: "Facial Recognize",
-      date: "Feb 2020",
+      date: "",
       imgUrl: "./images/projects/facial-recognize.webp",
       link: "https://github.com/aiden77mori/facial-recognization",
       description: [
@@ -2124,7 +2185,7 @@ function Projects() {
     },
     {
       name: "Art Worker",
-      date: "Dec 2019",
+      date: "",
       imgUrl: "./images/projects/art.webp",
       link: "https://nft.difines.io/art",
       description: [
@@ -2134,20 +2195,8 @@ function Projects() {
       domains: ["fabric.js", "react.js", "typescript", "nft"],
     },
     {
-      name: "DIOR Virtual Shop",
-      date: "Oct 2020",
-      imgUrl: "./images/projects/dior.webp",
-      link: "https://dior-vrstore.netlify.app",
-      description: [
-        <p>Admin can upload the images and 3D assets</p>,
-        <p>Add or edit map with hubspot</p>,
-        <p>Purchase the product in VR environment</p>,
-      ],
-      domains: ["html", "javascript", "php", "panolens", "css", "three.js"],
-    },
-    {
       name: "Album App",
-      date: "Feb 2021",
+      date: "",
       imgUrl: "./images/projects/app.webp",
       link: "#",
       description: [
@@ -2169,7 +2218,7 @@ function Projects() {
     },
     {
       name: "Kingdom Battle",
-      date: "July 2022",
+      date: "",
       imgUrl: "./images/projects/kingdom.webp",
       link: "https://kingdom.difines.io",
       description: [
@@ -2194,7 +2243,7 @@ function Projects() {
     },
     {
       name: "World Speed",
-      date: "Sep 2022",
+      date: "",
       imgUrl: "./images/projects/worldspeed.webp",
       link: "https://hamadeco.jp/cargame/",
       description: [
@@ -2221,7 +2270,7 @@ function Projects() {
     },
     {
       name: "Crypto Snaker",
-      date: "Aug 2022",
+      date: "",
       imgUrl: "./images/projects/cryptosnake.webp",
       link: "https://snake.difines.io",
       description: [
@@ -2250,7 +2299,7 @@ function Projects() {
     },
     {
       name: "Puzzle",
-      date: "Oct 2022",
+      date: "",
       imgUrl: "./images/projects/puzzle.webp",
       link: "https://puzzle.difines.io",
       description: [
@@ -2279,7 +2328,7 @@ function Projects() {
     },
     {
       name: "BlockDown",
-      date: "Nov 2022",
+      date: "",
       imgUrl: "./images/projects/blockdown.webp",
       link: "https://blockdown.difines.io",
       description: [
@@ -2309,7 +2358,7 @@ function Projects() {
     },
     {
       name: "Crypto Works Metaverse",
-      date: "Jan 2023",
+      date: "",
       imgUrl: "./images/projects/metaverse.webp",
       link: "https://cryptoworks.difines.io",
       description: [
@@ -2408,13 +2457,13 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-4">
                 {project.domains
                   ? project.domains.map((domain, index) => (
-                      <span
-                        key={index}
-                        className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
-                      >
-                        {domain}
-                      </span>
-                    ))
+                    <span
+                      key={index}
+                      className={`px-1.5 py-0.5 w-max border border-${tag_colors[domain]} text-${tag_colors[domain]} m-1 rounded-full`}
+                    >
+                      {domain}
+                    </span>
+                  ))
                   : null}
               </div>
             </div>
