@@ -67,7 +67,7 @@ export class AboutAiden extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="aiden vivek"
+            alt="aiden mori"
             src="./themes/Yaru/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
@@ -121,7 +121,7 @@ export class AboutAiden extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="vivek' projects"
+            alt="aiden' projects"
             src="./themes/Yaru/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
@@ -139,7 +139,7 @@ export class AboutAiden extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="vivek' skills"
+            alt="aiden' skills"
             src="./themes/Yaru/status/skills.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
@@ -157,7 +157,7 @@ export class AboutAiden extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="vivek's resume"
+            alt="aiden's resume"
             src="./themes/Yaru/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
@@ -223,7 +223,7 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           <span className="text-pink-600 font-bold">
-            Full Stack & Web3 Engineer.
+            Senior Full Stack Engineer
           </span>
         </div>
       </div>
@@ -271,7 +271,7 @@ function About() {
       </div>
       <ul className="my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className="list-pc my-2 md:text-base">
-          8+ years of experience across <span className="font-bold">Web2</span>{" "}
+          9+ years of experience across <span className="font-bold">Web2</span>{" "}
           and <span className="font-bold">Web3</span>.
         </li>
         <li className="list-pc my-2 md:text-base">
