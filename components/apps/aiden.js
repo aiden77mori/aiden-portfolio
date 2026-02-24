@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Component } from "react";
 import ReactGA from "react-ga";
+import Link from "next/link";
 
 export class AboutAiden extends Component {
   constructor() {
@@ -233,16 +234,6 @@ function About() {
       </div>
       <div className="flex items-center gap-5">
         <Image
-          src="/images/logos/skype.svg"
-          alt="Skype Logo"
-          width={25}
-          height={25}
-          className="cursor-pointer"
-          onClick={() =>
-            window.open("https://join.skype.com/invite/ASsHj806HhLp", "_blank")
-          }
-        />
-        <Image
           src="/images/logos/discord.svg"
           alt="Discord Logo"
           width={25}
@@ -271,27 +262,39 @@ function About() {
       </div>
       <ul className="my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className="list-pc my-2 md:text-base">
-          9+ years of experience across <span className="font-bold">Web2</span>{" "}
-          and <span className="font-bold">Web3</span>.
+          9+ years of experience building scalable platforms across{" "}
+          <span className="font-bold">Web2</span>,{" "}
+          <span className="font-bold">Web3</span>, and{" "}
+          <span className="font-bold">AI-enabled systems</span>.
         </li>
+
         <li className="list-pc my-2 md:text-base">
-          Led cross-functional teams of frontend, backend, and smart contract
-          developers at <span className="font-bold">KURONURI</span>.
+          Designed and delivered large-scale{" "}
+          <span className="font-bold">digital asset platforms</span>, including
+          wallets, exchanges, blockchain explorers, token ecosystems, and
+          high-concurrency backend services.
         </li>
+
         <li className="list-pc my-2 md:text-base">
-          Built <span className="font-bold">DeFi apps</span>,{" "}
-          <span className="font-bold">NFT marketplaces</span>,{" "}
-          <span className="font-bold">tokens</span>, and 20+{" "}
-          <span className="font-bold">Web3 projects</span> including{" "}
-          <span className="font-bold">P2E games</span> on Ethereum, Polygon, and
-          BSC.
+          Led cross-functional engineering efforts at{" "}
+          <span className="font-bold">KURONURI</span> and contributed to multiple{" "}
+          <span className="font-bold">DeFi</span>,{" "}
+          <span className="font-bold">NFT</span>, and{" "}
+          <span className="font-bold">Web3 infrastructure</span> projects across
+          Ethereum-compatible networks.
         </li>
+
         <li className="list-pc my-2 md:text-base">
-          Strong in multiple languages, frameworks, and database systems.
+          Experienced in architecting{" "}
+          <span className="font-bold">distributed backend systems</span>,
+          exchange and wallet infrastructure, and cloud-native applications using
+          modern TypeScript and Node.js ecosystems.
         </li>
+
         <li className="list-pc my-2 md:text-base">
-          Collaborative problem-solver with proven analytical and time
-          management skills.
+          Product-focused engineer combining strong technical ownership,
+          system design thinking, and collaborative problem-solving to deliver
+          reliable, scalable production systems.
         </li>
       </ul>
     </>
@@ -300,158 +303,124 @@ function About() {
 function History() {
   const project_list = [
     {
-      name: (
+      company: "DIFINES",
+      role: "Senior Full Stack Engineer",
+      location: "Remote",
+      date: "Feb 2024 - Jan 2026",
+      link: "https://www.difines.org/",
+      description: [
         <p>
-          Full Stack Engineer (Web3, AI, Vibe),{" "}
-          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
-            Freelancer
-          </a>
-        </p>
-      ),
-      date: " - Present, Remote",
+          Led architecture and development of the DFS Chain ecosystem, a web-based Layer-0 blockchain platform implementing a centralized ledger and transaction engine simulating decentralized infrastructure for wallets, exchanges, token issuance, launchpads, and digital asset services.
+        </p>,
+        <p>
+          Designed and implemented DFS Scan, a blockchain explorer comparable to Etherscan/BscScan, delivering real-time block aggregation, transaction indexing pipelines, and optimized analytics for large-scale ledger inspection.
+        </p>,
+        <p>
+          Engineered MetaFace Wallet, a MetaMask-style digital asset wallet supporting DFS-native and bridged Web3 assets, implementing wallet abstraction, transaction execution workflows, and secure authorization across ecosystem applications.
+        </p>,
+        <p>
+          Developed Quick IDO, a hybrid exchange and launchpad supporting Web3↔Web3, Web2↔Web2, and Web3↔DFS asset bridging, including custody handling, liquidity settlement, and cross-ledger deposit/withdrawal pipelines.
+        </p>,
+        <p>
+          Built Moegi IDO platform enabling project onboarding, whitelist validation, vesting configuration, and automated token distribution integrated with shared ledger infrastructure.
+        </p>,
+        <p>
+          Implemented DFS WhiteCreator, enabling no-code token issuance with configurable supply models, ownership governance, and ecosystem-wide integration with wallet and exchange services.
+        </p>,
+        <p>
+          Architected WEX, an AMM-style trading platform similar to PancakeSwap implementing swap routing, pricing algorithms, liquidity accounting, and centralized settlement backed by ledger state management.
+        </p>,
+        <p>
+          Developed Uhalisi, a ledger-backed digital content registration system providing timestamped ownership verification and immutable metadata validation.
+        </p>,
+        <p>
+          Built POIPI, a token airdrop and campaign orchestration platform implementing automated reward distribution and wallet-based participation tracking.
+        </p>,
+        <p>
+          Designed Burn-to-Earn economic mechanisms, integrating token burn tracking, emission modeling, and automated reward distribution within DFS tokenomics.
+        </p>,
+        <p>
+          Architected shared ledger and transaction infrastructure including block simulation, confirmation handling, wallet synchronization, and cross-application interoperability.
+        </p>,
+        <p>
+          Implemented cross-ledger asset bridges integrating external Web3 networks via blockchain event monitoring, asset mint/burn mapping, and secure settlement workflows.
+        </p>,
+        <p>
+          Integrated AI-assisted analytics and operational automation to monitor transaction behavior, improve ecosystem insights, and support intelligent platform management workflows.
+        </p>,
+        <p>
+          Leveraged LLM-assisted engineering workflows to accelerate development, automate debugging/testing processes, and improve delivery efficiency across distributed services.
+        </p>,
+        <p>
+          Optimized backend services, database schemas, and caching strategies supporting high-throughput financial operations across interconnected DApps.
+        </p>,
+      ],
+    },
+    {
+      company: "Dwayne",
+      role: "Back End Engineer",
+      location: "Remote",
+      date: "Aug 2023 - Feb 2025",
       link: "#",
       description: [
         <p>
-          Built AI-generated web apps using Lovable, v0, Bolt, and Replit,
-          guiding clients with precise prompts and customizing key logic like
-          Supabase integration and Stripe payments.
+          Engineered scalable backend infrastructure using Node.js, TypeScript, Express.js, and MongoDB supporting 5M+ daily transactions with 99.9% uptime.
         </p>,
         <p>
-          Helped founders rapidly launch MVPs by refining AI-generated codebases
-          in Next.js and Svelte, ensuring scalability, clean UI, and smooth user
-          experience.
+          Designed real-time communication and gaming interaction systems using Socket.io, improving user engagement and retention by 30%.
         </p>,
         <p>
-          Developed and deployed Web3 dApps, Token launchpads, and NFT
-          marketplaces using Next.js, Ethers.js, and Solidity, integrating
-          wallet connections and token-based access. Successfully supported two
-          token sales that raised over $250K and boosted user engagement by 900%
-          through the development of a Spin rewards website
+          Developed AI-assisted payment processing and fraud detection workflows, improving transaction speed by 50% while strengthening platform security.
         </p>,
         <p>
-          Delivered secure, production-ready blockchain solutions across
-          Ethereum, Polygon, and Solana, optimizing smart contract interactions
-          and real-time data handling.
+          Implemented secure authentication architecture using JWT, CAPTCHA, and session orchestration reducing unauthorized access by 40%.
+        </p>,
+        <p>
+          Built affiliate and referral systems increasing traffic by 40% and driving measurable revenue growth.
+        </p>,
+        <p>
+          Designed customer ticketing workflows reducing average response time from 48h to 12h.
         </p>,
       ],
     },
     {
-      name: (
-        <p>
-          Back End Engineer,{" "}
-          <a
-            className="border-b-2"
-            href="https://xmr.gg/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Dwayne Casino Platform
-          </a>
-        </p>
-      ),
-      date: " - Feb 2025, Remote",
-      link: "https://xmr.gg/",
-      description: [
-        <p>
-          Engineered a robust backend infrastructure utilizing Node.js,
-          TypeScript, Express.js, and MongoDB, handling over 5 million daily
-          transactions while ensuring 99.9% uptime during peak traffic periods.
-        </p>,
-        <p>
-          Implemented real-time chat capabilities combined with gaming features
-          through Socket.io, enhancing communication among users and boosting
-          user retention by 30% in three months.
-        </p>,
-        <p>
-          Developed an advanced AI framework for payment processing with secure
-          token transactions, resulting in a 50% increase in transaction speed
-          and a 25% boost in customer satisfaction.
-        </p>,
-        <p>
-          Devised a comprehensive authentication system using CAPTCHA, JWT
-          tokens, and session management, synchronized with Socket.io, reducing
-          unauthorized access by 40% within the first month.
-        </p>,
-        <p>
-          Created an affiliate page that enhanced referral traffic by 40%,
-          leading to a 25% increase in sales and attracting over 100 new
-          affiliates in the first quarter post-launch.
-        </p>,
-        <p>
-          Designed a ticketing system that slashed average response times from
-          48 hours to 12 hours, improving user satisfaction ratings by 30%
-          within three months.
-        </p>,
-      ],
-    },
-    {
-      name: (
-        <p>
-          Back End | Smart Contract Engineer,{" "}
-          <a
-            className="border-b-2"
-            href="https://decentreviews.co"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Decent Reviews
-          </a>
-        </p>
-      ),
-      date: " - Jan 2024, Remote",
+      company: "Decent Reviews",
+      role: "Back End Engineer & Smart Contract Developer",
+      location: "Remote",
+      date: "Apr 2023 - Aug 2023",
       link: "https://decentreviews.co",
       description: [
         <p>
-          Crafted a user review API and automated review aggregation engine
-          using Node.js, TypeScript, and Express.js, improving data collection
-          efficiency by 50% for the customer support team.
+          Crafted a user review API and automated review aggregation engine using Node.js, TypeScript, and Express.js, improving data collection efficiency by 50% for the customer support team.
         </p>,
         <p>
-          Established a badge generation engine, resulting in a 25% increase in
-          user-generated content shared across social media, improving brand
-          visibility and engagement.
+          Established a badge generation engine, resulting in a 25% increase in user-generated content shared across social media, improving brand visibility and engagement.
         </p>,
         <p>
-          Integrated smart contract with Web3.js, reducing manual intervention
-          by 60% and increasing overall operational efficiency.
+          Integrated Ethereum smart contracts via Web3.js enabling automated verification workflows and reducing manual operations by 60%.
         </p>,
         <p>
-          Implemented CI/CD pipelines via GitHub Actions, resulting in a 60%
-          reduction in deployment errors and greater software reliability.
+          Implemented CI/CD pipelines using GitHub Actions improving deployment reliability and reducing release failures.
         </p>,
         <p>
-          Generated detailed API documentation with Swagger and conducted
-          thorough API testing using Cypress and Jest, boosting developer
-          onboarding by 40% and increasing system uptime by 15%.
+          Generated detailed API documentation with Swagger and conducted thorough API testing using Cypress and Jest, boosting developer onboarding by 40% and increasing system uptime by 15%.
         </p>,
         <p>
-          Enhanced server performance using Docker, reducing average database
-          query times to under 200 milliseconds, thereby improving user
-          experience and application responsiveness.
+          Containerized backend services with Docker, reducing database response times below 200ms.
         </p>,
       ],
     },
     {
-      name: (
-        <p>
-          Blockchain, Full Stack Developer,{" "}
-          <a
-            className="border-b-2"
-            href="https://kuronuri.com/pro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            KURONURI
-          </a>
-        </p>
-      ),
-      date: " - May 2023, Remote",
+      company: "KURONURI",
+      role: "Blockchain Full Stack Engineer",
+      location: "Remote",
+      date: "Jan 2021 - Apr 2023",
       link: "https://kuronuri.com/pro",
       description: [
         <p>
           Spearheaded the creation of a comprehensive DeFi ecosystem, token
           generation and ICO platforms, 5 play-to-earn games, 2 NFT
-          marketplaces, and over 20 Web3 projects.
+          marketplaces, and 10+ Web3 projects.
         </p>,
         <p>
           Developed an auto DEX bot for Burn&Drop that executed trades in under
@@ -489,98 +458,74 @@ function History() {
       ],
     },
     {
-      name: (
-        <p>
-          Blockchain Developer,{" "}
-          <a className="border-b-2" href="#" target="_blank" rel="noreferrer">
-            Defichain Value
-          </a>
-        </p>
-      ),
-      date: " - Mar 2021, Remote",
+      company: "Defichain Value",
+      role: "Smart Contract Developer",
+      location: "Remote",
+      date: "Apr 2020 - Jan 2021",
       link: "#",
       description: [
         <p>
-          Programmed 10 smart contracts for seamless interactions with the Value
-          DeFi protocol; integrated liquidity pools and yield farming
-          strategies, resulting in increased transaction efficiency by 45% and
-          user engagement growth.
+          Developed and deployed smart contracts supporting liquidity pools and yield farming strategies on Binance Smart Chain.
         </p>,
         <p>
-          Tested and deployed smart contracts using Truffle and Hardhat
-          frameworks on Binance Smart Chain, achieving 100% coverage in all
-          tests.
+          Achieved full automated testing coverage using Truffle and Hardhat frameworks.
         </p>,
         <p>
-          Innovated a smart contract interface with Web3.js that streamlined
-          user participation in liquidity pools and staking, resulting in an
-          effective onboarding process utilized by 20+ teams in the
-          organization.
+          Built Web3 interfaces improving staking and liquidity onboarding workflows.
         </p>,
       ],
     },
     {
-      name: (
-        <p>
-          Full Stack Developer,{" "}
-          <a
-            className="border-b-2"
-            href="https://incarta.com.au/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            INCARTA
-          </a>
-        </p>
-      ),
-      date: "May 2019 - Feb 2020, Australia",
+      company: "Incarta",
+      role: "Software Engineer (MERN Stack)",
+      location: "Remote",
+      date: "Apr 2019 - Feb 2020",
       link: "https://incarta.com.au/",
       description: [
         <p>
-          Boosted patient treatment rates by 20% through the implementation of
-          machine learning algorithms.
+          Contributed to development of cloud-based healthcare and clinical data platforms supporting real-time patient monitoring and electronic medical record workflows aligned with Incarta's mission of improving healthcare accessibility through scalable medical technology solutions.
         </p>,
         <p>
-          Engineered a user-friendly interface for clinical charts using
-          React.js and D3.js, improving data accessibility and supporting
-          patient care during the COVID-19 pandemic.
+          Designed and implemented interactive clinical visualization dashboards using React.js and D3.js to present physiological and patient data insights, improving accessibility of complex medical datasets for healthcare professionals during high-demand COVID-19 operations.
         </p>,
         <p>
-          Built 3+ healthcare platforms using React.js, Angular, Vue.js, and
-          Laravel (PHP framework) with Node.js, prioritizing client
-          communication and project clarity.
+          Developed scalable backend services using Node.js, Express, and MongoDB, enabling secure ingestion, processing, and visualization of high-volume clinical and operational data streams.
+        </p>,
+        <p>
+          Collaborated with cross-functional teams including clinicians and infrastructure engineers to deliver user-centric healthcare applications emphasizing reliability, usability, and data accuracy in critical care environments.
+        </p>,
+        <p>
+          Implemented performance optimizations and responsive UI architectures improving system usability and contributing to measurable increases in treatment workflow efficiency.
+        </p>,
+        <p>
+          Supported deployment of applications within private cloud environments, ensuring secure handling of sensitive healthcare data and compliance with medical system reliability requirements.
         </p>,
       ],
     },
     {
-      name: (
-        <p>
-          Front End Developer,{" "}
-          <a
-            className="border-b-2"
-            href="https://www.openagent.com.au/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            OpenAgent
-          </a>
-        </p>
-      ),
-      date: "Aug 2017 - Apr 2019, Australia",
+      company: "Open Agent",
+      role: "Front End Developer",
+      location: "Remote",
+      date: "Aug 2017 - Apr 2019",
       link: "https://www.openagent.com.au/",
       description: [
         <p>
-          In an agile and collaborative environment, gathered design
-          requirements, and conducted thorough application testing, resulting in
-          a notable 25% increase in working speed.
+          Developed and maintained large-scale web applications using React.js, TypeScript, HTML5, and CSS3, delivering reusable and maintainable UI component architectures.
         </p>,
         <p>
-          Led troubleshooting efforts, fixed more than 300+ bugs and other
-          issues, and updated sites throughout the production lifecycle.
+          Built over 100+ production-grade UI components following modern frontend patterns, improving development scalability and consistency across applications.
         </p>,
         <p>
-          Created the 100+ complex UI components using React.js / TypeScript,
-          HTML5 and CSS3.
+          Collaborated within Agile teams to translate product and design requirements into performant frontend implementations, accelerating feature delivery timelines by approximately 25%.
+        </p>,
+        <p>
+          Led frontend debugging and stabilization efforts, resolving 300+ production issues across application lifecycle stages and improving platform reliability.
+        </p>,
+        <p>
+          Implemented responsive layouts and cross-browser compatible interfaces ensuring consistent user experience across desktop and mobile environments.
+        </p>,
+        <p>
+          Participated in continuous integration workflows, application testing, and release cycles to maintain production stability.
         </p>,
       ],
     },
@@ -599,14 +544,24 @@ function History() {
       {project_list.map((project, index) => (
         <div className="flex w-full flex-col px-4" key={index}>
           <div className="w-full py-4 px-4 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5">
-            <div className="flex flex-wrap justify-between items-center">
-              <div className="flex justify-center items-center">
-                <div className=" text-base font-semibold md:text-lg mr-2">
-                  {project.name}
+            <div className="flex flex-wrap justify-between items-center mr-2">
+              <div className="flex flex-col items-start">
+                <Link href={project.link} target="_blank">
+                  <div className="text-base font-semibold md:text-lg hover:underline">
+                    {project.company}
+                  </div>
+                </Link>
+                <div className="text-gray-300 font-light text-sm">
+                  {project.role}
                 </div>
               </div>
-              <div className="text-gray-300 font-light text-sm">
-                {project.date}
+              <div className="flex flex-col items-end">
+                <div className="text-gray-300 font-light text-sm">
+                  {project.location}
+                </div>
+                <div className="text-gray-300 font-light text-sm">
+                  {project.date}
+                </div>
               </div>
             </div>
             <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
@@ -650,35 +605,12 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Computer Engineering, Victoria University
+            Victoria University
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2012 - 2015</div>
-          <div className=" text-sm md:text-base">Bachelor of Engineering</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2013 - 2017</div>
+          <div className=" text-sm md:text-base">Bachelor of Science (BS), Computer Science Engineering</div>
         </li>
       </ul>
-      <div className="font-medium relative text-2xl mt-4 md:mt-4 mb-4 hidden">
-        Certificate
-        <div className="absolute pt-px bg-white mt-px top-full w-full ">
-          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
-          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
-        </div>
-      </div>
-      <div className="w-full flex-col px-20 hidden">
-        <div className="w-full flex flex-col lg:flex-row gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
-          <a
-            className="w-full cursor-pointer"
-            target="_blank"
-            href="https://www.hackerrank.com/certificates/f367d0b2f01b"
-            rel="noreferrer"
-          >
-            <img
-              src="./images/certificate/css_cert.webp"
-              className="rounded"
-              alt="CSS Certificate"
-            />
-          </a>
-        </div>
-      </div>
     </>
   );
 }
@@ -710,147 +642,212 @@ function Skills() {
           <div>Here are my most frequently used</div>
         </li>
       </ul>
-      <div className="w-full md:w-10/12 flex mt-4">
-        <div className=" text-sm text-center md:text-base w-1/2 font-bold">
-          Languages & Tools
-        </div>
-        <div className=" text-sm text-center md:text-base w-1/2 font-bold">
-          Frameworks & Libraries
-        </div>
-      </div>
-      <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
-        <div className="px-2 w-1/2">
-          <div className="flex flex-wrap justify-center items-start w-full mt-2">
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="aiden javascript"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Typescript-3178c6?style=flat&logo=typescript&logoColor=ffffff"
-              alt="aiden typescript"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/-Solidity-ffffff?style=flat&logo=solidity&logoColor=000000&labelColor=%000000"
-              alt="aiden solidity"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="aiden c++"
-            />
-            <img
-              className="m-1"
-              src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="aiden python"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="aiden dart"
-            />
-            <img
-              src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="aiden SASS"
-              className="m-1"
-            />
-            <img
-              src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="aiden git"
-              className="m-1"
-            />
-            <img
-              src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="aiden firebase"
-              className="m-1"
-            />
-          </div>
-        </div>
-        <div className="px-2 flex flex-wrap items-start w-1/2">
-          <div className="flex flex-wrap justify-center items-start w-full mt-2">
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"
-              alt="aiden next"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="aiden react"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Angular-dd0031?style=flat&logo=angular&logoColor=ffffff"
-              alt="aiden angular"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Svelte-ff3e00?style=flat&logo=svelte&logoColor=ffffff"
-              alt="aiden svelte"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Remix-00ccbb?style=flat&logo=remix&logoColor=000000"
-              alt="aiden remix"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Web3JS-f16822?style=flat&logo=Web3.js&logoColor=ffffff"
-              alt="aiden web3"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Hardhat-c5d11700?style=flat&logo=ethereum&logoColor=ffffff"
-              alt="aiden hardhat"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/React Native-61DAFB?style=flat&logo=react&logoColor=white"
-              alt="aiden react native"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Ionic-3880ff?style=flat&logo=ionic&logoColor=white"
-              alt="aiden ionic framework"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="aiden flutter"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
-              alt="aiden tailwind css"
-            />
-            <img
-              src="https://img.shields.io/badge/-NodeJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="aiden node.js"
-              className="m-1"
-            />
-            <img
-              src="https://img.shields.io/badge/-ExpressJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="aiden express.js"
-              className="m-1"
-            />
-            <img
-              src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="aiden jquery"
-              className="m-1"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="aiden redux"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Docker-02569B?style=flat&logo=docker&logoColor=white"
-              alt="aiden docker"
-            />
-          </div>
+      <div className="w-full md:w-10/12 flex justify-start items-center font-bold text-center">
+        <div className="px-2 flex flex-wrap items-start mt-2">
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"
+            alt="aiden react"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=ffffff"
+            alt="aiden next.js"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white"
+            alt="aiden angular"
+          />
+          <img
+            className=" m-1"
+            src="https://img.shields.io/badge/Node.js-86BE00?style=flat&logo=node.js&logoColor=white"
+            alt="aiden svelte"
+          />
+          <img
+            className=" m-1"
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white"
+            alt="aiden remix"
+          />
+          <img
+            className=" m-1"
+            src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=typescript&logoColor=white"
+            alt="aiden web3"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Wordpress-21759B?style=flat&logo=wordpress&logoColor=white"
+            alt="aiden hardhat"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
+            alt="aiden react native"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"
+            alt="aiden ionic framework"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"
+            alt="aiden flutter"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
+            alt="aiden tailwind css"
+          />
+          <img
+            src="https://img.shields.io/badge/MySQL-F79F17?style=flat&logo=mysql&logoColor=white"
+            alt="aiden node.js"
+            className="m-1"
+          />
+          <img
+            src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"
+            alt="aiden express.js"
+            className="m-1"
+          />
+          <img
+            src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"
+            alt="aiden jquery"
+            className="m-1"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white"
+            alt="aiden redux"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=blue"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/VS_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/v0-000000?style=flat&logo=v0&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Redux_Toolkit-593D88?style=flat&logo=redux&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/NextAuth-000000?style=flat&logo=nextdotjs&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Material_UI-0081CB?style=flat&logo=mui&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"
+            alt="aiden docker"
+          /><img
+            className="m-1"
+            src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat&logo=awslambda&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazons3&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/REST_API-02569B?style=flat&logo=fastapi&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/Microservices-FF6C37?style=flat&logo=docker&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socketdotio&logoColor=white"
+            alt="aiden docker"
+          />
+          <img
+            className="m-1"
+            src="https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white"
+            alt="aiden docker"
+          />
         </div>
       </div>
     </>
