@@ -5,11 +5,11 @@ export default function Meta() {
   return (
     <Head>
       /* Primary Meta Tags */
-      <title>Aiden Mori Portfolio - Web & Blockchain Engineer</title>
+      <title>Aiden Mori Portfolio - Senior Full Stack Engineer</title>
       <meta charSet="utf-8" />
       <meta
         name="title"
-        content="Aiden Mori Portfolio - Web & Blockchain Engineer"
+        content="Aiden Mori Portfolio - Senior Full Stack Engineer"
       />
       <meta
         name="description"
@@ -30,7 +30,7 @@ export default function Meta() {
       /* Schema.org for Google */
       <meta
         itemProp="name"
-        content="Aiden Mori Portfolio - Web & Blockchain Engineer"
+        content="Aiden Mori Portfolio - Senior Full Stack Engineer"
       />
       <meta
         itemProp="description"
@@ -41,7 +41,7 @@ export default function Meta() {
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:title"
-        content="Aiden Mori Portfolio - Web & Blockchain Engineer"
+        content="Aiden Mori Portfolio - Senior Full Stack Engineer"
       />
       <meta
         name="twitter:description"
@@ -53,7 +53,7 @@ export default function Meta() {
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
         name="og:title"
-        content="Aiden Mori Portfolio - Web & Blockchain Engineer"
+        content="Aiden Mori Portfolio - Senior Full Stack Engineer"
       />
       <meta
         name="og:description"
