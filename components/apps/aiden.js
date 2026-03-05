@@ -879,6 +879,40 @@ function Projects() {
       ],
     },
     {
+      name: "EdTech | MyHomework App",
+      date: "",
+      imgUrl: "./images/projects/edtech-myhomework.webp",
+      link: "https://info.myhomeworkapp.com",
+      description: [
+        <p>Built a full stack education platform supporting students, teachers, parents, and administrators using React, Next.js, Node.js, and PostgreSQL with a relational data model connecting students to classes and teachers, and parents to individual students.</p>,
+        <p>Implemented role based access with row level security, allowing teachers to access only their classes and students while parents can view progress and reports for their own children.</p>,
+        <p>
+          Developed a school onboarding flow where schools create classes, invite teachers, add or import students, and automatically generate parent accounts.
+        </p>,
+        <p>
+          Created student dashboards and teacher analytics to track assignments, assessments, and learning progress.
+        </p>,
+        <p>
+          Built assignment, quiz, and curriculum management tools for organizing lessons and automatically grading student work.
+        </p>
+      ],
+      domains: [
+        "react.js",
+        "next.js",
+        "typescript",
+        "javascript",
+        "node.js",
+        "express.js",
+        "postgresql",
+        "aws s3",
+        "aws",
+        "bootstrap",
+        "swiper",
+        "html",
+        "css3",
+      ],
+    },
+    {
       name: "Verge3D | Interactive 3D Space Viewer",
       date: "",
       imgUrl: "./images/projects/agromin-verge3d.webp",
