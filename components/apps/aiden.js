@@ -1152,15 +1152,14 @@ function Projects() {
       imgUrl: "./images/projects/rakuearn.webp",
       description: [
         <p>
-          RakuEarn platform is the one that you can earn points easily by
-          answering for surveys.
+          Rakuearn is a rewards platform that allows users to easily earn points by participating in online surveys and simple activities.
         </p>,
         <p>
-          You can exchange points for real money via bank transfer, as well as
-          redeem them for gift cards and rewards such as Bank Transfer, Amazon,
-          Apple Store, Google Play, PayPay, and more.
+         Users can convert their earned points into real value through bank transfers or popular digital rewards.
         </p>,
-        <p>Creating an account and using the AI tool is completely free.</p>,
+        <p>Rewards include options such as Amazon gift cards, Apple Store credit, Google Pay, PayPay, and other gift cards.</p>,
+        <p>Rakuearn also provides AI powered tools to help users discover relevant surveys and opportunities more efficiently.</p>,
+        <p>The goal of the platform is to make earning rewards easy, transparent, and accessible for everyone.</p>
       ],
       domains: [
         "next.js",
