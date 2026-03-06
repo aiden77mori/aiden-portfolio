@@ -360,7 +360,7 @@ function History() {
       company: "Dwayne",
       role: "Back End Engineer",
       location: "Remote",
-      date: "Aug 2023 - Feb 2025",
+      date: "Aug 2023 - Feb 2024",
       link: "#",
       description: [
         <p>
