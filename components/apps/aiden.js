@@ -145,7 +145,7 @@ export class AboutAiden extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
         </div>
-        <div
+        {/* <div
           id="resume"
           tabIndex="0"
           onFocus={this.changeScreen}
@@ -162,7 +162,7 @@ export class AboutAiden extends Component {
             src="./themes/Yaru/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
-        </div>
+        </div> */}
       </>
     );
   };
