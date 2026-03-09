@@ -1352,12 +1352,12 @@ function Projects() {
     {
       name: "Sato Pump",
       date: "",
-      link: "https://satopump.fun",
+      link: "https://satopump.vercel.app",
       imgUrl: "./images/projects/sato-pump.webp",
       description: [
         <p>
           The First Multi-Functional Meme Coin DEX Platform & DEX Hub on the EVM
-          Chain
+          Chain with Bonding Curve model
         </p>,
         <p>Control the token environment freely</p>,
         <p>Enjoy your referral feature</p>,
