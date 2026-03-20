@@ -856,219 +856,25 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "AI Dating Assistant App",
-      date: "",
-      imgUrl: "./images/projects/ai-reactnative.webp",
-      link: "#",
-      description: [
-        <p>Designed an intelligent companion app that helps users communicate more confidently by suggesting thoughtful and natural sounding replies during conversations with their partners.</p>,
-        <p>Integrated AI capabilities to analyze text, photos, and everyday situations so the app can recommend meaningful messages, conversation starters, and emotionally appropriate responses.</p>,
-        <p>Created features that help users improve communication skills by offering tone adjustments, message rewrites, and context-aware suggestions to strengthen relationships.</p>,
-        <p>Focused on a clean and friendly user experience that makes it easy to scan, generate, and refine messages in seconds, helping users feel more confident in their daily interactions.</p>
-      ],
-      domains: [
-        "react.js",
-        "scss",
-        "typescript",
-        "react native",
-        "expo",
-        "ios",
-        "android",
-        "open ai",
-        "ai",
-        "mobile",
-        "ai integration"
-      ],
-    },
-    {
-      name: "Verge3D | Interactive 3D Model Viewer",
-      date: "",
-      imgUrl: "./images/projects/interfactive-model-verge3d.webp",
-      link: "https://interactive-model-verge3d.vercel.app",
-      description: [
-        <p>Built an interactive 3D model viewer using Verge3D and WebGL, enabling real-time rendering and manipulation of complex 3D assets directly in the browser. Designed a modular architecture for dynamic model loading and configurable scene management.</p>,
-        <p>Optimized asset loading and interaction logic to maintain high performance across devices, delivering a scalable and immersive 3D visualization experience.</p>,
-      ],
-      domains: ["html",
-        "react.js",
-        "css",
-        "javascript",
-        "three.js",
-        "panolens",
-        "verge3d",
-        "webgl",
-        "3d-rendering",
-        "virtual-reality",
-        "interactive-3d",
-        "cms-integration"
-      ],
-    },
-    {
-      name: "EdTech | MyHomework App",
-      date: "",
-      imgUrl: "./images/projects/edtech-myhomework.webp",
-      link: "https://info.myhomeworkapp.com",
-      description: [
-        <p>Built a full stack education platform supporting students, teachers, parents, and administrators using React, Next.js, Node.js, and PostgreSQL with a relational data model connecting students to classes and teachers, and parents to individual students.</p>,
-        <p>Implemented role based access with row level security, allowing teachers to access only their classes and students while parents can view progress and reports for their own children.</p>,
-        <p>
-          Developed a school onboarding flow where schools create classes, invite teachers, add or import students, and automatically generate parent accounts.
-        </p>,
-        <p>
-          Created student dashboards and teacher analytics to track assignments, assessments, and learning progress.
-        </p>,
-        <p>
-          Built assignment, quiz, and curriculum management tools for organizing lessons and automatically grading student work.
-        </p>
-      ],
-      domains: [
-        "react.js",
-        "next.js",
-        "typescript",
-        "javascript",
-        "node.js",
-        "express.js",
-        "postgresql",
-        "aws s3",
-        "aws",
-        "bootstrap",
-        "swiper",
-        "html",
-        "css3",
-      ],
-    },
-    {
-      name: "Verge3D | Interactive 3D Space Viewer",
-      date: "",
-      imgUrl: "./images/projects/agromin-verge3d.webp",
-      link: "https://verge3d-vrapp.vercel.app",
-      description: [
-        <p>Developed a browser-based immersive VR experience using Three.js, Panolens, and Verge3D, enabling users to explore interactive 3D environments directly in the browser via WebGL. Built a modular scene architecture supporting dynamic uploads of panoramic images and 3D assets, allowing administrators to manage content without redeployment.</p>,
-        <p>Implemented optimized asset loading, texture compression, and event-driven interactions to maintain smooth performance across devices. Integrated interactive product flows within the VR environment, bridging immersive visualization with real-time commerce functionality.</p>,
-      ],
-      domains: ["html",
-        "react.js",
-        "css",
-        "javascript",
-        "three.js",
-        "panolens",
-        "verge3d",
-        "webgl",
-        "3d-rendering",
-        "virtual-reality",
-        "interactive-3d",
-        "cms-integration"
-      ],
-    },
-    {
-      name: "DIOR Virtual Shop | Immersive 3D Commerce Experience",
-      date: "",
-      imgUrl: "./images/projects/dior.webp",
-      link: "https://dior-vrshop.vercel.app",
-      description: [
-        <p>Engineered a browser-based immersive 3D shopping experience using Three.js, Panolens, and WebGL, enabling users to explore a fully interactive virtual showroom directly in the browser. Designed a modular scene architecture supporting dynamic loading of panoramic environments and high-resolution 3D product assets.</p>,
-        <p>Developed an administrative content pipeline allowing real-time uploads of images and 3D models, with HubSpot-integrated mapping workflows for product placement and metadata management. Implemented optimized asset streaming, texture compression, and event-driven interaction handling to maintain smooth rendering performance across devices.</p>,
-        <p>Integrated interactive product selection and purchase flows within the VR environment, bridging immersive visualization with functional e-commerce capabilities.</p>,
-      ],
-      domains: ["html", "javascript", "php", "panolens", "css", "three.js", "e-commerce", "webgl",
-        "3d-rendering",
-        "virtual-reality",
-        "interactive-3d",],
-    },
-    {
-      name: "Memory Garden | Built by Bolt",
-      date: "",
-      link: "https://plant-memory.bolt.host",
-      imgUrl: "./images/projects/memory-garden.webp",
-      description: [
-        <p>
-          Memory Garden is an interactive web-based experience that transforms
-          user-submitted memories, emotions, and reflections into a living
-          digital landscape. Each contribution blooms as a unique generative
-          plant—its shape, color, and movement reflecting the mood of the text.
-          Visitors can explore a shared garden filled with these emotional
-          plants, click to read anonymous entries, and plant their own.
-        </p>,
-        <p>
-          Built using modern web technologies and generative art tools, Memory
-          Garden combines personal storytelling, emotional design, and
-          collaborative creativity. The result is a poetic, immersive space
-          where individual moments grow into a collective emotional
-          archive—quiet, reflective, and always evolving.
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "tailwind",
-        "generative art",
-        "web2",
-        "bolt",
-        "ai",
-        "openai",
-        "node.js",
-        "supabase",
-      ],
-    },
-    {
-      name: "DFS BurnToEarn",
-      date: "",
-      link: "https://dfs-burntoearn.vercel.app/",
-      imgUrl: "./images/projects/dfs-burntoearn.webp",
-      description: [<p>BurnToEarn platform on DFS chain</p>],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "dfs chain",
-        "dfsscan",
-        "web2",
-        "web2.5",
-        "web3",
-      ],
-    },
-    {
-      name: "DFS Wallet Private",
-      date: "",
-      link: "https://dfs-wallet-private.vercel.app/",
-      imgUrl: "./images/projects/dfs-private.webp",
-      description: [<p>MetaFace wallet private on DFS chain</p>],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "dfs chain",
-        "dfsscan",
-        "web2",
-        "web2.5",
-        "web3",
-      ],
-    },
-    {
-      name: "DIFINES Intro",
-      date: "",
-      link: "https://intro.difines.io",
-      imgUrl: "./images/projects/difines-intro.webp",
-      description: [<p>DIFINES introduction website</p>],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "dfs chain",
-        "dfsscan",
-        "ai",
-        "royalty",
-        "web2",
-        "web2.5",
-        "web3",
-      ],
-    },
-    {
       name: "DIFINES Web Chain",
       date: "",
       link: "https://difines.org",
       imgUrl: "./images/projects/difines.webp",
-      description: [<p>DIFINES web chain website</p>],
+      description: [<p>DIFINES is a blockchain technology platform focused on building a decentralized ecosystem that integrates DeFi, AI-driven services, enterprise applications, and payment infrastructure. The platform centers around DFS Chain, a blockchain network designed to support scalable decentralized applications (DApps), token economies, and real-world business integrations.</p>, <p>
+        The ecosystem provides tools such as a blockchain explorer, token staking mechanisms, decentralized exchanges, and crypto payment solutions that allow businesses and developers to build and deploy Web3 applications. Its infrastructure emphasizes low transaction fees, global payments, and support for enterprise use cases, making it suitable for both startups and established organizations exploring blockchain adoption.
+      </p>,
+      <p>
+        DIFINES also promotes developer participation through token publishing, staking programs, and community-driven DApp development. The platform aims to simplify blockchain adoption by providing ready-to-use tools for wallet integration, token creation, and decentralized finance services within a unified ecosystem.
+      </p>,
+      <ul>
+        <li>Key highlights:</li>
+        <li>- DFS Chain blockchain infrastructure</li>
+        <li>- DeFi and token staking ecosystem</li>
+        <li>- DApp development platform</li>
+        <li>- Crypto payment solutions</li>
+        <li>- Developer tools and Web3 services</li>
+        <li>- Community-driven blockchain ecosystem</li>
+      </ul>],
       domains: [
         "next.js",
         "typescript",
@@ -1078,155 +884,6 @@ function Projects() {
         "difines",
         "DFS",
         "DFS Web Chain",
-      ],
-    },
-    {
-      name: "Tiger Bucks",
-      date: "",
-      link: "https://tiger-bucks.vercel.app",
-      imgUrl: "./images/projects/tiger-bucks.webp",
-      description: [<p>Token landing page</p>, <p>Tiger Bucks bep20 token</p>],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "royalty",
-        "web3",
-        "bep20",
-        "bsc",
-      ],
-    },
-    {
-      name: "Uhalisi",
-      date: "",
-      link: "https://uhalisi.com",
-      imgUrl: "./images/projects/uhalisi.webp",
-      description: [
-        <p>
-          ✅ AI detects unauthorized use (supports all images, videos, audio,
-          and text)
-        </p>,
-        <p>✅ Instantly record evidence with DFSChain</p>,
-        <p>✅ Instantly issue authentic certificates</p>,
-        <p>
-          ✅ Comprehensive support for royalty claims, damage compensation, and
-          monetization
-        </p>,
-        <p>
-          ✅ Automatically detects slanderous comments on social media and
-          preserves logs
-        </p>,
-      ],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "supabase",
-        "postgresql",
-        "dfs chain",
-        "dfsscan",
-        "ai",
-        "royalty",
-        "metaface",
-        "web2",
-        "web2.5",
-        "web3",
-      ],
-    },
-    {
-      name: "WEX Swap",
-      date: "",
-      link: "https://wexswap.com",
-      imgUrl: "./images/projects/wex.webp",
-      description: [
-        <p>
-          WEX Swap is a decentralized exchange on the DFS Chain, enabling users
-          to add liquidity and swap tokens while earning rewards.
-        </p>,
-        <p>
-          WEX has same functionality with Web3 DEX platform, but it is on the
-          DFS Chain, so it is more secure and faster.
-        </p>,
-        <p>Please wait for more features coming...</p>,
-      ],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "firebase/firestore",
-        "wex",
-        "dfs chain",
-        "dfsscan",
-        "dex",
-        "swap",
-        "liquidity",
-        "reward",
-        "web2",
-        "web2.5",
-        "web3",
-        "trading",
-        "staking",
-        "farming",
-        "defi",
-      ],
-    },
-    {
-      name: "RakuEarn",
-      date: "",
-      link: "https://www.rakuearn.com/en",
-      imgUrl: "./images/projects/rakuearn.webp",
-      description: [
-        <p>
-          Rakuearn is a rewards platform that allows users to easily earn points by participating in online surveys and simple activities.
-        </p>,
-        <p>
-          Users can convert their earned points into real value through bank transfers or popular digital rewards.
-        </p>,
-        <p>Rewards include options such as Amazon gift cards, Apple Store credit, Google Pay, PayPay, and other gift cards.</p>,
-        <p>Rakuearn also provides AI powered tools to help users discover relevant surveys and opportunities more efficiently.</p>,
-        <p>The goal of the platform is to make earning rewards easy, transparent, and accessible for everyone.</p>
-      ],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "supabase",
-        "postgresql",
-        "AI",
-        "point",
-        "exchange",
-      ],
-    },
-    {
-      name: "POIPI",
-      date: "",
-      link: "https://www.poipi.com",
-      imgUrl: "./images/projects/poipi.webp",
-      description: [
-        <p>
-          Earn points daily by participating in the project, visiting our
-          platform and social channels, and inviting others.
-        </p>,
-        <p>
-          Redeem your points for cryptocurrency anytime or use them to join our
-          DFS Chain token airdrop.
-        </p>,
-        <p>
-          Complete surveys and Q&A sessions to earn additional points and
-          rewards.
-        </p>,
-      ],
-      domains: [
-        "next.js",
-        "typescript",
-        "tailwind",
-        "firebase/firestore",
-        "dfs chain",
-        "point",
-        "poipi",
-        "dripoi",
-        "surpoi",
-        "airdrop",
       ],
     },
     {
@@ -1289,6 +946,455 @@ function Projects() {
         "dfs chain",
         "difines",
         "web2",
+      ],
+    },
+    {
+      name: "WEX Swap",
+      date: "",
+      link: "https://wexswap.com",
+      imgUrl: "./images/projects/wex.webp",
+      description: [
+        <p>
+          WEX Swap is a decentralized exchange on the DFS Chain, enabling users
+          to add liquidity and swap tokens while earning rewards.
+        </p>,
+        <p>
+          WEX has same functionality with Web3 DEX platform, but it is on the
+          DFS Chain, so it is more secure and faster.
+        </p>,
+        <p>Please wait for more features coming...</p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase/firestore",
+        "wex",
+        "dfs chain",
+        "dfsscan",
+        "dex",
+        "swap",
+        "liquidity",
+        "reward",
+        "web2",
+        "web2.5",
+        "web3",
+        "trading",
+        "staking",
+        "farming",
+        "defi",
+      ],
+    },
+    {
+      name: "Dwayne - Casnior Platform",
+      date: "",
+      link: "https://xmr.gg/",
+      imgUrl: "./images/projects/casino.webp",
+      description: [
+        <p>
+          Step into the thrill of winning with our sleek and secure online
+          casino!
+        </p>,
+        <p>
+          Enjoy a wide selection of games, from classic slots to exciting table
+          games, all designed to bring the Vegas experience right to your
+          screen.
+        </p>,
+        <p>
+          With generous bonuses, fast payouts, and 24/7 support, it's time to
+          elevate your gaming to a whole new level!
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "next.js",
+        "node.js",
+        "express.js",
+        "mongodb",
+        "ai",
+        "tailwindcss",
+        "typescript",
+        "ethers.js",
+        "wallet connect",
+        "metamask",
+        "coinbase",
+        "token",
+        "xmr",
+        "casino",
+        "esports",
+        "slot games",
+        "crash"
+      ],
+    },
+    {
+      name: "AI Dating Assistant App",
+      date: "",
+      imgUrl: "./images/projects/ai-reactnative.webp",
+      link: "#",
+      description: [
+        <p>Designed an intelligent companion app that helps users communicate more confidently by suggesting thoughtful and natural sounding replies during conversations with their partners.</p>,
+        <p>Integrated AI capabilities to analyze text, photos, and everyday situations so the app can recommend meaningful messages, conversation starters, and emotionally appropriate responses.</p>,
+        <p>Created features that help users improve communication skills by offering tone adjustments, message rewrites, and context-aware suggestions to strengthen relationships.</p>,
+        <p>Focused on a clean and friendly user experience that makes it easy to scan, generate, and refine messages in seconds, helping users feel more confident in their daily interactions.</p>
+      ],
+      domains: [
+        "react.js",
+        "scss",
+        "typescript",
+        "react native",
+        "expo",
+        "ios",
+        "android",
+        "open ai",
+        "ai",
+        "mobile",
+        "ai integration"
+      ],
+    },
+    {
+      name: "Verge3D | Interactive 3D Model Viewer",
+      date: "",
+      imgUrl: "./images/projects/interfactive-model-verge3d.webp",
+      link: "https://interactive-model-verge3d.vercel.app",
+      description: [
+        <p>Built an interactive 3D model viewer using Verge3D and WebGL, enabling real-time rendering and manipulation of complex 3D assets directly in the browser. Designed a modular architecture for dynamic model loading and configurable scene management.</p>,
+        <p>Optimized asset loading and interaction logic to maintain high performance across devices, delivering a scalable and immersive 3D visualization experience.</p>,
+      ],
+      domains: ["html",
+        "react.js",
+        "css",
+        "javascript",
+        "three.js",
+        "panolens",
+        "verge3d",
+        "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",
+        "cms-integration"
+      ],
+    },
+    {
+      name: "Incarta | Clinicial Chart (Alarta)",
+      date: "",
+      imgUrl: "./images/projects/clinical.webp",
+      link: "https://incarta.com.au/",
+      description: [
+        <p>
+          With over 25 years experience in the Health and Life Sciences sector,
+          Incarta has a demonstrated history of innovation in hardware and
+          software development. Our leading clinical records platform “Alarta”
+          is amongst the most advanced cloud based critical care medical record
+          systems available anywhere. It is also one of the most cost effective.
+          Alarta can be deployed within a few hours auto-configuring itself via
+          HL7.
+        </p>,
+      ],
+      domains: ["chatGPT", "react.js", "node.js", "express.js", "healthcare"],
+    },
+    {
+      name: "EdTech | MyHomework App",
+      date: "",
+      imgUrl: "./images/projects/edtech-myhomework.webp",
+      link: "https://info.myhomeworkapp.com",
+      description: [
+        <p>Built a full stack education platform supporting students, teachers, parents, and administrators using React, Next.js, Node.js, and PostgreSQL with a relational data model connecting students to classes and teachers, and parents to individual students.</p>,
+        <p>Implemented role based access with row level security, allowing teachers to access only their classes and students while parents can view progress and reports for their own children.</p>,
+        <p>
+          Developed a school onboarding flow where schools create classes, invite teachers, add or import students, and automatically generate parent accounts.
+        </p>,
+        <p>
+          Created student dashboards and teacher analytics to track assignments, assessments, and learning progress.
+        </p>,
+        <p>
+          Built assignment, quiz, and curriculum management tools for organizing lessons and automatically grading student work.
+        </p>
+      ],
+      domains: [
+        "react.js",
+        "next.js",
+        "typescript",
+        "javascript",
+        "node.js",
+        "express.js",
+        "postgresql",
+        "aws s3",
+        "aws",
+        "bootstrap",
+        "swiper",
+        "html",
+        "css3",
+        "edtech"
+      ],
+    },
+    {
+      name: "DIOR Virtual Shop | Immersive 3D Commerce Experience",
+      date: "",
+      imgUrl: "./images/projects/dior.webp",
+      link: "https://dior-vrshop.vercel.app",
+      description: [
+        <p>Engineered a browser-based immersive 3D shopping experience using Three.js, Panolens, and WebGL, enabling users to explore a fully interactive virtual showroom directly in the browser. Designed a modular scene architecture supporting dynamic loading of panoramic environments and high-resolution 3D product assets.</p>,
+        <p>Developed an administrative content pipeline allowing real-time uploads of images and 3D models, with HubSpot-integrated mapping workflows for product placement and metadata management. Implemented optimized asset streaming, texture compression, and event-driven interaction handling to maintain smooth rendering performance across devices.</p>,
+        <p>Integrated interactive product selection and purchase flows within the VR environment, bridging immersive visualization with functional e-commerce capabilities.</p>,
+      ],
+      domains: ["html", "javascript", "php", "panolens", "css", "three.js", "e-commerce", "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",],
+    },
+    {
+      name: "Decent Reviews",
+      date: "",
+      link: "https://www.linkedin.com/company/decentreviews/about/",
+      imgUrl: "./images/projects/decent-reviews.webp",
+      description: [
+        <p>Worked on backend and smart contract develoment</p>,
+        <p>
+          Created the user review API, automatic review aggregation engine,
+          automatic review logo generation engine
+        </p>,
+        <p>
+          Integrated with smart contract using web3.js and synced with backend
+        </p>,
+        <p>
+          Implemented the backend including database using cypress and jext
+          testing library and finalize the API document using swagger API
+          framework
+        </p>,
+      ],
+      domains: [
+        "Node.js",
+        "Express.js",
+        "Blockchain",
+        "Solidity",
+        "React.js",
+        "Web3.js",
+        "MongoDB",
+        "CI/CD",
+        "Github",
+      ],
+    },
+    {
+      name: "DIFINES Intro",
+      date: "",
+      link: "https://intro.difines.io",
+      imgUrl: "./images/projects/difines-intro.webp",
+      description: [<p>DIFINES introduction website</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "ai",
+        "royalty",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "DFS BurnToEarn",
+      date: "",
+      link: "https://dfs-burntoearn.vercel.app/",
+      imgUrl: "./images/projects/dfs-burntoearn.webp",
+      description: [<p>BurnToEarn platform on DFS chain</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "DFS Wallet Private",
+      date: "",
+      link: "https://dfs-wallet-private.vercel.app/",
+      imgUrl: "./images/projects/dfs-private.webp",
+      description: [<p>MetaFace wallet private on DFS chain</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "dfs chain",
+        "dfsscan",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "Tiger Bucks",
+      date: "",
+      link: "https://tiger-bucks.vercel.app",
+      imgUrl: "./images/projects/tiger-bucks.webp",
+      description: [<p>Token landing page</p>, <p>Tiger Bucks bep20 token</p>],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "royalty",
+        "web3",
+        "bep20",
+        "bsc",
+      ],
+    },
+    {
+      name: "Uhalisi",
+      date: "",
+      link: "https://uhalisi.com",
+      imgUrl: "./images/projects/uhalisi.webp",
+      description: [
+        <p>
+          ✅ AI detects unauthorized use (supports all images, videos, audio,
+          and text)
+        </p>,
+        <p>✅ Instantly record evidence with DFSChain</p>,
+        <p>✅ Instantly issue authentic certificates</p>,
+        <p>
+          ✅ Comprehensive support for royalty claims, damage compensation, and
+          monetization
+        </p>,
+        <p>
+          ✅ Automatically detects slanderous comments on social media and
+          preserves logs
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "supabase",
+        "postgresql",
+        "dfs chain",
+        "dfsscan",
+        "ai",
+        "royalty",
+        "metaface",
+        "web2",
+        "web2.5",
+        "web3",
+      ],
+    },
+    {
+      name: "Verge3D | Interactive 3D Space Viewer",
+      date: "",
+      imgUrl: "./images/projects/agromin-verge3d.webp",
+      link: "https://verge3d-vrapp.vercel.app",
+      description: [
+        <p>Developed a browser-based immersive VR experience using Three.js, Panolens, and Verge3D, enabling users to explore interactive 3D environments directly in the browser via WebGL. Built a modular scene architecture supporting dynamic uploads of panoramic images and 3D assets, allowing administrators to manage content without redeployment.</p>,
+        <p>Implemented optimized asset loading, texture compression, and event-driven interactions to maintain smooth performance across devices. Integrated interactive product flows within the VR environment, bridging immersive visualization with real-time commerce functionality.</p>,
+      ],
+      domains: ["html",
+        "react.js",
+        "css",
+        "javascript",
+        "three.js",
+        "panolens",
+        "verge3d",
+        "webgl",
+        "3d-rendering",
+        "virtual-reality",
+        "interactive-3d",
+        "cms-integration"
+      ],
+    },
+    {
+      name: "RakuEarn",
+      date: "",
+      link: "https://www.rakuearn.com/en",
+      imgUrl: "./images/projects/rakuearn.webp",
+      description: [
+        <p>
+          Rakuearn is a rewards platform that allows users to easily earn points by participating in online surveys and simple activities.
+        </p>,
+        <p>
+          Users can convert their earned points into real value through bank transfers or popular digital rewards.
+        </p>,
+        <p>Rewards include options such as Amazon gift cards, Apple Store credit, Google Pay, PayPay, and other gift cards.</p>,
+        <p>Rakuearn also provides AI powered tools to help users discover relevant surveys and opportunities more efficiently.</p>,
+        <p>The goal of the platform is to make earning rewards easy, transparent, and accessible for everyone.</p>
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "supabase",
+        "postgresql",
+        "AI",
+        "point",
+        "exchange",
+      ],
+    },
+    {
+      name: "POIPI",
+      date: "",
+      link: "https://www.poipi.com",
+      imgUrl: "./images/projects/poipi.webp",
+      description: [
+        <p>
+          Earn points daily by participating in the project, visiting our
+          platform and social channels, and inviting others.
+        </p>,
+        <p>
+          Redeem your points for cryptocurrency anytime or use them to join our
+          DFS Chain token airdrop.
+        </p>,
+        <p>
+          Complete surveys and Q&A sessions to earn additional points and
+          rewards.
+        </p>,
+      ],
+      domains: [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "firebase/firestore",
+        "dfs chain",
+        "point",
+        "poipi",
+        "dripoi",
+        "surpoi",
+        "airdrop",
+      ],
+    },
+    {
+      name: "Memory Garden | Built by Bolt",
+      date: "",
+      link: "https://plant-memory.bolt.host",
+      imgUrl: "./images/projects/memory-garden.webp",
+      description: [
+        <p>
+          Memory Garden is an interactive web-based experience that transforms
+          user-submitted memories, emotions, and reflections into a living
+          digital landscape. Each contribution blooms as a unique generative
+          plant—its shape, color, and movement reflecting the mood of the text.
+          Visitors can explore a shared garden filled with these emotional
+          plants, click to read anonymous entries, and plant their own.
+        </p>,
+        <p>
+          Built using modern web technologies and generative art tools, Memory
+          Garden combines personal storytelling, emotional design, and
+          collaborative creativity. The result is a poetic, immersive space
+          where individual moments grow into a collective emotional
+          archive—quiet, reflective, and always evolving.
+        </p>,
+      ],
+      domains: [
+        "react.js",
+        "typescript",
+        "tailwind",
+        "generative art",
+        "web2",
+        "bolt",
+        "ai",
+        "openai",
+        "node.js",
+        "supabase",
       ],
     },
     {
@@ -1402,40 +1508,6 @@ function Projects() {
       ],
     },
     {
-      name: "XMR - Casnior Platform",
-      date: "",
-      link: "https://xmr.gg/",
-      imgUrl: "./images/projects/casino.webp",
-      description: [
-        <p>
-          Step into the thrill of winning with our sleek and secure online
-          casino!
-        </p>,
-        <p>
-          Enjoy a wide selection of games, from classic slots to exciting table
-          games, all designed to bring the Vegas experience right to your
-          screen.
-        </p>,
-        <p>
-          With generous bonuses, fast payouts, and 24/7 support, it's time to
-          elevate your gaming to a whole new level!
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
       name: "Crash Landing",
       date: "",
       link: "https://crash-landing.vercel.app",
@@ -1461,7 +1533,7 @@ function Projects() {
     },
     {
       name: "Gateway - Email Wallet",
-      date: " - Mar 2024",
+      date: "",
       link: "https://gateway.difines.io",
       imgUrl: "./images/projects/gateway.webp",
       description: [
@@ -1480,7 +1552,7 @@ function Projects() {
     },
     {
       name: "Roppongi Ai",
-      date: " - Feb 2024",
+      date: "",
       link: "https://roppongi-ai.netlify.app/",
       imgUrl: "./images/projects/roppongi-ai.webp",
       description: [
@@ -1492,7 +1564,7 @@ function Projects() {
     },
     {
       name: "Plinko Lotto Dapp",
-      date: " - Jan 2024",
+      date: "",
       link: "https://plinko-lotto.netlify.app/",
       imgUrl: "./images/projects/plinko-lotto.webp",
       description: [
@@ -1511,7 +1583,7 @@ function Projects() {
     },
     {
       name: "Roppongi Lotto Dapp",
-      date: " - Jan 2024",
+      date: "",
       link: "https://lotto-droplocker.netlify.app/",
       imgUrl: "./images/projects/roppongi-lotto.webp",
       description: [
@@ -1530,7 +1602,7 @@ function Projects() {
     },
     {
       name: "Lucky Wheel Lotto Dapp",
-      date: " - Feb 2024",
+      date: "",
       link: "https://lucky-wheel-lotto.netlify.app/",
       imgUrl: "./images/projects/lucky-wheel.webp",
       description: [
@@ -1548,40 +1620,8 @@ function Projects() {
       ],
     },
     {
-      name: "Decent Reviews",
-      date: " - Nov 2023",
-      link: "https://www.linkedin.com/company/decentreviews/about/",
-      imgUrl: "./images/projects/decent-reviews.webp",
-      description: [
-        <p>Worked on backend and smart contract develoment</p>,
-        <p>
-          Created the user review API, automatic review aggregation engine,
-          automatic review logo generation engine
-        </p>,
-        <p>
-          Integrated with smart contract using web3.js and synced with backend
-        </p>,
-        <p>
-          Implemented the backend including database using cypress and jext
-          testing library and finalize the API document using swagger API
-          framework
-        </p>,
-      ],
-      domains: [
-        "Node.js",
-        "Express.js",
-        "Blockchain",
-        "Solidity",
-        "React.js",
-        "Web3.js",
-        "MongoDB",
-        "CI/CD",
-        "Github",
-      ],
-    },
-    {
       name: "AI Play - Video Generator",
-      date: " - Dec 2023",
+      date: "",
       link: "https://ai-play.netlify.app/",
       imgUrl: "./images/projects/ai-video-generator.webp",
       description: [
@@ -1602,7 +1642,7 @@ function Projects() {
     },
     {
       name: "Speaking Girl AI",
-      date: " - Nov 2023",
+      date: "",
       link: "https://speakingai.difines.io",
       imgUrl: "./images/projects/ai-speaking-girl.webp",
       description: [
@@ -1621,7 +1661,7 @@ function Projects() {
     },
     {
       name: "SHIBUYA Ecosystem",
-      date: " - Apr 2022",
+      date: "",
       link: "https://shibuya.difines.io",
       imgUrl: "./images/projects/shibuya.webp",
       description: [
@@ -1654,7 +1694,7 @@ function Projects() {
     },
     {
       name: "AIFX Platform",
-      date: " - Dec 2023",
+      date: "",
       link: "https://aifx.pepesushi.vip/",
       imgUrl: "./images/projects/aifx.webp",
       description: [
@@ -1679,7 +1719,7 @@ function Projects() {
     },
     {
       name: "Staking Platform",
-      date: " - Dec 2023",
+      date: "",
       link: "https://stakes.difines.io",
       imgUrl: "./images/projects/stake-referral-reward.webp",
       description: [
@@ -1702,7 +1742,7 @@ function Projects() {
     },
     {
       name: "Token Bridge",
-      date: " - Aug 2023",
+      date: "",
       link: "https://bridgeone.netlify.app/bridge",
       imgUrl: "./images/projects/bridge.webp",
       description: [
@@ -1983,7 +2023,7 @@ function Projects() {
     },
     {
       name: "NFT Marketplace",
-      date: " - Aug 2022",
+      date: "",
       imgUrl: "./images/projects/nftmarket.webp",
       link: "https://nftmarket.difines.io",
       description: [
@@ -2018,7 +2058,7 @@ function Projects() {
     },
     {
       name: "KOILLECTIBLE",
-      date: " - Nov 2022",
+      date: "",
       imgUrl: "./images/projects/koi.webp",
       link: "https://koi.difines.io",
       description: [
@@ -2050,7 +2090,7 @@ function Projects() {
     },
     {
       name: "NFT Marketplace (Bloodshed)",
-      date: " - Dec 2019",
+      date: "",
       imgUrl: "./images/projects/nftfront.webp",
       link: "#",
       description: [<p>Minting, Selling, Buying, Bidding, Listing NFTs</p>],
@@ -2208,24 +2248,6 @@ function Projects() {
         <p>Create the backend using openAI api with node.js and express.js</p>,
         <p>Made the backend as serverless to run on the netlify</p>,
         <p>Integrated react.js frontend with the backend</p>,
-      ],
-      domains: ["chatGPT", "react.js", "node.js", "express.js"],
-    },
-    {
-      name: "Clinicial Chart (Alarta)",
-      date: " 2021",
-      imgUrl: "./images/projects/clinical.webp",
-      link: "https://incarta.com.au/",
-      description: [
-        <p>
-          With over 25 years experience in the Health and Life Sciences sector,
-          Incarta has a demonstrated history of innovation in hardware and
-          software development. Our leading clinical records platform “Alarta”
-          is amongst the most advanced cloud based critical care medical record
-          systems available anywhere. It is also one of the most cost effective.
-          Alarta can be deployed within a few hours auto-configuring itself via
-          HL7.
-        </p>,
       ],
       domains: ["chatGPT", "react.js", "node.js", "express.js"],
     },
