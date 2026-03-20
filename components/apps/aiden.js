@@ -361,7 +361,7 @@ function History() {
       role: "Back End Engineer",
       location: "Remote",
       date: "Aug 2023 - Feb 2024",
-      link: "#",
+      link: "https://xmr.gg",
       description: [
         <p>
           Engineered scalable backend infrastructure using Node.js, TypeScript, Express.js, and MongoDB supporting 5M+ daily transactions with 99.9% uptime.
@@ -856,6 +856,31 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "AI Dating Assistant App",
+      date: "",
+      imgUrl: "./images/projects/ai-reactnative.webp",
+      link: "#",
+      description: [
+        <p>Designed an intelligent companion app that helps users communicate more confidently by suggesting thoughtful and natural sounding replies during conversations with their partners.</p>,
+        <p>Integrated AI capabilities to analyze text, photos, and everyday situations so the app can recommend meaningful messages, conversation starters, and emotionally appropriate responses.</p>,
+        <p>Created features that help users improve communication skills by offering tone adjustments, message rewrites, and context-aware suggestions to strengthen relationships.</p>,
+        <p>Focused on a clean and friendly user experience that makes it easy to scan, generate, and refine messages in seconds, helping users feel more confident in their daily interactions.</p>
+      ],
+      domains: [
+        "react.js",
+        "scss",
+        "typescript",
+        "react native",
+        "expo",
+        "ios",
+        "android",
+        "open ai",
+        "ai",
+        "mobile",
+        "ai integration"
+      ],
+    },
+    {
       name: "Verge3D | Interactive 3D Model Viewer",
       date: "",
       imgUrl: "./images/projects/interfactive-model-verge3d.webp",
@@ -951,7 +976,7 @@ function Projects() {
         "interactive-3d",],
     },
     {
-      name: "Memory Garden",
+      name: "Memory Garden | Built by Bolt",
       date: "",
       link: "https://plant-memory.bolt.host",
       imgUrl: "./images/projects/memory-garden.webp",
@@ -1155,7 +1180,7 @@ function Projects() {
           Rakuearn is a rewards platform that allows users to easily earn points by participating in online surveys and simple activities.
         </p>,
         <p>
-         Users can convert their earned points into real value through bank transfers or popular digital rewards.
+          Users can convert their earned points into real value through bank transfers or popular digital rewards.
         </p>,
         <p>Rewards include options such as Amazon gift cards, Apple Store credit, Google Pay, PayPay, and other gift cards.</p>,
         <p>Rakuearn also provides AI powered tools to help users discover relevant surveys and opportunities more efficiently.</p>,
